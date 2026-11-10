@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /backups/
+Disallow: /research/
+Disallow: /scripts/
+Disallow: /content/
+Disallow: /sites/
+Disallow: /assets/originals/
+Sitemap: https://www.dmsstudio.in/sitemap.xml

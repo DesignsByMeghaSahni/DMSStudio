@@ -1,0 +1,47 @@
+{
+  "profiles": [
+    {
+      "id": "instagram",
+      "category": "social",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/dms__studio"
+    },
+    {
+      "id": "facebook",
+      "category": "social",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/profile.php?id=100083342347221"
+    },
+    {
+      "id": "linkedin",
+      "category": "social",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/company/designbymeghasahni/"
+    },
+    {
+      "id": "behance",
+      "category": "social",
+      "label": "Behance",
+      "url": "https://www.behance.net/dms-studio"
+    },
+    {
+      "id": "google-business",
+      "category": "listing",
+      "label": "Google Business Profile",
+      "url": "https://share.google/L5Y3g26Lgr34GhKNI"
+    },
+    {
+      "id": "houzz",
+      "category": "listing",
+      "label": "Houzz",
+      "url": "https://www.houzz.in/pro/megha--sahni/dms-studio"
+    },
+    {
+      "id": "justdial",
+      "category": "listing",
+      "label": "Justdial",
+      "url": "https://jsdl.in/DT-19G9D9LQA36"
+    }
+  ],
+  "googleBusinessProfile": "https://share.google/L5Y3g26Lgr34GhKNI"
+}

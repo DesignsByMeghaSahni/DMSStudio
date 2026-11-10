@@ -1,0 +1,272 @@
+[
+  {
+    "slug": "mohali",
+    "city": "Mohali",
+    "headline": "A considered home, close to the studio.",
+    "intro": "From a complete home to a carefully planned kitchen, DMS Studio provides residential and commercial interior design in Mohali. Our studio is in Sector 125, Sunny Enclave, Kharar, and our work includes Babbar Residency and Opera Home in Mohali.",
+    "heading": "Planning a complete home in Mohali",
+    "sections": [
+      [
+        "Begin with the rooms you use most",
+        "For a family home, start with circulation between the entrance, kitchen, living area and bedrooms. Decide where shoes, daily bags, cleaning supplies and seasonal items will live before finalising decorative wall treatments. A floor plan with furniture dimensions helps identify these needs early."
+      ],
+      [
+        "Coordinate woodwork, ceilings and lighting",
+        "Babbar Residency brings kitchen planning, woodwork and gypsum ceilings together in one project. Its mix of warm timber and expressive colour is a useful reference for discussing how a coordinated home can still give individual rooms their own character."
+      ],
+      [
+        "A compact apartment needs a clear hierarchy",
+        "Opera Home shows a different brief: a 1BHK bohemian interior with smart storage, coordinated remotely for an NRI client. Use this project to discuss priorities for a smaller footprint, rather than copying a larger-home layout into fewer square feet."
+      ]
+    ],
+    "project": "babbar-residency",
+    "faqs": [
+      [
+        "Do you have completed projects in Mohali?",
+        "Yes. The portfolio includes Babbar Residency in Sector 125 and Opera Home on Kurali Road, Mohali. Their project pages show original DMS photographs and the documented scope."
+      ],
+      [
+        "Can you design a full home and manage execution?",
+        "DMS Studio offers turnkey interiors in Mohali. Design deliverables, procurement responsibilities, execution scope and the approval process should be agreed in writing for your property."
+      ],
+      [
+        "Where is the studio?",
+        "SCO 1034, Basement, near Arista Hotel, Sector 125, Sunny Enclave, Sahibzada Ajit Singh Nagar, Kharar, Punjab 140301. Call before visiting to arrange a suitable time."
+      ]
+    ],
+    "directorySummary": "Explore DMS Studio interiors in Mohali, including a Sector 125 3BHK home and a compact 1BHK on Kurali Road.",
+    "portfolioContext": "Babbar Residency is a documented 3BHK in Sector 125, Mohali. Its photographs show the modular kitchen, deep green living-room feature wall, bespoke woodwork and cove lighting.",
+    "contactPrompt": "For a Mohali home, send a floor plan or current photographs, list the rooms you want to update, and tell us whether you need design support, execution or both.",
+    "serviceSummaries": {
+      "Residential interiors": "For Mohali homes, begin with room use and household routines, then coordinate furniture, storage, finishes and lighting.",
+      "Turnkey interiors": "A Mohali turnkey proposal should state which design, supply, site and installation tasks DMS Studio will handle.",
+      "Commercial interiors": "A Mohali business brief can map client arrival, staff circulation, display, storage and task lighting together.",
+      "Kitchens, storage & lighting": "In a Mohali kitchen, align appliance sizes, cabinet openings, work surfaces and electrical points before finalising storage."
+    }
+  },
+  {
+    "slug": "chandigarh",
+    "city": "Chandigarh",
+    "headline": "New possibilities for a familiar address.",
+    "intro": "DMS Studio serves Chandigarh from its Mohali studio, with residential interiors, renovations, commercial layouts and turnkey design support. Start with your existing plan and the changes you want to make; the proposed scope follows an assessment of the space.",
+    "heading": "Thinking through a Chandigarh renovation",
+    "sections": [
+      [
+        "Document what already works",
+        "For an existing home, separate the features worth retaining from the changes you need. Photograph storage, electrical points and areas showing wear. A measured survey is more reliable than assuming an old drawing matches the property today."
+      ],
+      [
+        "Make alterations a separate decision",
+        "Aesthetic changes, service changes and structural alterations require different checks. Discuss proposed wall changes and any relevant property or building approvals before execution. Interior concepts do not replace advice from a qualified structural professional where it is needed."
+      ],
+      [
+        "Plan for life during the work",
+        "If you intend to remain at home, discuss room-by-room access, dust protection, temporary storage and the availability of a kitchen or bathroom. The practical sequence of work can matter as much as the final palette."
+      ]
+    ],
+    "project": "babbar-residency",
+    "faqs": [
+      [
+        "Does DMS Studio work in Chandigarh?",
+        "Yes. Chandigarh is part of our service area. The studio is based in Mohali; contact us with your Chandigarh property address and scope to discuss the next step."
+      ],
+      [
+        "Can I retain existing furniture in a renovation?",
+        "Yes, existing pieces can form part of the brief. Share dimensions and photographs so the proposed layout, finishes and new storage can be considered around them."
+      ],
+      [
+        "Is the featured project located in Chandigarh?",
+        "The project linked below is Babbar Residency in Mohali. It illustrates the studio’s residential approach and is not presented as a Chandigarh commission."
+      ]
+    ],
+    "directorySummary": "DMS Studio serves Chandigarh from its Mohali studio. Find renovation guidance and a clearly identified nearby residential project.",
+    "portfolioContext": "Babbar Residency is in Mohali, not Chandigarh. Its 3BHK gallery offers a reference for connected kitchen planning, living-room woodwork and lighting decisions.",
+    "contactPrompt": "For a Chandigarh renovation, share the existing plan, current site photographs and a list of features you want to retain or change.",
+    "serviceSummaries": {
+      "Residential interiors": "For a Chandigarh home, identify what already works and what needs to change before setting a new layout and finish direction.",
+      "Turnkey interiors": "For Chandigarh projects, review approvals, building access and occupied-home constraints before agreeing the work sequence.",
+      "Commercial interiors": "For a Chandigarh workplace, separate visitor areas from staff, storage and service routes before selecting finishes.",
+      "Kitchens, storage & lighting": "A Chandigarh kitchen update should start with measured cabinet space, existing services and the appliances you plan to use."
+    }
+  },
+  {
+    "slug": "kharar",
+    "city": "Kharar",
+    "headline": "Everyday living, thoughtfully resolved.",
+    "intro": "DMS Studio offers interior design in Kharar from its Sunny Enclave studio. We help shape residential spaces, modular kitchens, wardrobes and complete interiors around the way a household uses its home.",
+    "heading": "A practical brief for your Kharar home",
+    "sections": [
+      [
+        "Start with storage, not a catalogue",
+        "List what needs to be stored in each room, including luggage, cleaning equipment and occasional-use items. Decide which items should be visible and which should be behind doors. This gives wardrobe and cabinet layouts a purpose before choosing a laminate."
+      ],
+      [
+        "Check the property before committing to finishes",
+        "Record the condition of walls, services and window openings during the site review. Discuss any signs of dampness or service problems before covering surfaces. Decorative work should follow an agreed plan for resolving underlying issues."
+      ],
+      [
+        "Make kitchen decisions together",
+        "Appliance sizes, countertop height, sockets, plumbing and cabinet openings affect one another. Bring appliance details to the layout conversation so the kitchen can be coordinated as a whole. A realistic brief distinguishes essential fittings from optional accessories."
+      ]
+    ],
+    "project": "opera-home",
+    "faqs": [
+      [
+        "Is DMS Studio based in Kharar?",
+        "The studio address is SCO 1034, Basement, near Arista Hotel, Sector 125, Sunny Enclave, Sahibzada Ajit Singh Nagar, Kharar, Punjab 140301. Please call to arrange a visit."
+      ],
+      [
+        "Can you help with only a kitchen or wardrobes?",
+        "DMS Studio offers modular kitchens and wardrobes as part of its services. Share the measurements and required scope to discuss whether a focused commission is suitable."
+      ],
+      [
+        "What should I send for a first discussion?",
+        "Send the location, a floor plan or room dimensions, current photographs, the rooms involved and a working budget. Mention whether the home is occupied or awaiting possession."
+      ]
+    ],
+    "directorySummary": "Plan home interiors in Kharar with room-by-room storage, practical kitchen guidance and a Mohali-based design studio.",
+    "portfolioContext": "Opera Home is a compact 1BHK on Kurali Road, Mohali, coordinated remotely for an NRI client. Its gallery shows how storage and a relaxed palette support a smaller home.",
+    "contactPrompt": "For a Kharar property, tell us whether you need a complete home interior or a focused kitchen, wardrobe or storage update, and include measurements if available.",
+    "serviceSummaries": {
+      "Residential interiors": "In Kharar, a residential brief can cover a full interior or a focused room update, based on your household’s priorities.",
+      "Turnkey interiors": "A Kharar turnkey scope should distinguish studio coordination, contractor work, supplied items and client approvals.",
+      "Commercial interiors": "For a Kharar business, map customer movement and staff tasks first; furniture and lighting can then support the daily operation.",
+      "Kitchens, storage & lighting": "For Kharar kitchens and wardrobes, list what must be stored and check appliance or hanging dimensions before choosing finishes."
+    }
+  },
+  {
+    "slug": "panchkula",
+    "city": "Panchkula",
+    "headline": "Space for the way your family lives.",
+    "intro": "DMS Studio serves Panchkula with residential and commercial interior design from its Mohali base. Our starting point is your brief: the people using the space, the routines it needs to support and the extent of work you want to undertake.",
+    "heading": "Planning a home for shared and private routines",
+    "sections": [
+      [
+        "Give shared rooms more than one purpose",
+        "A living room may need to host visitors, family evenings and occasional work. Discuss seating, circulation and accessible power together. A furniture plan can reveal conflicts before you invest in fixed joinery or a large dining table."
+      ],
+      [
+        "Keep private rooms genuinely personal",
+        "Bedroom layouts should reflect who uses them. Consider bedside lighting, wardrobe access, study areas and the space needed to move comfortably. Requirements for children, guests or older family members belong in the brief before the style discussion."
+      ],
+      [
+        "Use daylight as a design input",
+        "Visit rooms at different times and photograph how light reaches the surfaces. Review finish samples in the intended room wherever possible. Curtains, reflective surfaces and task lighting should respond to that specific space rather than a generic moodboard."
+      ]
+    ],
+    "project": "babbar-residency",
+    "faqs": [
+      [
+        "Do you provide interior design in Panchkula?",
+        "Yes. Panchkula is part of the studio’s service area. We are based in Mohali and discuss site access and the project scope before planning work."
+      ],
+      [
+        "Can you plan a home for several generations?",
+        "Share each household member’s needs during the brief. Room use, storage, lighting and movement can then be reviewed together; specialist accessibility requirements should be assessed for the individual."
+      ],
+      [
+        "Do you have a separate Panchkula office?",
+        "This website lists one studio address in Sunny Enclave, Kharar, Mohali. Panchkula is a service area, not a separately claimed office."
+      ]
+    ],
+    "directorySummary": "Explore residential and commercial interiors for Panchkula, with practical guidance for family layouts, private rooms and daylight.",
+    "portfolioContext": "The featured Babbar Residency is in Sector 125, Mohali. Its gallery provides a DMS example for discussing kitchen, woodwork and lighting coordination in a family home.",
+    "contactPrompt": "For a Panchkula project, note who uses each room, how the household or team moves through it, and which parts of the property are in scope.",
+    "serviceSummaries": {
+      "Residential interiors": "For a Panchkula family home, plan shared living spaces and private bedrooms around the routines of the people using them.",
+      "Turnkey interiors": "A Panchkula turnkey plan needs a written scope, a review of site access and a project-specific schedule after selections.",
+      "Commercial interiors": "For a Panchkula commercial space, coordinate visitor flow, staff work zones, lighting needs and finishes suited to regular use.",
+      "Kitchens, storage & lighting": "In a Panchkula home, coordinate kitchen tasks, wardrobe contents and ceiling lighting with the measured room layout."
+    }
+  },
+  {
+    "slug": "zirakpur",
+    "city": "Zirakpur",
+    "headline": "Make every part of your apartment count.",
+    "intro": "DMS Studio provides interior design services for Zirakpur, including home layouts, modular storage, kitchens and turnkey interiors. For an apartment or a newly handed-over property, the first step is to understand the actual site and your move-in priorities.",
+    "heading": "From possession to a usable home",
+    "sections": [
+      [
+        "Compare the handover plan with the site",
+        "Check dimensions, column positions, doors and service points before finalising furniture or cabinetry. Record the items the builder is handing over and the items your interior scope must supply. This helps prevent gaps and duplicate work."
+      ],
+      [
+        "Confirm building access before scheduling",
+        "Ask the building team about work hours, lift use, delivery access, debris removal and any fit-out permissions. These are property-specific conditions to confirm, not assumptions a design proposal should make. Share them with the studio early."
+      ],
+      [
+        "Choose adaptable furniture around fixed storage",
+        "In a compact apartment, deep joinery and oversized seating can reduce usable circulation. Begin with the largest fixed elements, then check dining-chair pull-out, wardrobe openings and the route through the room. Prioritise what supports daily use."
+      ]
+    ],
+    "project": "yogesh-residence",
+    "faqs": [
+      [
+        "Can you help with interiors after apartment possession in Zirakpur?",
+        "Yes. Share the handover status, plan and desired scope. Measurements and existing services should be checked before approving the final interior layout."
+      ],
+      [
+        "How long will an apartment interior take?",
+        "There is no reliable single duration for every home. Scope, site condition, selections, approvals, procurement and access affect the schedule. Ask for a project-specific programme after these are defined."
+      ],
+      [
+        "Can we begin while living outside India?",
+        "Opera Home provides a documented example of remote coordination for an NRI client. Contact the studio to discuss communication, approvals and local site access for your own project."
+      ]
+    ],
+    "directorySummary": "See apartment planning advice and a documented Zirakpur home with a sculpted TV wall and custom storage.",
+    "portfolioContext": "Yogesh Residence is a documented Zirakpur home with a sculpted TV wall, built-in console, fluted wardrobe and integrated lighting.",
+    "contactPrompt": "For a Zirakpur apartment, share the handover plan, possession status and move-in priorities so we can discuss what needs to be checked on site.",
+    "serviceSummaries": {
+      "Residential interiors": "For a Zirakpur apartment, compare the builder’s handover plan with measured site conditions before fixing furniture and storage.",
+      "Turnkey interiors": "For a Zirakpur turnkey project, confirm society work hours, lift and delivery access, debris rules and approvals before scheduling.",
+      "Commercial interiors": "For a Zirakpur business interior, define customer and staff routes, storage needs and task lighting around the actual floor plan.",
+      "Kitchens, storage & lighting": "In compact Zirakpur kitchens, verify appliance dimensions, cabinet clearances and plumbing points before finalising modular units."
+    }
+  },
+  {
+    "slug": "new-chandigarh",
+    "city": "New Chandigarh",
+    "headline": "A clear identity for spaces people return to.",
+    "intro": "DMS Studio works in New Chandigarh on residential and commercial interiors. Essentia Salon is a documented local project, bringing custom furniture and considered lighting together for a client-facing space.",
+    "heading": "Designing around the visitor experience",
+    "sections": [
+      [
+        "Map the experience from the entrance",
+        "For a salon, studio or office, identify where visitors arrive, wait, meet staff and receive a service. Keep staff movement, stock and cleaning needs in the same plan. An attractive reception should also help the business operate clearly."
+      ],
+      [
+        "Make light serve the work",
+        "A commercial scheme needs to balance atmosphere with the visibility required for its tasks. Discuss equipment, working positions, mirrors and screen locations before lighting layouts are fixed. Electrical requirements should be coordinated with qualified professionals."
+      ],
+      [
+        "Connect identity to practical finishes",
+        "The material palette should reflect the business without ignoring maintenance. Review sample finishes, cleaning expectations and the areas likely to receive frequent use. Essentia Salon is a starting point for discussing this balance, not a template every business should repeat."
+      ]
+    ],
+    "project": "essentia-salon",
+    "faqs": [
+      [
+        "Have you completed a New Chandigarh project?",
+        "Yes. Essentia Salon is listed in the DMS portfolio as a New Chandigarh commercial interior, with custom furniture and lighting. See its project page for photographs and scope."
+      ],
+      [
+        "Do you also design homes in New Chandigarh?",
+        "Residential and turnkey interiors are part of the studio’s services across its service area, including New Chandigarh. Discuss your property and brief with the team."
+      ],
+      [
+        "Can you quote from a reference photograph?",
+        "A reference helps communicate the atmosphere you like, but a reliable scope needs the site dimensions, existing condition and requirements. Ask for written inclusions and exclusions before comparing quotations."
+      ]
+    ],
+    "directorySummary": "Explore home and commercial design in New Chandigarh, including the documented Essentia Salon interior.",
+    "portfolioContext": "Essentia Salon is a New Chandigarh commercial interior. The project photographs show the storefront, styling stations, custom furniture and warm lighting.",
+    "contactPrompt": "For a New Chandigarh property, include the business or household purpose, a floor plan, current photographs and the work you want the design to address.",
+    "serviceSummaries": {
+      "Residential interiors": "For New Chandigarh homes, agree room use, circulation and storage priorities before connecting the finish palette across rooms.",
+      "Turnkey interiors": "A New Chandigarh turnkey brief should define procurement, installation and site responsibilities as well as design deliverables.",
+      "Commercial interiors": "For New Chandigarh salons and offices, align the visitor experience with staff movement, equipment positions and maintenance needs.",
+      "Kitchens, storage & lighting": "Plan New Chandigarh kitchens and wardrobes around actual appliance, clothing and storage needs; coordinate ceiling lights with those layouts."
+    }
+  }
+]

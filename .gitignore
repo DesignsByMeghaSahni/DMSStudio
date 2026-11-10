@@ -1,0 +1,20 @@
+# macOS and editor files
+.DS_Store
+.vscode/
+
+# Installed dependencies
+node_modules/
+
+# Cloudflare local state and deployment copies
+.wrangler/
+cloudflare-deploy/
+cloudflare-functions-deploy/
+
+# Local/generated workspace material not needed for deployment
+output/
+backups/
+research/
+
+# Logs and temporary files
+*.log
+.tmp/

@@ -1,0 +1,50 @@
+/* Photographic 360° concept viewer. Spherical panorama, not a captured volumetric model.
+ * Local classic scripts, native scrolling, on-demand rendering, reduced-motion support.
+ */
+(()=>{
+ 'use strict';
+ const section=document.querySelector('#walkthrough');if(!section)return;
+ const root=new URL('.',document.currentScript.src),mount=document.querySelector('#house-canvas'),view=document.querySelector('#house-view'),status=document.querySelector('#tour-load-status'),hint=document.querySelector('#tour-hint'),title=document.querySelector('#tour-title'),description=document.querySelector('#tour-description'),button=document.querySelector('#orbit-toggle'),controls=document.querySelector('.orbit-controls'),chapters=[...document.querySelectorAll('[data-tour]')],reduced=matchMedia('(prefers-reduced-motion: reduce)');
+ const stops=[{t:0,yaw:0,pitch:-.13,fov:90,title:'A wider perspective',copy:'Discover Opera Home’s cream sofa, caramel seating and woven swing.'},{t:.23,yaw:.5,pitch:-.03,fov:76,title:'Follow the light',copy:'Soft daylight brings out the warm neutral palette and textured finishes.'},{t:.48,yaw:1.05,pitch:-.07,fov:66,title:'Closer to the detail',copy:'Look closer at the woven accents, rounded upholstery and layered materials.'},{t:.74,yaw:1.7,pitch:-.03,fov:76,title:'Look around',copy:'Turn through a living space shaped by warm neutrals and layered textures.'},{t:1,yaw:2.65,pitch:0,fov:86,title:'Make it your own',copy:'Use Explore 360° to look freely around this AI concept, then bring your own brief to the studio.'}];
+ const compact=matchMedia('(max-width: 1000px), (max-height: 700px)');
+ const direct=()=>reduced.matches||compact.matches;
+ let started=false,api=null,last=-1,manual=0,fallbackActive=false,fallbackOrbit=false,fallbackX=0,dragX=null;
+ function setChapter(p){const i=p<.12?0:p<.35?1:p<.6?2:p<.87?3:4;document.querySelector('.tour-progress>span').style.width=`${Math.max(1,p*100)}%`;if(fallbackActive&&!fallbackOrbit){fallbackX=p*100;mount.style.backgroundPosition=`${fallbackX}% center`;}if(last===i)return;last=i;title.textContent=stops[i].title;description.textContent=stops[i].copy;document.querySelector('.walkthrough-number').innerHTML=`0${i+1} <span>/ 05</span>`;chapters.forEach((b,j)=>b.setAttribute('aria-pressed',String(j===i)));mount.setAttribute('aria-label','Opera Home-inspired AI visualization: '+stops[i].title);}
+ function fallbackScroll(){if(!fallbackActive||direct())return;const travel=Math.max(1,section.offsetHeight-innerHeight),p=Math.max(0,Math.min(1,-section.getBoundingClientRect().top/travel));setChapter(p);}
+ function fallback(){if(fallbackActive)return;fallbackActive=true;section.classList.add('is-fallback');section.classList.remove('is-enhanced');mount.classList.remove('is-ready');mount.classList.add('is-fallback-view');mount.querySelectorAll('canvas').forEach(canvas=>canvas.remove());view.classList.remove('has-3d');status.hidden=true;button.hidden=false;button.disabled=false;hint.textContent=direct()?'Choose a view below':'Scroll to look around · drag to pan';controls.hidden=true;window.addEventListener('scroll',fallbackScroll,{passive:true});fallbackScroll();button.addEventListener('click',()=>{fallbackOrbit=!fallbackOrbit;section.classList.toggle('is-orbit',fallbackOrbit);controls.hidden=!fallbackOrbit;button.setAttribute('aria-pressed',String(fallbackOrbit));button.textContent=fallbackOrbit?'Return to guided view':'Explore 360° ↗';hint.textContent=fallbackOrbit?'Drag to look around · or use arrows':direct()?'Choose a view below':'Scroll to explore the room ↓';});document.querySelectorAll('[data-orbit]').forEach(b=>b.addEventListener('click',()=>{fallbackX=(fallbackX+(+b.dataset.orbit<0?-8:8)+100)%100;mount.style.backgroundPosition=`${fallbackX}% center`;}));document.querySelector('#orbit-reset')?.addEventListener('click',()=>{fallbackX=0;mount.style.backgroundPosition='0% center';});}
+ function script(file){return new Promise((resolve,reject)=>{const el=document.createElement('script');el.src=new URL(file,root).href;el.onload=resolve;el.onerror=reject;document.head.append(el);});}
+ async function start(){if(started)return;started=true;status.textContent='Opening the room…';try{await Promise.all([window.THREE?Promise.resolve():script('vendor/three.min.js'),script('house-panorama.js?v=opera-1')]);api=await create();}catch(e){fallback();}}
+ if(direct())section.classList.add('is-manual');
+ const loadObserver=new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting)){start();loadObserver.disconnect();}},{rootMargin:'500px'});loadObserver.observe(section);
+ chapters.forEach(b=>b.addEventListener('click',()=>{manual=+b.dataset.tour;api?.exitOrbit();if(fallbackActive&&fallbackOrbit){fallbackOrbit=false;section.classList.remove('is-orbit');controls.hidden=true;button.setAttribute('aria-pressed','false');button.textContent='Explore 360° ↗';}if(direct()){api?.setProgress(manual);setChapter(manual);}else{const top=section.getBoundingClientRect().top+scrollY;scrollTo({top:top+manual*(section.offsetHeight-innerHeight),behavior:'smooth'});}start();}));
+ mount.addEventListener('pointerdown',e=>{if(!fallbackActive||!fallbackOrbit)return;dragX=e.clientX;mount.setPointerCapture(e.pointerId);});
+ mount.addEventListener('pointermove',e=>{if(dragX===null)return;fallbackX=Math.max(0,Math.min(100,fallbackX-(e.clientX-dragX)/Math.max(1,mount.clientWidth)*100));dragX=e.clientX;mount.style.backgroundPosition=`${fallbackX}% center`;});
+ ['pointerup','pointercancel','lostpointercapture'].forEach(name=>mount.addEventListener(name,()=>{dragX=null;}));
+ async function create(){
+  const T=window.THREE,renderer=new T.WebGLRenderer({antialias:true,powerPreference:'low-power'});renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));renderer.outputColorSpace=T.SRGBColorSpace;renderer.domElement.setAttribute('aria-hidden','true');mount.append(renderer.domElement);
+  const scene=new T.Scene(),camera=new T.PerspectiveCamera(80,1,.1,100);camera.position.set(0,0,0);
+  const tx=await new T.TextureLoader().loadAsync(window.DMS_PANORAMA);tx.colorSpace=T.SRGBColorSpace;
+  const sphere=new T.Mesh(new T.SphereGeometry(30,64,40),new T.MeshBasicMaterial({map:tx,side:T.BackSide}));sphere.scale.x=-1;scene.add(sphere);
+  let current=0,target=0,frame=0,visible=true,orbit=false,drag=null,yaw=0,pitch=0,fov=80;
+  function pose(p){let i=0;while(i<3&&p>stops[i+1].t)i++;const a=stops[i],b=stops[i+1];let f=T.MathUtils.clamp((p-a.t)/(b.t-a.t),0,1);f=f*f*(3-2*f);if(!orbit){yaw=T.MathUtils.lerp(a.yaw,b.yaw,f);pitch=T.MathUtils.lerp(a.pitch,b.pitch,f);fov=T.MathUtils.lerp(a.fov,b.fov,f);}camera.fov=camera.aspect<1?Math.min(fov+12,100):fov;camera.updateProjectionMatrix();camera.lookAt(Math.sin(yaw-Math.PI/2)*Math.cos(pitch),Math.sin(pitch),-Math.cos(yaw-Math.PI/2)*Math.cos(pitch));}
+  function request(){if(!frame&&visible&&!document.hidden)frame=requestAnimationFrame(render);}
+  function render(){frame=0;if(!visible||document.hidden)return;current=direct()?target:current+(target-current)*.12;if(Math.abs(current-target)<.0003)current=target;pose(current);renderer.render(scene,camera);mount.dataset.progress=current.toFixed(3);mount.dataset.view=orbit?'orbit':'panorama';if(Math.abs(current-target)>.0003)request();}
+  function resize(){const r=mount.getBoundingClientRect();if(!r.width||!r.height)return;renderer.setSize(r.width,r.height,false);camera.aspect=r.width/r.height;request();}
+  function scroll(){if(direct())return;target=T.MathUtils.clamp(-section.getBoundingClientRect().top/Math.max(1,section.offsetHeight-innerHeight),0,1);setChapter(target);request();}
+  function exitOrbit(){orbit=false;section.classList.remove('is-orbit');controls.hidden=true;button.setAttribute('aria-pressed','false');button.textContent='Explore 360° ↗';hint.textContent=direct()?'Choose a view below':'Scroll to explore the room ↓';request();}
+  button.disabled=false;button.addEventListener('click',()=>{if(orbit)return exitOrbit();orbit=true;section.classList.add('is-orbit');controls.hidden=false;button.setAttribute('aria-pressed','true');button.textContent='Return to guided view';hint.textContent='Drag to look around · or use arrows';request();});
+  mount.addEventListener('pointerdown',e=>{if(!orbit)return;drag={x:e.clientX,y:e.clientY};renderer.domElement.setPointerCapture(e.pointerId);});
+  mount.addEventListener('pointermove',e=>{if(!drag||!orbit)return;yaw-=(e.clientX-drag.x)*.004;pitch=T.MathUtils.clamp(pitch+(e.clientY-drag.y)*.003,-.7,.7);drag={x:e.clientX,y:e.clientY};request();});
+  ['pointerup','pointercancel','lostpointercapture'].forEach(n=>mount.addEventListener(n,()=>{drag=null;}));
+  document.querySelectorAll('[data-orbit]').forEach(b=>b.addEventListener('click',()=>{yaw+=+b.dataset.orbit;request();}));document.querySelector('#orbit-reset').addEventListener('click',()=>{yaw=stops[0].yaw;pitch=stops[0].pitch;fov=90;request();});
+  new ResizeObserver(resize).observe(mount);window.addEventListener('scroll',scroll,{passive:true});window.addEventListener('resize',()=>{resize();scroll();},{passive:true});
+  new IntersectionObserver(es=>{visible=es[0].isIntersecting;if(visible){scroll();request();}else{cancelAnimationFrame(frame);frame=0;}},{rootMargin:'100px'}).observe(view);
+  document.addEventListener('visibilitychange',()=>{if(document.hidden){cancelAnimationFrame(frame);frame=0;}else request();});
+  function layoutChanged(){section.classList.toggle('is-manual',direct());api?.setProgress(manual);setChapter(manual);}
+ compact.addEventListener('change',layoutChanged);
+ reduced.addEventListener('change',()=>{section.classList.toggle('is-manual',direct());if(direct()){target=manual;setChapter(target);}else scroll();request();});
+  renderer.domElement.addEventListener('webglcontextlost',e=>{e.preventDefault();cancelAnimationFrame(frame);frame=0;visible=false;fallback();});
+  section.classList.add('is-enhanced');resize();scroll();mount.classList.add('is-ready');view.classList.add('has-3d');status.hidden=true;if(direct())hint.textContent='Choose a view below';
+  return{exitOrbit,setProgress(p){target=p;request();}};
+ }
+})();

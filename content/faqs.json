@@ -1,0 +1,327 @@
+{
+  "updated": "2026-10-15",
+  "categories": [
+    {
+      "id": "choosing-a-designer",
+      "title": "Choosing your designer",
+      "description": "Start with the right people, the right brief and a clear understanding of the work.",
+      "link": "about.html",
+      "label": "Meet Megha Sahni",
+      "items": [
+        {
+          "id": "choosing-a-designer-1",
+          "q": "How do I choose the best interior designer for my home in Mohali or Chandigarh?",
+          "a": "Choose by relevant completed work, clarity of scope and how well the designer understands your household. Ask to see a project comparable to your flat or kothi, discuss who handles site decisions and compare written proposals. A beautiful portfolio matters, but so do usable storage, reliable communication and clearly specified materials."
+        },
+        {
+          "id": "choosing-a-designer-2",
+          "q": "What should I ask an interior designer before hiring them?",
+          "a": "Ask what drawings you receive, how revisions work, who purchases materials and who checks installation. Discuss exclusions, payment stages, approvals and handover documents before you commit. Bring your floor plan and a short list of problems you want the design to solve so the conversation goes beyond colours and furniture."
+        },
+        {
+          "id": "choosing-a-designer-3",
+          "q": "Do I need an architect, an interior designer or both?",
+          "a": "An architect focuses on the building and its overall planning; an interior designer develops the way its rooms function and feel. New construction or substantial building changes can require both disciplines, with engineering input where needed. Tell DMS whether you need interior work, an elevation or building planning so responsibilities can be clarified before appointment."
+        },
+        {
+          "id": "choosing-a-designer-4",
+          "q": "What is the difference between an interior designer and a decorator?",
+          "a": "Interior design can involve layouts, built-in furniture, lighting coordination and detailed drawings. Decoration concentrates more on furnishings, artwork, colour and accessories within an existing space. If your kitchen workflow, electrical points or storage need changing, describe those needs early rather than asking only for a new look."
+        },
+        {
+          "id": "choosing-a-designer-5",
+          "q": "Should I hire a designer or work directly with a carpenter?",
+          "a": "A carpenter can execute clearly specified joinery. A designer helps coordinate that joinery with movement, lighting, furniture and the rest of the home. For a straightforward replacement cupboard, a carpenter may be sufficient; for several connected rooms, design coordination can reduce conflicting decisions. Compare responsibilities as well as the amount quoted."
+        },
+        {
+          "id": "choosing-a-designer-6",
+          "q": "How can I tell whether a portfolio shows real completed projects?",
+          "a": "Look for several views of the same room, close-up details, project context and walkthrough footage where available. Ask which images are photographs, visualisations or edited photographs. DMS project pages identify the supplied work, while the homepage Opera Home interactive scene is labelled as an AI visualisation rather than a captured property tour."
+        }
+      ]
+    },
+    {
+      "id": "budgets",
+      "title": "Budgets & quotations",
+      "description": "Indicative planning ranges, with an exact proposal prepared around your property.",
+      "link": "contact.html",
+      "label": "Request your project estimate",
+      "items": [
+        {
+          "id": "budgets-1",
+          "q": "What budget range should I plan for 2BHK interiors in Mohali?",
+          "a": "DMS’s published 2026 guide gives ₹8–14 lakh as an indicative mid-range 2BHK turnkey budget. This is a planning reference, not a current offer or fixed package. Room sizes, work quantities, finishes and existing conditions affect the total. Contact DMS with your plan for current pricing and written inclusions."
+        },
+        {
+          "id": "budgets-2",
+          "q": "What is the interior design budget range for a 3BHK in Chandigarh or Mohali?",
+          "a": "The studio’s published 2026 guide places mid-range 3BHK turnkey interiors around ₹12–20 lakh and premium/luxury work around ₹20–35 lakh. These indicative bands are not a quotation. Confirm the actual rooms, joinery, furniture and finishes with DMS, and contact the studio for a project-specific price."
+        },
+        {
+          "id": "budgets-3",
+          "q": "How much should I budget for interiors of a 250 or 400 gaj kothi?",
+          "a": "Plot area alone cannot price an interior: the number of floors and rooms being finished matter. DMS’s published guide suggests ₹25–60 lakh for a 2,500–4,000 sq ft villa interior, as an indicative reference only. This is not a rate for every 250 or 400 gaj plot. Contact DMS with floor plans for current pricing."
+        },
+        {
+          "id": "budgets-4",
+          "q": "Why do two interior quotations for the same flat differ so much?",
+          "a": "They may cover different quantities, board specifications, hardware, finishes or site work. Compare each line against the same drawings and ask what is excluded, including appliances, loose furniture, delivery and taxes. A low headline total can describe a smaller scope. Ask DMS to discuss a suitable budget range and contact the studio for an exact proposal."
+        },
+        {
+          "id": "budgets-5",
+          "q": "Is interior work priced by carpet area, built-up area or item quantities?",
+          "a": "Different providers use different methods, so always ask which area or quantity a rate measures. A whole-home floor-area estimate cannot be directly compared with a cupboard or kitchen elevation-area rate. An itemised bill of quantities makes the scope easier to compare. Contact DMS for a measured proposal and an appropriate budget range."
+        },
+        {
+          "id": "budgets-6",
+          "q": "How can I keep an interior project within my budget range?",
+          "a": "Decide which rooms and practical improvements matter most before choosing expensive finishes. Confirm an itemised scope, separate optional upgrades and approve changes with their cost impact before work proceeds. Keep provision for unknown site conditions. Share your comfortable spending range with DMS and contact the studio for the exact cost of the agreed work."
+        },
+        {
+          "id": "budgets-7",
+          "q": "Are consultation, 3D drawings, taxes and site visits included in the price?",
+          "a": "These should be stated individually in your proposal; do not assume every service is included in a turnkey headline. Ask about drawing revisions, visit frequency, procurement, taxes and handover support. DMS can clarify the applicable scope and budget range after reviewing your brief. Contact the studio for current fees and written terms."
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Process, timelines & turnkey work",
+      "description": "Understand what happens between the first conversation and moving in.",
+      "link": "services/turnkey-interiors/index.html",
+      "label": "Explore turnkey interiors",
+      "items": [
+        {
+          "id": "process-1",
+          "q": "What should a turnkey interior package actually include?",
+          "a": "It should define the design work, supply and installation being undertaken, with a list of exclusions. Drawings, finish selections, joinery, site coordination and handover may form part of the scope, but the word turnkey does not specify them automatically. Ask who is responsible for each trade and how changes will be approved."
+        },
+        {
+          "id": "process-2",
+          "q": "Can I get design drawings and appoint my own contractors?",
+          "a": "Discuss a design-only brief with DMS and confirm which drawings, specifications and site support it would include. Execution responsibilities need to be explicit when contractors are appointed separately. Agree who verifies measurements, answers site queries and approves substitutions so the design does not depend on assumptions during installation."
+        },
+        {
+          "id": "process-3",
+          "q": "How early should I approach an interior designer before possession?",
+          "a": "Start once you have a reasonably reliable floor plan and an expected possession window. This gives you time to establish room priorities and a design direction. Final measurements and site readiness still need verification before production; a builder’s brochure plan should not be treated as a fabrication drawing."
+        },
+        {
+          "id": "process-4",
+          "q": "How long will my 3BHK interiors take to complete?",
+          "a": "The schedule depends on design approvals, site readiness, manufacturing and the amount of civil work. Ask for separate milestones for design, ordering, installation and snag correction instead of one unexplained completion date. DMS can discuss a realistic project schedule after reviewing the property and confirmed scope."
+        },
+        {
+          "id": "process-5",
+          "q": "Will I see layouts and 3D views before work starts?",
+          "a": "Ask for the drawing and visualisation deliverables to be listed in your proposal. Layouts help test furniture positions and circulation, while 3D views help communicate the intended appearance. Material samples and working drawings are also important: a rendered image alone does not specify every dimension, fitting or construction detail."
+        },
+        {
+          "id": "process-6",
+          "q": "How are design changes and material substitutions handled?",
+          "a": "Record the proposed change, the reason for it and any impact on cost or completion before approving it. For a substitute finish, review a physical sample and confirm the specification rather than relying on a phone image. Keep the approved selection accessible to the people placing orders and doing the installation."
+        }
+      ]
+    },
+    {
+      "id": "luxury",
+      "title": "Luxury homes & personal style",
+      "description": "A refined home should feel as good to live in as it looks.",
+      "link": "projects/prince-residence/index.html",
+      "label": "Explore Prince Residence",
+      "items": [
+        {
+          "id": "luxury-1",
+          "q": "What makes a home feel luxurious without looking overdecorated?",
+          "a": "Start with generous movement, furniture that fits and a coherent material palette. Well-resolved junctions, comfortable lighting and useful concealed storage often make a stronger impression than adding more feature walls. Choose a few details to emphasise and allow quieter surfaces around them so the room feels composed rather than crowded."
+        },
+        {
+          "id": "luxury-2",
+          "q": "Can I achieve a premium look within a controlled budget?",
+          "a": "Yes, by concentrating attention where you experience it every day. A well-proportioned sofa, thoughtful curtains, a restrained finish palette and properly placed lighting can work together without every surface becoming a statement. Retain sound elements where possible and compare practical alternatives before committing to imported or highly customised pieces."
+        },
+        {
+          "id": "luxury-3",
+          "q": "How do I choose between modern, contemporary and classic interiors?",
+          "a": "Collect references you enjoy, then describe what attracts you: clean lines, warmth, symmetry, texture or colour. Your home can combine those qualities without copying a complete style label. Test the direction against daylight, existing architecture and your furniture preferences before finalising decorative details."
+        },
+        {
+          "id": "luxury-4",
+          "q": "Are imported materials essential for luxury interiors?",
+          "a": "No. Materials should be selected for their appearance, suitability, detailing and support. A locally available finish installed carefully can work beautifully, while an imported product may create maintenance or replacement challenges. Compare samples and technical information, and choose the material that suits the design and the way you will use it."
+        },
+        {
+          "id": "luxury-5",
+          "q": "How can I make a luxury living room practical for family use?",
+          "a": "Plan seating around conversation and everyday movement, then consider children, guests, pets and cleaning. Check fabric care requirements, table edges, charging points and where everyday objects will go. A formal appearance is easier to maintain when storage and daily routines have been designed into the room from the beginning."
+        },
+        {
+          "id": "luxury-6",
+          "q": "Can you use my Instagram or Pinterest inspiration without copying it?",
+          "a": "Share references and explain which details appeal to you. DMS can discuss how that mood relates to your room dimensions, light, existing possessions and priorities. Use references as a starting brief; the final combination should respond to your home rather than reproduce another designer’s entire room."
+        }
+      ]
+    },
+    {
+      "id": "rooms",
+      "title": "Room planning, kitchens & materials",
+      "description": "Make the rooms you use most work better every day.",
+      "link": "services/modular-and-lighting/index.html",
+      "label": "Explore kitchens, storage & lighting",
+      "items": [
+        {
+          "id": "rooms-1",
+          "q": "What should I plan first in a 3BHK apartment?",
+          "a": "Start with who uses each room and what needs to fit there. Decide sleeping arrangements, guest use, working from home and storage before choosing wall finishes. Test circulation and furniture sizes on the plan, then coordinate lighting and electrical requirements around that layout. Falcon 66 and TDI Wellington offer relevant DMS apartment examples."
+        },
+        {
+          "id": "rooms-2",
+          "q": "Should I choose a modular kitchen or a carpenter-built kitchen?",
+          "a": "Compare the proposed layout, construction details, installation process and service arrangements. Modular units can provide a defined production system; site-built work may address unusual dimensions. Neither label alone guarantees quality. Check the actual material specification, moisture detailing, hardware and access for future repairs before deciding."
+        },
+        {
+          "id": "rooms-3",
+          "q": "Which is better for kitchen shutters: laminate, acrylic or PU?",
+          "a": "There is no single best finish for every kitchen. Compare appearance, edge detailing, cleaning, repair options and how marks show on the selected colour. Review full samples under your kitchen lighting and ask for the specific product’s care instructions. The underlying board, hinges and workmanship matter alongside the visible surface."
+        },
+        {
+          "id": "rooms-4",
+          "q": "How do I add storage without making a small flat feel crowded?",
+          "a": "List what needs to be stored and where it is used, then design storage to match those objects. Concentrate larger cabinets on suitable walls and leave comfortable routes around furniture. Combine concealed everyday storage with a limited amount of open display, rather than filling every spare wall with cupboards."
+        },
+        {
+          "id": "rooms-5",
+          "q": "Is a false ceiling necessary for good lighting?",
+          "a": "No. A lighting plan can use surface-mounted fittings, pendants, wall lights and joinery lighting where appropriate. Decide what each area needs before choosing the ceiling treatment. If a lowered ceiling is proposed, consider room height, service access and how the lighting will be maintained."
+        },
+        {
+          "id": "rooms-6",
+          "q": "How do I design a child’s themed bedroom that will still work as they grow?",
+          "a": "Keep the long-lasting elements flexible: useful storage, an appropriately planned study area and furniture that suits the room. Put changeable themes into artwork, bedding and selected finishes. Evaan Joshi’s football-themed bedroom in the DMS portfolio shows how a child’s interest can establish the room’s identity."
+        },
+        {
+          "id": "rooms-7",
+          "q": "How can I include a mandir in a modern home?",
+          "a": "Choose a calm, accessible position and plan the platform, storage and lighting around how your family uses it. Discuss the objects you want to display, cleaning needs and any ritual requirements before fixing dimensions. A mandir can belong to the home’s material palette while keeping its own distinct character."
+        }
+      ]
+    },
+    {
+      "id": "renovation",
+      "title": "Renovation & building coordination",
+      "description": "Resolve the existing conditions before investing in the visible finishes.",
+      "link": "projects/ruchit-phase-1/index.html",
+      "label": "Explore Ruchit Residence",
+      "items": [
+        {
+          "id": "renovation-1",
+          "q": "Can an older home in Chandigarh or Panchkula be renovated in stages?",
+          "a": "A phased renovation may be practical if the work can be separated safely and services remain usable. Begin by mapping shared electrical, plumbing and flooring work so a finished room is not reopened later. Discuss access, dust control, temporary facilities and whether you can reasonably stay in the property during each stage."
+        },
+        {
+          "id": "renovation-2",
+          "q": "Can I change walls or combine rooms during an interior renovation?",
+          "a": "A visual layout proposal is not permission to remove a wall. Have the existing structure and services assessed by the appropriate professionals before planning demolition. Building or society permissions may also be relevant. Tell the design team about previous alterations and obtain a clear technical plan before any changes begin."
+        },
+        {
+          "id": "renovation-3",
+          "q": "Can the exterior elevation and interiors be designed together?",
+          "a": "They can be coordinated through window positions, materials, lighting and the relationship between indoor and outdoor spaces. Confirm the separate responsibilities for architectural design, structural work and interiors at the outset. DMS’s kothi portfolio is useful for discussing the visual direction; the technical scope must be agreed for your property."
+        },
+        {
+          "id": "renovation-4",
+          "q": "What should I check before starting interiors in a newly handed-over flat?",
+          "a": "Record defects, verify dimensions and inspect the condition of walls, floors and service points before covering them with finishes. Confirm access, working hours and material delivery arrangements with the society. Resolve builder-related issues early where possible and keep the final measured plan separate from the original sales drawing."
+        },
+        {
+          "id": "renovation-5",
+          "q": "Can Vastu preferences be included in a practical interior layout?",
+          "a": "Share your specific preferences at the briefing stage so they can be considered alongside daylight, circulation and existing services. If you use a Vastu adviser, involve them before the layout is frozen. Agree which requirements are essential and where flexibility is possible rather than changing completed work later."
+        },
+        {
+          "id": "renovation-6",
+          "q": "How should I plan interiors for Mohali’s summer heat and everyday dust?",
+          "a": "Look at window orientation, shading, ventilation and how each room is used before selecting finishes. Discuss curtain layers, accessible cleaning details and materials whose care requirements fit your routine. Interior decoration cannot resolve every building comfort issue, so coordinate cooling and envelope concerns with the relevant specialists when needed."
+        }
+      ]
+    },
+    {
+      "id": "local-and-remote",
+      "title": "Tricity locations & remote clients",
+      "description": "Local project context, with clear arrangements for clients living elsewhere.",
+      "link": "areas-we-serve/index.html",
+      "label": "Explore the areas we serve",
+      "items": [
+        {
+          "id": "local-and-remote-1",
+          "q": "Does DMS Studio work across Chandigarh, Mohali and Panchkula?",
+          "a": "Yes. DMS Studio’s service area includes these three Tricity cities, along with Zirakpur, Kharar and New Chandigarh. The studio is based in Sunny Enclave, Mohali. Share the exact property address, type of work and timing so site visits and project feasibility can be discussed."
+        },
+        {
+          "id": "local-and-remote-2",
+          "q": "Can you plan interiors for flats in Zirakpur, Kharar or New Chandigarh?",
+          "a": "Contact DMS with the society name, floor plan and possession status. Apartment planning needs to consider existing services, room dimensions and society arrangements as well as appearance. The portfolio includes Yogesh Residence in Zirakpur and Opera Home on Kurali Road; each project provides context rather than a standard package for every flat."
+        },
+        {
+          "id": "local-and-remote-3",
+          "q": "Do you have examples of 3BHK interiors in Sector 66 or Sector 117, Mohali?",
+          "a": "Yes. The portfolio includes Falcon 66 Residence at Falcon Society, Sector 66, and TDI Wellington 3BHK Apartment in Sector 117. These individual pages show project photographs and available footage. Use them to discuss room planning and visual preferences for your own apartment, whose dimensions and scope may differ."
+        },
+        {
+          "id": "local-and-remote-4",
+          "q": "Can NRIs manage a Mohali interior project from abroad?",
+          "a": "Remote coordination is possible when decisions, site responsibilities and communication are organised clearly. DMS’s Opera Home was coordinated remotely for an NRI client. Discuss your availability, local representative, approval process and desired reporting before appointment so the arrangement fits your project rather than relying only on messaging."
+        },
+        {
+          "id": "local-and-remote-5",
+          "q": "Can I bring a Delhi, Mumbai or Bengaluru luxury style to my Tricity home?",
+          "a": "Yes, a visual reference from another city can inform the brief. The layout still needs to suit your property, light and family routines, while material availability and execution are assessed locally. DMS’s listed service area is the Tricity region; contact the studio separately about feasibility for a property outside it."
+        },
+        {
+          "id": "local-and-remote-6",
+          "q": "What should an overseas client prepare before the first design call?",
+          "a": "Share a measured plan if available, current photos or a walkthrough, the site contact and your time zone. List decisions you want to approve personally and identify someone who can provide access. A concise brief on room use, style and budget priorities makes the first remote discussion more productive."
+        }
+      ]
+    },
+    {
+      "id": "commercial-and-handover",
+      "title": "Salons, commercial spaces & handover",
+      "description": "Design for the customer experience and the people who use the space every day.",
+      "link": "services/commercial-interiors/index.html",
+      "label": "Explore commercial interiors",
+      "items": [
+        {
+          "id": "commercial-and-handover-1",
+          "q": "How is salon interior design different from residential design?",
+          "a": "A salon needs a clear customer journey and work areas suited to the services offered. Reception, waiting, styling, washing, storage and staff movement should be planned together. Materials and lighting need to support frequent use and cleaning. Essentia Salon in New Chandigarh provides a completed DMS commercial example."
+        },
+        {
+          "id": "commercial-and-handover-2",
+          "q": "What should I consider when designing a nail salon in Mohali?",
+          "a": "Start with the treatment menu, staff workflow and the number of stations the premises can comfortably accommodate. Plan product storage, customer seating, lighting and cleaning arrangements together. Ventilation and relevant operating requirements need specialist attention. Sheena Nail Studio in Phase 3B2 offers a project reference for discussing the design direction."
+        },
+        {
+          "id": "commercial-and-handover-3",
+          "q": "Can a compact office look premium without wasting floor space?",
+          "a": "Yes. Define what clients and staff need first: reception, private conversations, working areas and storage. Use furniture scaled to the space and keep movement routes clear. A coordinated palette and considered lighting can create a confident identity without oversized desks or decorative partitions that reduce useful area."
+        },
+        {
+          "id": "commercial-and-handover-4",
+          "q": "What should be checked before accepting an interior handover?",
+          "a": "Walk through the agreed scope with the team and record unfinished items or defects. Check doors, drawers, visible finishes and installed fittings, then request relevant manuals, invoices and care information. Keep a dated snag list with agreed responsibilities so outstanding work is easier to follow up."
+        },
+        {
+          "id": "commercial-and-handover-5",
+          "q": "What warranty and aftercare should I ask an interior designer about?",
+          "a": "Ask which products carry manufacturer cover, what installation or workmanship support is offered and what exclusions apply. Confirm who handles a claim and what documents are needed. DMS’s applicable support terms should be stated in your project agreement; a general website answer should not be treated as a blanket warranty."
+        },
+        {
+          "id": "commercial-and-handover-6",
+          "q": "How do I book a project discussion with Designs by Megha Sahni?",
+          "a": "Call +91 70874 19592 or use the contact page to prepare an enquiry. Include the property location, floor plan or photographs, rooms involved and your intended timing. Share a comfortable budget range too. The studio can then discuss the brief and prepare the next step towards a project-specific quotation."
+        }
+      ]
+    }
+  ]
+}

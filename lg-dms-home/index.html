@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DMS Living</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="assets/dms-logo.png" alt="DMS Studio">
+        <div class="status"><span></span><time id="clock"></time></div>
+      </header>
+      <section class="hero" aria-label="Welcome">
+        <p class="eyebrow">DMS STUDIO</p>
+        <h1>Good afternoon.</h1>
+        <p class="subtle">Your essential viewing, beautifully arranged.</p>
+      </section>
+      <section aria-label="Apps">
+        <h2>Favourites</h2>
+        <div class="apps" id="apps">
+          <button class="app youtube" data-app="youtube.leanback.v4"><b>▶</b><span>YouTube</span></button>
+          <button class="app netflix" data-app="netflix"><b>N</b><span>Netflix</span></button>
+          <button class="app prime" data-app="com.amazon.amazonvideo.livingroom"><b>prime</b><span>Prime Video</span></button>
+          <button class="app hotstar" data-app="in.startv.hotstar"><b>Jio<span>Hotstar</span></b><span>JioHotstar</span></button>
+          <button class="app cast" data-app="com.webos.app.miracast"><b>▱</b><span>Screen Share</span></button>
+          <button class="app browser" data-app="com.webos.app.browser"><b>◎</b><span>Browser</span></button>
+        </div>
+      </section>
+      <section class="continue" aria-label="Quick tips">
+        <div><p>SCREEN SHARE</p><strong>Show a design from your MacBook</strong><small>Use AirPlay or Screen Share from the TV Home menu.</small></div>
+        <div><p>DMS STUDIO</p><strong>Architecture &amp; interiors</strong><small>Open Browser to visit dmsstudio.in.</small></div>
+      </section>
+      <p id="message" role="status"></p>
+    </main>
+    <script src="webOSTVjs-1.2.13/webOSTV.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

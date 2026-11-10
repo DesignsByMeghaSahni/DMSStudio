@@ -1,0 +1,3082 @@
+{
+  "blog-design-brief": {
+    "640": {
+      "width": 640,
+      "height": 427
+    },
+    "1280": {
+      "width": 1280,
+      "height": 854
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1282
+    }
+  },
+  "service-kitchen": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 961
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1441
+    }
+  },
+  "blog-layered-light": {
+    "640": {
+      "width": 640,
+      "height": 426
+    },
+    "1280": {
+      "width": 1280,
+      "height": 852
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1278
+    }
+  },
+  "house-photoreal-concept": {
+    "640": {
+      "width": 640,
+      "height": 320
+    },
+    "1280": {
+      "width": 1280,
+      "height": 640
+    },
+    "1920": {
+      "width": 1774,
+      "height": 887
+    }
+  },
+  "service-commercial": {
+    "640": {
+      "width": 640,
+      "height": 427
+    },
+    "1280": {
+      "width": 1280,
+      "height": 853
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1280
+    }
+  },
+  "service-turnkey": {
+    "640": {
+      "width": 640,
+      "height": 427
+    },
+    "1280": {
+      "width": 1280,
+      "height": 853
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1280
+    }
+  },
+  "megha-sahni": {
+    "640": {
+      "width": 640,
+      "height": 1063
+    },
+    "1280": {
+      "width": 1280,
+      "height": 2126
+    },
+    "1920": {
+      "width": 1397,
+      "height": 2320
+    }
+  },
+  "home-editorial": {
+    "640": {
+      "width": 640,
+      "height": 427
+    },
+    "1280": {
+      "width": 1280,
+      "height": 853
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1280
+    }
+  },
+  "editorial-hero": {
+    "640": {
+      "width": 640,
+      "height": 800
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1601
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2401
+    }
+  },
+  "megha-professional": {
+    "640": {
+      "width": 384,
+      "height": 480
+    },
+    "1280": {
+      "width": 512,
+      "height": 640
+    },
+    "1920": {
+      "width": 614,
+      "height": 768
+    }
+  },
+  "service-residential": {
+    "640": {
+      "width": 640,
+      "height": 427
+    },
+    "1280": {
+      "width": 1280,
+      "height": 853
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1280
+    }
+  },
+  "blog-personal-home": {
+    "640": {
+      "width": 640,
+      "height": 427
+    },
+    "1280": {
+      "width": 1280,
+      "height": 853
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1280
+    }
+  },
+  "hero-wide": {
+    "640": {
+      "width": 640,
+      "height": 427
+    },
+    "1280": {
+      "width": 1280,
+      "height": 854
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1280
+    }
+  },
+  "babbar-01": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1280,
+      "height": 960
+    }
+  },
+  "babbar-03": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1280,
+      "height": 960
+    }
+  },
+  "babbar-02": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "babbar-06": {
+    "640": {
+      "width": 640,
+      "height": 1138
+    },
+    "1280": {
+      "width": 899,
+      "height": 1599
+    },
+    "1920": {
+      "width": 899,
+      "height": 1599
+    }
+  },
+  "babbar-hero-enhanced": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1448,
+      "height": 1086
+    }
+  },
+  "babbar-07": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "babbar-05": {
+    "640": {
+      "width": 640,
+      "height": 1138
+    },
+    "1280": {
+      "width": 720,
+      "height": 1280
+    },
+    "1920": {
+      "width": 720,
+      "height": 1280
+    }
+  },
+  "babbar-04": {
+    "640": {
+      "width": 640,
+      "height": 1138
+    },
+    "1280": {
+      "width": 720,
+      "height": 1280
+    },
+    "1920": {
+      "width": 720,
+      "height": 1280
+    }
+  },
+  "opera-06": {
+    "640": {
+      "width": 640,
+      "height": 1138
+    },
+    "1280": {
+      "width": 1080,
+      "height": 1920
+    },
+    "1920": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "opera-07": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "opera-05": {
+    "640": {
+      "width": 640,
+      "height": 1138
+    },
+    "1280": {
+      "width": 1280,
+      "height": 2276
+    },
+    "1920": {
+      "width": 1920,
+      "height": 3413
+    }
+  },
+  "opera-04": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "opera-01": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "opera-03": {
+    "640": {
+      "width": 640,
+      "height": 1138
+    },
+    "1280": {
+      "width": 1080,
+      "height": 1920
+    },
+    "1920": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "opera-02": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "yogesh-zirakpur-wardrobe-source": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "yogesh-zirakpur-alcove-progress": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "yogesh-zirakpur-moulded-door-02": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "yogesh-zirakpur-moulded-door-01": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "yogesh-zirakpur-bedroom-detail": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "yogesh-zirakpur-wardrobe-angle-01": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "yogesh-zirakpur-tv-wall-source": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "yogesh-zirakpur-wardrobe-angle-03": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "yogesh-zirakpur-wardrobe-angle-02": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "yogesh-zirakpur-tv-wall": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1448,
+      "height": 1086
+    }
+  },
+  "yogesh-zirakpur-wardrobe": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1086,
+      "height": 1448
+    },
+    "1920": {
+      "width": 1086,
+      "height": 1448
+    }
+  },
+  "yogesh-zirakpur-mandir-cleaned": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1086,
+      "height": 1448
+    },
+    "1920": {
+      "width": 1086,
+      "height": 1448
+    }
+  },
+  "yogesh-zirakpur-mandir": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1086,
+      "height": 1448
+    },
+    "1920": {
+      "width": 1086,
+      "height": 1448
+    }
+  },
+  "essentia-06": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 765,
+      "height": 1020
+    },
+    "1920": {
+      "width": 765,
+      "height": 1020
+    }
+  },
+  "essentia-07": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 765,
+      "height": 1020
+    },
+    "1920": {
+      "width": 765,
+      "height": 1020
+    }
+  },
+  "essentia-02": {
+    "640": {
+      "width": 640,
+      "height": 1138
+    },
+    "1280": {
+      "width": 720,
+      "height": 1280
+    },
+    "1920": {
+      "width": 720,
+      "height": 1280
+    }
+  },
+  "essentia-01": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1040,
+      "height": 780
+    },
+    "1920": {
+      "width": 1040,
+      "height": 780
+    }
+  },
+  "essentia-03": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 765,
+      "height": 1020
+    },
+    "1920": {
+      "width": 765,
+      "height": 1020
+    }
+  },
+  "essentia-04": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 765,
+      "height": 1020
+    },
+    "1920": {
+      "width": 765,
+      "height": 1020
+    }
+  },
+  "essentia-outdoor": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1280,
+      "height": 960
+    }
+  },
+  "essentia-05": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 765,
+      "height": 1020
+    },
+    "1920": {
+      "width": 765,
+      "height": 1020
+    }
+  },
+  "essentia-outdoor-banner": {
+    "640": {
+      "width": 640,
+      "height": 320
+    },
+    "1280": {
+      "width": 1280,
+      "height": 640
+    },
+    "1920": {
+      "width": 1920,
+      "height": 960
+    }
+  },
+  "IMG_3581": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "IMG_3580": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "IMG_3582": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "IMG_3587": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "IMG_3578": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "IMG_3579": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "IMG_3586": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "IMG_3585": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "IMG_3588": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "IMG_3589": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "evaan-joshi-3589": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "evaan-joshi-3588": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "evaan-joshi-3586": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "evaan-joshi-3579": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "evaan-joshi-3578": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "evaan-joshi-3587": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "evaan-joshi-3585": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "evaan-joshi-3580": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "evaan-joshi-3581": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "evaan-joshi-3582": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "falcon-66-bedroom-01": {
+    "640": {
+      "width": 640,
+      "height": 1370
+    },
+    "1280": {
+      "width": 1280,
+      "height": 2741
+    },
+    "1920": {
+      "width": 1868,
+      "height": 4000
+    }
+  },
+  "falcon-66-bedroom-02": {
+    "640": {
+      "width": 640,
+      "height": 299
+    },
+    "1280": {
+      "width": 1280,
+      "height": 598
+    },
+    "1920": {
+      "width": 1920,
+      "height": 897
+    }
+  },
+  "falcon-66-bedroom-headboard": {
+    "640": {
+      "width": 640,
+      "height": 299
+    },
+    "1280": {
+      "width": 1280,
+      "height": 597
+    },
+    "1920": {
+      "width": 1280,
+      "height": 597
+    }
+  },
+  "falcon-66-bedroom-wardrobe": {
+    "640": {
+      "width": 597,
+      "height": 1280
+    },
+    "1280": {
+      "width": 597,
+      "height": 1280
+    },
+    "1920": {
+      "width": 597,
+      "height": 1280
+    }
+  },
+  "falcon-66-dining-room": {
+    "640": {
+      "width": 640,
+      "height": 1370
+    },
+    "1280": {
+      "width": 1280,
+      "height": 2741
+    },
+    "1920": {
+      "width": 1868,
+      "height": 4000
+    }
+  },
+  "falcon-66-display-shelf-01": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "falcon-66-display-shelf-02": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "falcon-66-display-shelf-03": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "falcon-66-living-room-01": {
+    "640": {
+      "width": 640,
+      "height": 1370
+    },
+    "1280": {
+      "width": 1280,
+      "height": 2741
+    },
+    "1920": {
+      "width": 1868,
+      "height": 4000
+    }
+  },
+  "falcon-66-living-room-02": {
+    "640": {
+      "width": 640,
+      "height": 1370
+    },
+    "1280": {
+      "width": 1280,
+      "height": 2741
+    },
+    "1920": {
+      "width": 1868,
+      "height": 4000
+    }
+  },
+  "falcon-66-living-room-03": {
+    "640": {
+      "width": 640,
+      "height": 1370
+    },
+    "1280": {
+      "width": 1280,
+      "height": 2741
+    },
+    "1920": {
+      "width": 1868,
+      "height": 4000
+    }
+  },
+  "falcon-66-living-room-wide": {
+    "640": {
+      "width": 640,
+      "height": 299
+    },
+    "1280": {
+      "width": 1280,
+      "height": 598
+    },
+    "1920": {
+      "width": 1920,
+      "height": 897
+    }
+  },
+  "falcon-66-puja-room-01": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "falcon-66-puja-room-02": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "falcon-66-puja-room-03": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "falcon-66-puja-room-04": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "falcon-66-puja-vanity": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "sachdeva-125-living-room-wide": {
+    "640": {
+      "width": 640,
+      "height": 360
+    },
+    "1280": {
+      "width": 1280,
+      "height": 720
+    },
+    "1920": {
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "sachdeva-125-tv-wall-install-01": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "sachdeva-125-tv-wall-install-02": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "sachdeva-125-mandir-01": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "sachdeva-125-living-divider": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "sachdeva-125-tv-wall-01": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "sachdeva-125-tv-wall-02": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "sachdeva-125-tv-wall-03": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "sachdeva-125-wardrobe-install": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "sachdeva-125-kitchen-install-01": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "sachdeva-125-kitchen-install-02": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "sachdeva-125-blue-bedroom-01": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "sachdeva-125-blue-bedroom-02": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "sachdeva-125-blue-bedroom-03": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "sachdeva-125-blue-bedroom-wide-01": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "sachdeva-125-blue-bedroom-wide-02": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "sachdeva-125-rose-bedroom-detail": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "sachdeva-125-rose-bedroom-01": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "sachdeva-125-rose-bedroom-02": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "sachdeva-125-rose-bedroom-03": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "sachdeva-125-rose-bedroom-04": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "sachdeva-125-living-room-final-01": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "sachdeva-125-living-room-final-02": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "sachdeva-125-living-dining-wide-01": {
+    "640": {
+      "width": 640,
+      "height": 360
+    },
+    "1280": {
+      "width": 1280,
+      "height": 720
+    },
+    "1920": {
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "sachdeva-125-living-dining-wide-02": {
+    "640": {
+      "width": 640,
+      "height": 360
+    },
+    "1280": {
+      "width": 1280,
+      "height": 720
+    },
+    "1920": {
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "sachdeva-125-formal-living-wide": {
+    "640": {
+      "width": 640,
+      "height": 360
+    },
+    "1280": {
+      "width": 1280,
+      "height": 720
+    },
+    "1920": {
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "tdi-wellington-img-0226": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "tdi-wellington-img-0227": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "tdi-wellington-img-0228": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "tdi-wellington-img-0229": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "tdi-wellington-img-0230": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "tdi-wellington-img-0231": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "tdi-wellington-img-0233": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "tdi-wellington-img-0234": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "tdi-wellington-img-0235": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "tdi-wellington-img-0239": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "tdi-wellington-img-0243": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "tdi-wellington-photo-2024-10-05-17-52-01": {
+    "640": {
+      "width": 640,
+      "height": 1138
+    },
+    "1280": {
+      "width": 900,
+      "height": 1600
+    },
+    "1920": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "tdi-wellington-photo-2024-10-07-13-44-30-2": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1600,
+      "height": 1200
+    }
+  },
+  "tdi-wellington-photo-2024-10-07-13-44-30": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1600,
+      "height": 1200
+    }
+  },
+  "tdi-wellington-photo-2024-10-07-13-44-31-2": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1600,
+      "height": 1200
+    }
+  },
+  "tdi-wellington-photo-2024-10-07-13-44-31": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1600,
+      "height": 1200
+    }
+  },
+  "tdi-wellington-photo-2024-10-07-14-02-02": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1200,
+      "height": 1600
+    },
+    "1920": {
+      "width": 1200,
+      "height": 1600
+    }
+  },
+  "tdi-wellington-photo-2025-04-07-13-39-36-2": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "tdi-wellington-photo-2025-04-07-13-39-36": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "tdi-wellington-photo-2025-04-07-13-39-54-2": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "tdi-wellington-photo-2025-04-07-13-39-54-3": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "tdi-wellington-photo-2025-04-07-13-39-54": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "tdi-wellington-photo-2025-04-07-13-39-55-2": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "tdi-wellington-photo-2025-04-07-13-39-55": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "tdi-wellington-photo-2025-04-07-13-39-56-2": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "tdi-wellington-photo-2025-04-07-13-39-56": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "tdi-wellington-photo-2025-04-07-13-39-57": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "tdi-wellington-photo-2025-04-07-13-51-13": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "tdi-wellington-photo-2025-04-07-13-51-15": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "sheena-nail-studio-overview": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "sheena-nail-lounge-mural": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 1440,
+      "height": 1920
+    }
+  },
+  "sheena-nail-treatment-area": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "sheena-nail-treatment-station": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 1440,
+      "height": 1920
+    }
+  },
+  "sheena-nail-polish-display-one": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 1440,
+      "height": 1920
+    }
+  },
+  "sheena-nail-polish-display-two": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 1440,
+      "height": 1920
+    }
+  },
+  "sheena-nail-polish-display-three": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 1440,
+      "height": 1920
+    }
+  },
+  "prince-123-01-kitchen-corner": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-02-kitchen-appliance-niche": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-03-kitchen-counter-detail": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-04-kitchen-wide-view-one": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1280,
+      "height": 960
+    }
+  },
+  "prince-123-05-kitchen-wide-view-two": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1280,
+      "height": 960
+    }
+  },
+  "prince-123-06-entry-doors": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1280,
+      "height": 960
+    }
+  },
+  "prince-123-07-kitchen-with-pantry": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1280,
+      "height": 960
+    }
+  },
+  "prince-123-08-carved-interior-door": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-09-bathroom-vanity": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-10-terrace-tile-detail": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-11-walnut-media-wall": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-12-marble-tv-wall-detail": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1280,
+      "height": 960
+    }
+  },
+  "prince-123-13-living-room-media-wall": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1280,
+      "height": 960
+    }
+  },
+  "prince-123-14-wardrobe-storage-detail": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1280,
+      "height": 960
+    }
+  },
+  "prince-123-15-decorative-ceiling": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1280,
+      "height": 960
+    }
+  },
+  "prince-123-16-wood-partition-door": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-17-media-wall-accent": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-18-textured-stone-wall": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-19-carved-wood-door-detail": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-20-staircase-window": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-21-carved-main-door": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-22-staircase-and-window": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-23-bedroom-door-detail": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-24-exterior-gate-progress": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-25-marble-media-console": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-26-bedroom-wardrobe-full": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-27-ceiling-light-overview": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-28-textured-wall-detail": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-29-woodwork-installation-progress": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-30-entertainment-wall-detail": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-31-dark-stone-wall-finish": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-32-ceiling-light-detail": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-33-bathroom-vanity-site-view": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-34-living-room-media-wall-view": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-35-kitchen-cabinet-corner": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-36-kitchen-wide-view": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-37-pull-out-pantry-storage": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-38-kitchen-counter-view": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-39-sector-123-exterior-one": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 960,
+      "height": 1280
+    }
+  },
+  "prince-123-40-sector-123-exterior-two": {
+    "640": {
+      "width": 512,
+      "height": 640
+    },
+    "1280": {
+      "width": 1024,
+      "height": 1280
+    },
+    "1920": {
+      "width": 1024,
+      "height": 1280
+    }
+  },
+  "prince-123-exterior-cleaned": {
+    "640": {
+      "width": 512,
+      "height": 640
+    },
+    "1280": {
+      "width": 1024,
+      "height": 1280
+    },
+    "1920": {
+      "width": 1122,
+      "height": 1402
+    }
+  },
+  "ruchit-phase1-hallway-view-one": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "ruchit-phase1-hallway-view-two": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "ruchit-phase1-staircase-installation-one": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "ruchit-phase1-staircase-installation-two": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "ruchit-phase1-staircase-installation-three": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "ruchit-phase1-lounge-site-view": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "ruchit-phase1-entrance-nameplate-site-view": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "ruchit-phase1-front-elevation-one": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "ruchit-phase1-front-elevation-two": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "ruchit-phase1-balcony-screen-detail": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "ruchit-phase1-exterior-corner-detail": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "ruchit-phase1-textured-feature-wall": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "ruchit-phase1-staircase-landing-one": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "ruchit-phase1-staircase-landing-two": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "ruchit-phase1-living-room-panelling": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "ruchit-phase1-living-room-wide": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "ruchit-phase1-bedroom-storage": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "ruchit-phase1-front-elevation-progress-one": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "ruchit-phase1-front-elevation-progress-two": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "ruchit-phase1-front-elevation-progress-three": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "ruchit-phase1-front-elevation-progress-four": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "ruchit-phase1-mandir-corner-one": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 1440,
+      "height": 1920
+    }
+  },
+  "ruchit-phase1-mandir-corner-two": {
+    "640": {
+      "width": 480,
+      "height": 640
+    },
+    "1280": {
+      "width": 960,
+      "height": 1280
+    },
+    "1920": {
+      "width": 1440,
+      "height": 1920
+    }
+  },
+  "ruchit-phase1-exterior-wide-view-one": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "ruchit-phase1-exterior-wide-view-two": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "ruchit-phase1-exterior-street-view": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "ruchit-phase1-exterior-gate-progress": {
+    "640": {
+      "width": 640,
+      "height": 480
+    },
+    "1280": {
+      "width": 1280,
+      "height": 960
+    },
+    "1920": {
+      "width": 1920,
+      "height": 1440
+    }
+  },
+  "ruchit-phase1-puja-room-one": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "ruchit-phase1-puja-room-two": {
+    "640": {
+      "width": 640,
+      "height": 853
+    },
+    "1280": {
+      "width": 1280,
+      "height": 1707
+    },
+    "1920": {
+      "width": 1920,
+      "height": 2560
+    }
+  },
+  "diwali-mandir-hero": {
+    "640": {
+      "width": 640,
+      "height": 360
+    },
+    "1280": {
+      "width": 1280,
+      "height": 720
+    },
+    "1920": {
+      "width": 1672,
+      "height": 941
+    }
+  }
+}

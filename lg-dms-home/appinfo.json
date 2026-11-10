@@ -1,0 +1,11 @@
+{
+  "id": "in.dmsstudio.living",
+  "version": "1.0.0",
+  "vendor": "DMS Studio",
+  "type": "web",
+  "main": "index.html",
+  "title": "DMS Living",
+  "icon": "assets/icon.png",
+  "largeIcon": "assets/icon.png",
+  "disableBackHistoryAPI": true
+}

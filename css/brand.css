@@ -1,0 +1,312 @@
+/* Approved artwork: trim its surrounding whitespace in layout, without redrawing it. */
+.home .hero-photo{filter:brightness(.82);object-position:50% 58%}
+.approved-brand{display:block;position:relative;overflow:hidden;flex-shrink:0;width:224px;height:auto;aspect-ratio:1540/550;line-height:1;mix-blend-mode:multiply}
+.approved-brand img{position:absolute;display:block;width:141.039%;max-width:none;height:auto;left:-21.429%;top:-13.636%;object-fit:initial}
+.site-header{height:104px;gap:24px}
+.footer-logo.approved-brand{width:230px;max-width:100%;filter:invert(1);mix-blend-mode:screen}
+.footer-grid{grid-template-columns:1.3fr 1.2fr 1.4fr .7fr}
+.footer-grid>div{min-width:0}
+@media(max-width:1200px){.brand.approved-brand{width:204px}.site-header{padding-left:4vw;padding-right:4vw;gap:18px}.site-header nav{gap:14px}.footer-grid{grid-template-columns:1.2fr 1fr 1.2fr}}
+@media(min-width:801px) and (max-width:1050px){.site-header .header-cta{display:none}.brand.approved-brand{width:214px}.site-header nav{gap:18px}}
+@media(max-width:800px){.site-header{height:94px}.brand.approved-brand{width:199px}.site-header .header-cta{display:none}.menu-toggle{display:flex;align-items:center;gap:10px;min-height:44px}.site-header nav{display:none;position:absolute;top:94px;left:0;right:0;background:var(--paper);padding:20px 6vw 30px;border-bottom:1px solid var(--line);box-shadow:0 20px 25px #0001}.site-header nav.is-open{display:flex;flex-direction:column;align-items:stretch;gap:0}.site-header nav a{font-family:var(--serif);font-size:28px;padding:10px 0}.site-header nav a:after{display:none}.footer-grid{grid-template-columns:1fr 1fr}.footer-grid>div:first-child{grid-column:1/-1}}
+@media(max-width:600px){.site-header{height:88px;padding-left:5vw;padding-right:5vw;gap:10px}.brand.approved-brand{width:clamp(170px,50vw,204px)}.site-header nav{top:88px}.menu-toggle{font-size:12px;padding-left:4px;gap:7px}.footer-grid{grid-template-columns:1fr}.footer-logo.approved-brand{width:240px}}
+@media print{.site-header,.footer{display:none}}
+
+/* Evaan Joshi: preserve the full portrait photographs and original camera clips. */
+.project-evaan-joshi .project-cover{display:flex;justify-content:center;background:#e9e4db}
+.project-evaan-joshi .project-cover img{width:auto;max-width:100%;height:auto;max-height:min(82svh,1000px);object-fit:contain}
+.project-evaan-joshi .gallery img{height:auto;max-height:82svh;object-fit:contain;background:#e9e4db}
+.project-evaan-joshi .project-film{filter:none;object-fit:contain}
+
+/* Keep the Opera Home panoramic viewer and its copy inside the same clean grid. */
+.walkthrough-layout{
+  grid-template-columns:minmax(0,.86fr) minmax(0,2fr);
+  column-gap:clamp(28px,3.2vw,64px);
+  align-items:center;
+}
+.walkthrough-copy,.walkthrough-view{min-width:0}
+.walkthrough-copy{padding-right:0}
+.walkthrough-copy h2{max-width:none;font-size:clamp(42px,3.2vw,60px);line-height:1.02}
+.walkthrough-intro{max-width:38ch;margin-top:20px}
+.walkthrough-story{margin-top:20px;padding-top:18px}
+.walkthrough-disclosure{max-width:48ch;margin-top:16px}
+.walkthrough-view{align-self:center;width:100%;height:min(72svh,820px);min-height:0}
+.walkthrough-controls{position:relative;z-index:2;flex-shrink:0;padding-top:8px;padding-bottom:18px;background:#e9e4da}
+.walkthrough-sticky{min-height:600px}
+@media(max-height:820px) and (min-width:801px){
+  .walkthrough-top{padding-top:12px}
+  .walkthrough-view{height:min(68svh,690px)}
+  .walkthrough-copy h2{font-size:clamp(40px,3vw,56px)}
+  .walkthrough-number{margin-bottom:12px}
+  .walkthrough-intro{margin-top:14px}
+  .walkthrough-story{margin-top:14px;padding-top:12px}
+  .walkthrough-story h3{font-size:24px}
+  .walkthrough-story p{font-size:13px;margin-top:7px}
+  .walkthrough-disclosure{font-size:10px;margin-top:10px}
+  .walkthrough-controls{padding-bottom:10px}
+}
+@media(max-width:1000px) and (min-width:601px){
+  .walkthrough-layout{grid-template-columns:minmax(0,.8fr) minmax(0,1.4fr);column-gap:24px}
+  .walkthrough-copy h2{font-size:clamp(38px,4.2vw,52px)}
+  .walkthrough-view{height:min(60svh,650px)}
+  .walkthrough-story h3{font-size:23px}
+  .walkthrough-copy .walkthrough-disclosure{font-size:10px}
+  .tour-chapters{gap:12px}
+  .tour-chapters button{font-size:10px}
+}
+@media(max-width:600px){
+  .walkthrough-layout{column-gap:0}
+  .walkthrough-copy h2{font-size:clamp(30px,8vw,38px);max-width:270px}
+  .walkthrough-view{width:100%;height:auto;min-height:265px}
+  .walkthrough-disclosure{max-width:100%}
+  .walkthrough-controls{background:transparent}
+}
+
+/* Essentia case-study photos: preserve full framing and centre every view. */
+.project-essentia-salon .project-cover img{
+  height:min(650px,74svh);
+  object-fit:contain;
+  background:#e9e4da;
+}
+.project-essentia-salon .gallery figure:nth-child(2){padding-top:0}
+.project-essentia-salon .gallery figure:nth-child(3){margin-top:0}
+.project-essentia-salon .gallery-item{
+  display:grid;
+  place-items:center;
+  background:#e9e4da;
+}
+.project-essentia-salon .gallery img{
+  height:auto;
+  max-height:min(76svh,760px);
+  object-fit:contain;
+  object-position:center;
+}
+@media(max-width:600px){
+  .project-essentia-salon .project-cover img{height:min(430px,70svh)}
+  .project-essentia-salon .gallery img{max-height:78svh}
+}
+
+/* Falcon 66 case study: keep original room compositions centred and uncropped. */
+.project-falcon-66 .project-cover{display:flex;justify-content:center;background:#e9e4db}
+.project-falcon-66 .project-cover img{width:100%;height:auto;max-height:min(78svh,900px);object-fit:contain}
+.project-falcon-66 .gallery img{height:auto;max-height:82svh;object-fit:contain;background:#e9e4db}
+.project-falcon-66 .project-film{filter:none;object-fit:contain}
+
+/* Sachdeva Residence case study: show the complete source framing, centred. */
+.project-sachdeva-125 .project-cover{display:flex;justify-content:center;background:#e9e4db}
+.project-sachdeva-125 .project-cover img{width:100%;height:auto;max-height:min(78svh,900px);object-fit:contain}
+.project-sachdeva-125 .gallery img{height:auto;max-height:82svh;object-fit:contain;background:#e9e4db}
+.project-sachdeva-125 .project-film{filter:none;object-fit:contain}
+/* A subtle display grade on Sachdeva walkthrough playback; source clips stay untouched. */
+.project-sachdeva-125 .project-film{filter:brightness(1.035) contrast(1.045) saturate(1.04);object-fit:contain}
+.project-video-jump{display:flex;justify-content:flex-end;margin-top:-12px;padding-bottom:14px}
+.project-videos{scroll-margin-top:32px}
+/* Sachdeva videos are transcoded to H.264; respect each clip’s true aspect ratio. */
+.project-sachdeva-125 .project-film{aspect-ratio:auto;height:auto;max-height:76svh}
+
+/* Keep the Opera walkthrough usable when a browser declines WebGL/Three.js. */
+.walkthrough.is-fallback{height:420svh}
+.walkthrough.is-fallback .walkthrough-sticky{position:sticky;top:0;height:100svh;min-height:600px}
+.walkthrough.is-fallback .walkthrough-controls{display:block}
+.walkthrough.is-fallback .house-view-bottom{display:flex}
+.walkthrough.is-fallback .tour-chapters{display:flex}
+.walkthrough.is-fallback .house-fallback{visibility:hidden}
+.walkthrough.is-fallback .house-canvas.is-fallback-view{opacity:1;background-image:url('../projects/opera-home/visualizations/opera-360-inspired.webp');background-size:auto 100%;background-position:var(--panorama-position,0%) center;background-repeat:no-repeat;cursor:grab}
+.walkthrough.is-fallback.is-orbit .house-canvas.is-fallback-view{cursor:grabbing;touch-action:none}
+@media(max-width:600px){
+ .walkthrough.is-fallback{height:340svh}
+ .walkthrough.is-fallback .walkthrough-sticky{min-height:780px}
+ .walkthrough.is-fallback .tour-chapters{display:grid}
+}
+@media(prefers-reduced-motion:reduce){
+ .walkthrough.is-fallback{height:auto}
+ .walkthrough.is-fallback .walkthrough-sticky{position:relative;height:auto;min-height:780px}
+}
+
+/* Keep the full Prince Residence elevation visible in its portrait project cover. */
+.project-prince-residence .prince-elevation-cover{position:relative;display:grid;place-items:center;height:min(82svh,920px);min-height:620px;overflow:hidden;isolation:isolate;background:#d8d2c7}
+.project-prince-residence .prince-elevation-cover .elevation-backdrop{position:absolute;inset:-2%;z-index:0;width:104%!important;height:104%!important;object-fit:cover!important;filter:blur(24px) brightness(.62) saturate(.72);opacity:.58}
+.project-prince-residence .prince-elevation-cover .elevation-main{position:relative;z-index:1;width:100%;height:100%!important;object-fit:contain!important;object-position:center;filter:drop-shadow(0 12px 32px rgba(0,0,0,.28))}
+@media(max-width:700px){.project-prince-residence .prince-elevation-cover{height:78svh;min-height:560px}.project-prince-residence .prince-elevation-cover .elevation-backdrop{filter:blur(18px) brightness(.67) saturate(.72)}}
+
+/* Social profiles and answer-first editorial summaries */
+.social-heading{margin:18px 0 8px}
+.social-links{display:flex;flex-wrap:wrap;gap:6px 14px;max-width:250px}
+.social-links a{font-size:12px;line-height:1.6}
+.article-quick-answer{max-width:900px;margin:0 auto 28px;padding:20px 24px;border-left:2px solid var(--ink,#302b25);background:rgba(255,255,255,.42)}
+.article-quick-answer span{display:block;margin-bottom:7px;font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase}
+.article-quick-answer p{margin:0;font-size:16px;line-height:1.7}
+@media(max-width:700px){.article-quick-answer{margin:0 20px 22px;padding:16px 18px}.article-quick-answer p{font-size:15px}}
+
+/* Dedicated FAQ library */
+.faq-hub-link{padding-bottom:50px}.faq-library{display:grid;grid-template-columns:minmax(220px,.75fr) minmax(0,2fr);gap:clamp(35px,6vw,100px);padding-bottom:100px;align-items:start}.faq-directory{position:sticky;top:32px}.faq-directory nav{display:grid;border-top:1px solid var(--line)}.faq-directory nav a{display:flex;justify-content:space-between;gap:16px;padding:15px 0;border-bottom:1px solid var(--line);font-size:14px;line-height:1.5}.faq-directory nav a>span:last-child{color:var(--muted);font-size:12px}.faq-search{padding:26px;background:#e9e3d9;border-radius:8px;margin-bottom:48px}.faq-search label{display:block;font-size:16px;font-weight:600;margin-bottom:12px}.faq-search-row{display:flex;gap:12px}.faq-search input{min-width:0;flex:1;width:100%;padding:13px 14px;background:var(--paper);border:1px solid #938779;border-radius:4px}.faq-search button{padding:10px 14px;border:1px solid #938779;border-radius:4px;font-size:14px}.faq-search #faq-count{font-size:13px;margin-top:10px}.faq-topic{margin-bottom:62px;scroll-margin-top:35px}.faq-topic-heading{margin-bottom:22px}.faq-topic h2{font-size:clamp(33px,3.1vw,47px);line-height:1.1}.faq-topic-heading p{font-size:15px;margin-top:13px;max-width:600px}.faq-question{border-top:1px solid var(--line);scroll-margin-top:30px}.faq-question summary{display:flex;align-items:flex-start;justify-content:space-between;gap:25px;padding:23px 0;cursor:pointer;font-size:17px;line-height:1.55;list-style:none}.faq-question summary::-webkit-details-marker{display:none}.faq-question summary span{flex:none;font-size:23px;font-weight:400;line-height:1.1}.faq-question[open] summary span{transform:rotate(45deg)}.faq-answer{padding:0 12px 25px 0}.faq-answer p{font-size:16px;line-height:1.9;color:#5d554c}.faq-permalink{display:block;width:fit-content;font-size:12px;margin-top:16px;text-decoration:underline;text-underline-offset:4px}.faq-answer-link{display:block;font-size:14px;margin-top:16px;text-decoration:underline;text-underline-offset:4px}.faq-budget-note{font-size:14px;line-height:1.8;padding:18px 20px;background:#e9e3d9;border-left:2px solid #8f795d;margin-bottom:20px}.faq-budget-note a,#faq-empty a{text-decoration:underline}.faq-closing{padding:36px 0 0;border-top:1px solid var(--line)}.faq-closing h2{font-size:clamp(38px,4vw,58px)}.faq-closing>p:not(.eyebrow){margin-top:20px}.faq-closing .button{margin-top:24px}.faq-directory .text-link{margin-top:18px}#faq-empty{padding:25px 0 45px}
+@media(max-width:800px){.faq-library{grid-template-columns:1fr;gap:35px}.faq-directory{position:static}.faq-directory nav{grid-template-columns:1fr 1fr;column-gap:24px}.faq-directory .eyebrow{margin-bottom:14px}.faq-topic{margin-bottom:45px}.faq-search{margin-bottom:35px}.faq-question summary{font-size:16px}.faq-answer p{font-size:15px}}
+@media(max-width:430px){.faq-directory nav{grid-template-columns:1fr}.faq-search{padding:19px}.faq-search-row{gap:7px}.faq-search input{font-size:16px;padding:11px 9px}.faq-search button{padding:8px}.faq-question summary{gap:15px}}
+
+/* Responsive layout consolidation — 23 October 2026.
+   Size by available CSS viewport, including short landscape and TV browsers. */
+:root{--pad:clamp(20px,5vw,80px)}
+.wrap{width:calc(100% - 2 * var(--pad));max-width:1440px}
+.site-header{padding-inline:max(var(--pad),calc((100% - 1440px)/2));}
+:is(.intro-section,.material-layout,.services-preview,.founder,.journal-grid,.project-grid,.service-feature,.detail-intro,.contact-layout,.service-editorial,.local-guide,.service-proof,.location-links,.location-card-grid,.local-service-grid,.local-contact,.faq-library,.footer-grid)>*{min-width:0}
+:is(h1,h2,h3,p,address,dd,figcaption,.breadcrumb,.text-link){overflow-wrap:break-word}
+:is(video,iframe){max-width:100%}
+.project-grid{column-gap:clamp(24px,5vw,80px)}
+.founder{gap:clamp(32px,6vw,100px)}
+.contact-layout{gap:clamp(32px,6vw,100px)}
+:is(.service-editorial,.local-guide,.service-proof,.location-links,.local-contact){column-gap:clamp(28px,6vw,100px)}
+.filter-bar,.card-meta,.project-credit{flex-wrap:wrap}
+input,select,textarea{min-width:0;font-size:16px}
+.contact-info>a,.footer-grid address{overflow-wrap:anywhere}
+.breadcrumb{overflow-wrap:anywhere}
+.site-header nav{flex-shrink:0}
+.site-header nav a,.menu-toggle{min-height:44px}
+.site-header nav.is-open{max-height:calc(100svh - 88px);overflow-y:auto;overscroll-behavior:contain}
+.walkthrough-view{border-radius:8px}
+/* Reserve room for both copy and controls inside the pinned desktop scene. */
+@media(min-width:1001px) and (min-height:701px){
+ .walkthrough-layout{padding-block:16px;gap:clamp(24px,3vw,48px)}
+ .walkthrough-view{height:min(65svh,820px);max-height:100%}
+ .walkthrough-copy h2{font-size:clamp(36px,3vw,56px)}
+ .walkthrough-intro{font-size:clamp(13px,1vw,15px);line-height:1.65}
+ .walkthrough-story p{line-height:1.65}
+}
+/* Compact-height desktop keeps the editorial split; only narrow screens stack. */
+@media(min-width:601px) and (max-height:700px){
+ .walkthrough,.walkthrough.is-fallback{height:auto}
+ .walkthrough .walkthrough-sticky,.walkthrough.is-fallback .walkthrough-sticky,.walkthrough.is-manual .walkthrough-sticky{position:relative;height:auto;min-height:0;overflow:visible;padding-block:20px}
+ .walkthrough-layout{grid-template-columns:minmax(0,.86fr) minmax(0,2fr);gap:clamp(20px,2.5vw,36px);padding-block:12px;flex:none}
+ .walkthrough-copy h2{font-size:clamp(32px,3.4vw,48px)}
+ .walkthrough-copy h2 br{display:none}
+ .walkthrough-number{margin-bottom:10px}
+ .walkthrough-intro{font-size:13px;line-height:1.55;margin-top:12px}
+ .walkthrough-story{margin-top:13px;padding-top:12px}
+ .walkthrough-story h3{font-size:23px}
+ .walkthrough-story p{font-size:12px;line-height:1.5;margin-top:6px}
+ .walkthrough-disclosure{font-size:10px;margin-top:10px}
+ .walkthrough-view{height:min(62svh,560px);min-height:300px;max-height:none;aspect-ratio:auto}
+ .walkthrough-controls{padding-bottom:0}
+}
+/* Short and touch layouts use direct chapter selection rather than a tall pin. */
+@media(max-width:1000px) and (min-width:601px) and (min-height:701px){
+ .walkthrough,.walkthrough.is-fallback{height:auto}
+ .walkthrough .walkthrough-sticky,.walkthrough.is-fallback .walkthrough-sticky,.walkthrough.is-manual .walkthrough-sticky{position:relative;height:auto;min-height:0;overflow:visible;padding-block:24px}
+ .walkthrough-layout{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.4fr);gap:24px;padding-block:20px;flex:none}
+ .walkthrough-copy h2{font-size:clamp(32px,5vw,48px);max-width:22ch}
+ .walkthrough-copy h2 br{display:none}
+ .walkthrough-number{position:static;margin-bottom:12px}
+ .walkthrough-intro{max-width:65ch;margin-top:16px}
+ .walkthrough-story{display:block;margin-top:16px;padding-top:14px}
+ .walkthrough-story h3{max-width:none;font-size:26px}
+ .walkthrough-story p{font-size:14px;max-width:65ch;margin-top:8px}
+ .walkthrough-disclosure{position:static;font-size:11px;max-width:70ch;margin-top:12px}
+ .walkthrough-view{height:auto;aspect-ratio:4/3;min-height:0;max-height:640px;overflow:hidden}
+ .walkthrough-controls{padding-bottom:0}
+ .tour-chapters,.walkthrough.is-fallback .tour-chapters{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+ .tour-chapters button{font-size:11px;overflow-wrap:break-word}
+ .tour-chapters button span{display:block;margin:0 0 4px}
+ .house-view-bottom{left:12px;right:12px;bottom:12px;gap:8px}
+ .house-view-top{left:12px;right:12px;top:12px}
+ .house-view-bottom p{font-size:11px;max-width:50%;line-height:1.5}
+ .house-view-bottom button{font-size:12px;padding:10px;max-width:52%}
+ .orbit-controls{right:12px;bottom:78px}
+}
+@media(max-width:600px){
+ .walkthrough,.walkthrough.is-fallback{height:auto}
+ .walkthrough .walkthrough-sticky,.walkthrough.is-fallback .walkthrough-sticky,.walkthrough.is-manual .walkthrough-sticky{position:relative;height:auto;min-height:0;overflow:visible;padding-block:24px}
+ .walkthrough-layout{display:grid;grid-template-columns:1fr;gap:24px;padding-block:20px;flex:none}
+ .walkthrough-copy h2{font-size:clamp(32px,5vw,48px);max-width:22ch}
+ .walkthrough-copy h2 br{display:none}
+ .walkthrough-number{position:static;margin-bottom:12px}
+ .walkthrough-intro{max-width:65ch;margin-top:16px}
+ .walkthrough-story{display:block;margin-top:16px;padding-top:14px}
+ .walkthrough-story h3{max-width:none;font-size:26px}
+ .walkthrough-story p{font-size:14px;max-width:65ch;margin-top:8px}
+ .walkthrough-disclosure{position:static;font-size:11px;max-width:70ch;margin-top:12px}
+ .walkthrough-view{height:auto;aspect-ratio:4/3;min-height:0;max-height:640px;overflow:hidden}
+ .walkthrough-controls{padding-bottom:0}
+ .tour-chapters,.walkthrough.is-fallback .tour-chapters{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+ .tour-chapters button{font-size:11px;overflow-wrap:break-word}
+ .tour-chapters button span{display:block;margin:0 0 4px}
+ .house-view-bottom{left:12px;right:12px;bottom:12px;gap:8px}
+ .house-view-top{left:12px;right:12px;top:12px}
+ .house-view-bottom p{font-size:11px;max-width:50%;line-height:1.5}
+ .house-view-bottom button{font-size:12px;padding:10px;max-width:52%}
+ .orbit-controls{right:12px;bottom:78px}
+}
+@media(min-width:801px) and (max-width:1100px){
+ .site-header .header-cta{display:none}
+ .site-header nav{gap:clamp(12px,1.5vw,18px)}
+ .brand.approved-brand{width:190px}
+}
+@media(min-width:601px) and (max-width:1000px){
+ .journal-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .journal-card h3{max-width:none}
+ .founder{gap:32px}
+ .location-strip{flex-wrap:wrap;justify-content:center;text-align:center}
+}
+@media(max-width:600px){
+ .home .hero{height:auto;min-height:max(650px,100svh);max-height:none}
+ .hero-content{min-height:inherit;padding-top:130px;padding-bottom:110px}
+ .hero h1{font-size:clamp(44px,12.8vw,72px);line-height:1.08}
+ .hero-bottom{margin-top:28px}
+ .hero-content .eyebrow{font-size:10px}
+ .page-intro h1{font-size:clamp(42px,11vw,58px)}
+ .section-heading h2,.intro-section h2{font-size:clamp(36px,10vw,44px)}
+ .form-grid,.process-grid{grid-template-columns:1fr}
+ .form-grid{gap:22px}
+ .contact-info .contact-phone{font-size:clamp(27px,8vw,33px)}
+ .location-links>div:last-child{grid-template-columns:1fr}
+ .local-contact{padding:24px}
+ .walkthrough-view{aspect-ratio:1/1}
+ .tour-chapters,.walkthrough.is-fallback .tour-chapters{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px 14px}
+ .tour-chapters button{font-size:12px;line-height:1.5;min-height:58px}
+ .walkthrough-top{padding-top:0;align-items:flex-start}
+ .walkthrough-top .eyebrow{font-size:9px;max-width:60%}
+ .walkthrough-skip{padding-top:0;font-size:12px}
+ .next-project h2{font-size:clamp(34px,10vw,44px);gap:16px}
+ .faq-search-row{flex-wrap:wrap}
+ .faq-search input{flex-basis:180px}
+ .footer-bottom{grid-template-columns:1fr;padding-bottom:65px}
+ .footer-bottom>span:nth-child(2){grid-row:auto}
+}
+@media(min-width:1921px){
+ .home .hero{height:min(1100px,92svh);min-height:760px}
+ .hero h1{font-size:clamp(126px,5vw,160px);max-width:1100px}
+ .hero-grid{inset-inline:max(var(--pad),calc((100% - 1440px)/2))}
+ .scroll-cue{left:max(var(--pad),calc((100% - 1440px)/2))}
+ .location-strip{padding-inline:max(var(--pad),calc((100% - 1440px)/2))}
+}
+/* Keep a 4K display readable at normal browser zoom, with bounded line lengths. */
+@media(min-width:2560px){
+ .wrap{max-width:2160px}
+ .site-header{height:140px;padding-inline:max(var(--pad),calc((100% - 2160px)/2))}
+ .brand.approved-brand{width:300px}
+ .site-header nav{gap:32px}
+ .site-header nav a{font-size:19px}
+ .site-header .header-cta{font-size:17px;padding:18px 24px}
+ .hero-grid{inset-inline:max(var(--pad),calc((100% - 2160px)/2))}
+ .scroll-cue{left:max(var(--pad),calc((100% - 2160px)/2));font-size:14px}
+ .location-strip{padding-inline:max(var(--pad),calc((100% - 2160px)/2));font-size:14px}
+ .home .hero{height:min(1500px,92svh)}
+ .hero h1{font-size:180px;max-width:1450px}
+ .hero-content .eyebrow{font-size:17px}
+ .hero-bottom p,.hero-project{font-size:21px}
+ .button,.text-link{font-size:19px}
+ .eyebrow{font-size:15px}
+ .section{padding-block:145px}
+ .section-heading h2,.intro-section h2,.services-preview h2,.founder-copy h2{font-size:88px}
+ .project-card h3,.journal-card h3,.service-list h3{font-size:46px;max-width:none}
+ .intro-bottom p,.project-card>p,.founder-copy>p:not(.eyebrow),.service-editorial p,.local-guide p{font-size:21px;max-width:55ch}
+ .walkthrough-copy h2{font-size:78px}
+ .walkthrough-intro{font-size:21px}
+ .walkthrough-story h3{font-size:38px}
+ .walkthrough-story p{font-size:19px;max-width:45ch}
+ .walkthrough-disclosure{font-size:15px}
+ .walkthrough-view{height:min(65svh,1200px)}
+ .tour-chapters button{font-size:17px}
+ .footer-grid p,.footer-grid address,.footer-grid>div>a:not(.footer-logo){font-size:18px}
+ .footer-logo.approved-brand{width:300px}
+ .whatsapp-float{width:68px;height:68px;right:32px;bottom:32px}
+}
+.article-inline-links a{font-weight:600;text-decoration:underline;text-decoration-color:var(--muted);text-underline-offset:3px}.article-inline-links a:focus-visible,.article-inline-links a:hover{text-decoration-color:var(--ink)}
