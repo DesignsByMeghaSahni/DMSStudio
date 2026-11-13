@@ -3,7 +3,7 @@
     "slug": "mohali",
     "city": "Mohali",
     "headline": "A considered home, close to the studio.",
-    "intro": "From a complete home to a carefully planned kitchen, DMS Studio provides residential and commercial interior design in Mohali. Our studio is in Sector 125, Sunny Enclave, Kharar, and our work includes Babbar Residency and Opera Home in Mohali.",
+    "intro": "DMS Studio designs residential and commercial interiors in Mohali, from complete homes and turnkey execution to kitchens, wardrobes and lighting. Our studio is in Sector 125, Sunny Enclave, Kharar. Explore photographed work in Sector 125, Sector 66, Sector 117 and other Mohali neighbourhoods before discussing your own brief.",
     "heading": "Planning a complete home in Mohali",
     "sections": [
       [
@@ -20,10 +20,11 @@
       ]
     ],
     "project": "babbar-residency",
+    "relatedProjects": ["falcon-66", "tdi-wellington-3bhk", "sheena-3b2-nail-studio"],
     "faqs": [
       [
         "Do you have completed projects in Mohali?",
-        "Yes. The portfolio includes Babbar Residency in Sector 125 and Opera Home on Kurali Road, Mohali. Their project pages show original DMS photographs and the documented scope."
+        "Yes. The portfolio includes Babbar Residency in Sector 125, Falcon 66 in Sector 66, TDI Wellington in Sector 117, and Opera Home on Kurali Road. Their project pages identify the actual location and documented work."
       ],
       [
         "Can you design a full home and manage execution?",
@@ -48,7 +49,7 @@
     "slug": "chandigarh",
     "city": "Chandigarh",
     "headline": "New possibilities for a familiar address.",
-    "intro": "DMS Studio serves Chandigarh from its Mohali studio, with residential interiors, renovations, commercial layouts and turnkey design support. Start with your existing plan and the changes you want to make; the proposed scope follows an assessment of the space.",
+    "intro": "Looking for an interior designer for a Chandigarh home or workplace? DMS Studio serves Chandigarh from its Sunny Enclave studio in Mohali, providing residential interiors, renovations, commercial layouts and agreed turnkey execution. Share your plan, site photos and priorities to discuss a suitable scope. The photographed projects below are nearby Mohali work, clearly labelled with their real locations.",
     "heading": "Thinking through a Chandigarh renovation",
     "sections": [
       [
@@ -65,6 +66,7 @@
       ]
     ],
     "project": "babbar-residency",
+    "relatedProjects": ["prince-residence", "ruchit-phase-1", "falcon-66"],
     "faqs": [
       [
         "Does DMS Studio work in Chandigarh?",

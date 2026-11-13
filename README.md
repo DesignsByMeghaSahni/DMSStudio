@@ -26,10 +26,12 @@ The shipped HTML can be edited directly. For consistent site-wide changes, the o
 
 ```sh
 python3 scripts/build.py
+python3 scripts/prepare_scheduled_blogs.py
 python3 scripts/check-site.py
 ```
 
 This is an optional maintenance helper, not a prerequisite for opening the website. It overwrites generated HTML. Do not mix direct page edits with regeneration unless the same changes are made in the template.
+Run `prepare_scheduled_blogs.py` after `build.py` so the date-gated article cards remain in the homepage and blog listing.
 
 - Shared navigation/footer, page layouts, business facts, service content: `scripts/build.py`.
 - Project content: `content/projects.json`.

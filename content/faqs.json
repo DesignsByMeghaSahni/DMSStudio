@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-11-13",
   "categories": [
     {
       "id": "choosing-a-designer",
@@ -50,27 +50,27 @@
         {
           "id": "budgets-1",
           "q": "What budget range should I plan for 2BHK interiors in Mohali?",
-          "a": "DMS’s published 2026 guide gives ₹8–14 lakh as an indicative mid-range 2BHK turnkey budget. This is a planning reference, not a current offer or fixed package. Room sizes, work quantities, finishes and existing conditions affect the total. Contact DMS with your plan for current pricing and written inclusions."
+          "a": "A 2BHK interior budget in Mohali depends on the rooms included, material specifications and site condition; there is no reliable fixed DMS package price. Share your floor plan and priorities to receive a written scope and current quotation."
         },
         {
           "id": "budgets-2",
           "q": "What is the interior design budget range for a 3BHK in Chandigarh or Mohali?",
-          "a": "The studio’s published 2026 guide places mid-range 3BHK turnkey interiors around ₹12–20 lakh and premium/luxury work around ₹20–35 lakh. These indicative bands are not a quotation. Confirm the actual rooms, joinery, furniture and finishes with DMS, and contact the studio for a project-specific price."
+          "a": "A 3BHK interior budget in Chandigarh or Mohali depends on the work scope, joinery, finishes and existing site conditions. DMS does not publish a fixed project price; request an itemised proposal for your actual rooms and requirements."
         },
         {
           "id": "budgets-3",
           "q": "How much should I budget for interiors of a 250 or 400 gaj kothi?",
-          "a": "Plot area alone cannot price an interior: the number of floors and rooms being finished matter. DMS’s published guide suggests ₹25–60 lakh for a 2,500–4,000 sq ft villa interior, as an indicative reference only. This is not a rate for every 250 or 400 gaj plot. Contact DMS with floor plans for current pricing."
+          "a": "A 250 or 400 gaj plot does not establish an interior budget because the built area, floors, rooms and selected work vary. Share the plans and desired scope for an itemised quotation instead of estimating from plot size alone."
         },
         {
           "id": "budgets-4",
           "q": "Why do two interior quotations for the same flat differ so much?",
-          "a": "They may cover different quantities, board specifications, hardware, finishes or site work. Compare each line against the same drawings and ask what is excluded, including appliances, loose furniture, delivery and taxes. A low headline total can describe a smaller scope. Ask DMS to discuss a suitable budget range and contact the studio for an exact proposal."
+          "a": "Two interior quotations often differ because they include different quantities, materials, hardware, finishes or site work. Compare each line against the same drawings and check exclusions such as appliances, loose furniture, delivery and taxes."
         },
         {
           "id": "budgets-5",
           "q": "Is interior work priced by carpet area, built-up area or item quantities?",
-          "a": "Different providers use different methods, so always ask which area or quantity a rate measures. A whole-home floor-area estimate cannot be directly compared with a cupboard or kitchen elevation-area rate. An itemised bill of quantities makes the scope easier to compare. Contact DMS for a measured proposal and an appropriate budget range."
+          "a": "Interior work may be quoted by floor area, item quantities or measured joinery area, depending on the work. Ask which area each rate uses; compare written quantities and specifications rather than a single headline rate."
         },
         {
           "id": "budgets-6",
@@ -99,7 +99,7 @@
         {
           "id": "process-2",
           "q": "Can I get design drawings and appoint my own contractors?",
-          "a": "Discuss a design-only brief with DMS and confirm which drawings, specifications and site support it would include. Execution responsibilities need to be explicit when contractors are appointed separately. Agree who verifies measurements, answers site queries and approves substitutions so the design does not depend on assumptions during installation."
+          "a": "Yes, design-only work with your own contractors can be discussed. Confirm which drawings, specifications, revisions and site support DMS would provide, and who will be responsible for procurement and installation."
         },
         {
           "id": "process-3",
@@ -109,12 +109,12 @@
         {
           "id": "process-4",
           "q": "How long will my 3BHK interiors take to complete?",
-          "a": "The schedule depends on design approvals, site readiness, manufacturing and the amount of civil work. Ask for separate milestones for design, ordering, installation and snag correction instead of one unexplained completion date. DMS can discuss a realistic project schedule after reviewing the property and confirmed scope."
+          "a": "A 3BHK completion date cannot be promised without the approved scope and site readiness. Design approvals, manufacturing, civil work and installation each affect the schedule; ask for separate written milestones."
         },
         {
           "id": "process-5",
           "q": "Will I see layouts and 3D views before work starts?",
-          "a": "Ask for the drawing and visualisation deliverables to be listed in your proposal. Layouts help test furniture positions and circulation, while 3D views help communicate the intended appearance. Material samples and working drawings are also important: a rendered image alone does not specify every dimension, fitting or construction detail."
+          "a": "Layouts and 3D views should be confirmed as named deliverables in your proposal before work begins. Layouts test furniture and circulation; visualisations communicate appearance, while samples and working drawings specify construction details."
         },
         {
           "id": "process-6",
@@ -177,7 +177,7 @@
         {
           "id": "rooms-2",
           "q": "Should I choose a modular kitchen or a carpenter-built kitchen?",
-          "a": "Compare the proposed layout, construction details, installation process and service arrangements. Modular units can provide a defined production system; site-built work may address unusual dimensions. Neither label alone guarantees quality. Check the actual material specification, moisture detailing, hardware and access for future repairs before deciding."
+          "a": "Neither a modular nor a carpenter-built kitchen is automatically better. Modular units can provide a defined production system; site-built work may address unusual dimensions. Compare the layout, material specification, moisture detailing, hardware, installation and access for future repairs."
         },
         {
           "id": "rooms-3",
@@ -226,7 +226,7 @@
         {
           "id": "renovation-3",
           "q": "Can the exterior elevation and interiors be designed together?",
-          "a": "They can be coordinated through window positions, materials, lighting and the relationship between indoor and outdoor spaces. Confirm the separate responsibilities for architectural design, structural work and interiors at the outset. DMS’s kothi portfolio is useful for discussing the visual direction; the technical scope must be agreed for your property."
+          "a": "Yes, exterior elevation and interiors can be designed together. Coordinate windows, materials, lighting and indoor-outdoor transitions. Confirm separate responsibilities for architectural design, structural work, approvals and interiors before work starts."
         },
         {
           "id": "renovation-4",
@@ -260,7 +260,7 @@
         {
           "id": "local-and-remote-2",
           "q": "Can you plan interiors for flats in Zirakpur, Kharar or New Chandigarh?",
-          "a": "Contact DMS with the society name, floor plan and possession status. Apartment planning needs to consider existing services, room dimensions and society arrangements as well as appearance. The portfolio includes Yogesh Residence in Zirakpur and Opera Home on Kurali Road; each project provides context rather than a standard package for every flat."
+          "a": "Yes, DMS Studio serves flats in Zirakpur, Kharar and New Chandigarh from its Sunny Enclave studio. The portfolio includes Yogesh Residence in Zirakpur and Opera Home on Kurali Road. Share the society name, floor plan and possession status for a project-specific discussion."
         },
         {
           "id": "local-and-remote-3",

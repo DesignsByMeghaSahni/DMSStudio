@@ -21,13 +21,15 @@
 
 ## Key pages
 
-- [About DMS Studio](https://www.dmsstudio.in/about.html)
-- [Services](https://www.dmsstudio.in/services.html)
-- [Projects](https://www.dmsstudio.in/projects.html)
-- [Contact](https://www.dmsstudio.in/contact.html)
-- [Interior design FAQs](https://www.dmsstudio.in/faq.html)
+- [About DMS Studio](https://www.dmsstudio.in/about)
+- [Services](https://www.dmsstudio.in/services)
+- [Projects](https://www.dmsstudio.in/projects)
+- [Contact](https://www.dmsstudio.in/contact)
+- [Interior design FAQs](https://www.dmsstudio.in/faq)
 - [Areas we serve](https://www.dmsstudio.in/areas-we-serve/)
-- [Journal](https://www.dmsstudio.in/blog.html)
+- [Interior design in Mohali](https://www.dmsstudio.in/interior-designer-in-mohali/)
+- [Interior design in Chandigarh](https://www.dmsstudio.in/interior-designer-in-chandigarh/)
+- [Journal](https://www.dmsstudio.in/blog)
 
 ## Selected projects
 

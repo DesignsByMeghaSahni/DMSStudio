@@ -1,6 +1,20 @@
 /* Progressive enhancement: links, content and galleries remain usable without JS. */
 (() => {
   'use strict';
+  // Event names contain no form values or personal contact information.
+  // They are delivered only when a Google tag or Tag Manager is configured.
+  function trackContact(action, destination) {
+    const details = { contact_method: action, page_path: location.pathname, destination };
+    if (typeof window.gtag === 'function') window.gtag('event', 'contact_click', details);
+    else if (Array.isArray(window.dataLayer)) window.dataLayer.push({ event: 'contact_click', ...details });
+  }
+  document.addEventListener('click', event => {
+    const anchor = event.target.closest('a[href]');
+    if (!anchor) return;
+    const href = anchor.getAttribute('href') || '';
+    const method = href.startsWith('tel:') ? 'phone' : href.startsWith('mailto:') ? 'email' : /(?:^https?:\/\/)?(?:wa\.me|api\.whatsapp\.com)\//i.test(href) ? 'whatsapp' : null;
+    if (method) trackContact(method, method === 'whatsapp' ? 'whatsapp' : 'direct');
+  });
   const menu = document.querySelector('.menu-toggle');
   const nav = document.querySelector('#navigation');
   function closeMenu() {
@@ -81,6 +95,9 @@
   if (form) {
     const service = new URLSearchParams(location.search).get('service');
     if ([...form.elements.service.options].some(option => option.value === service)) form.elements.service.value = service;
+    const projectLocation = new URLSearchParams(location.search).get('location');
+    const locationField = form.elements.namedItem('location');
+    if (projectLocation && projectLocation.length <= 100 && locationField && !locationField.value) locationField.value = projectLocation;
     const submitButton = form.querySelector('button[type="submit"]');
     const result = document.querySelector('#enquiry-result');
     const resultTitle = document.querySelector('#enquiry-result-title');
@@ -106,6 +123,8 @@
         if (!accepted) throw new Error(payload.message || 'The form service did not accept the enquiry.');
         resultTitle.textContent = 'Thank you — your enquiry was sent.';
         resultMessage.textContent = 'Your enquiry was accepted by our delivery service. DMS Studio will get back to you soon.';
+        if (typeof window.gtag === 'function') window.gtag('event', 'generate_lead', { method: 'website_form', page_path: location.pathname });
+        else if (Array.isArray(window.dataLayer)) window.dataLayer.push({ event: 'generate_lead', method: 'website_form', page_path: location.pathname });
         form.reset();
         result.dataset.state = 'success';
       } catch (error) {

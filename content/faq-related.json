@@ -1,0 +1,58 @@
+{
+  "choosing-a-designer-1": {
+    "label": "See completed residential projects",
+    "href": "projects.html"
+  },
+  "choosing-a-designer-6": {
+    "label": "See photographed DMS projects",
+    "href": "projects.html"
+  },
+  "budgets-1": {
+    "label": "Discuss a 2BHK scope",
+    "href": "contact.html"
+  },
+  "budgets-2": {
+    "label": "Discuss a 3BHK scope",
+    "href": "contact.html"
+  },
+  "process-1": {
+    "label": "Explore turnkey interiors",
+    "href": "services/turnkey-interiors/index.html"
+  },
+  "process-4": {
+    "label": "See the turnkey process",
+    "href": "services/turnkey-interiors/index.html"
+  },
+  "rooms-1": {
+    "label": "See Falcon 66, Mohali",
+    "href": "projects/falcon-66/index.html"
+  },
+  "rooms-2": {
+    "label": "Explore kitchen and storage planning",
+    "href": "services/modular-and-lighting/index.html"
+  },
+  "rooms-6": {
+    "label": "Read the children’s room guide",
+    "href": "blog/kids-bedroom-design-beyond-the-theme/index.html"
+  },
+  "local-and-remote-1": {
+    "label": "See areas served",
+    "href": "areas-we-serve/index.html"
+  },
+  "local-and-remote-2": {
+    "label": "See Tricity service areas",
+    "href": "areas-we-serve/index.html"
+  },
+  "local-and-remote-3": {
+    "label": "See completed Mohali projects",
+    "href": "interior-designer-in-mohali/index.html"
+  },
+  "commercial-and-handover-1": {
+    "label": "See Essentia Salon, New Chandigarh",
+    "href": "projects/essentia-salon/index.html"
+  },
+  "commercial-and-handover-2": {
+    "label": "See Sheena Nail Studio, Mohali",
+    "href": "projects/sheena-3b2-nail-studio/index.html"
+  }
+}
