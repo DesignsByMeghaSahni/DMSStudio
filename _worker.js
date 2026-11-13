@@ -19,14 +19,13 @@ function updateListings(html, path, now) {
   if (!match) return html;
   const cards = [...match[1].matchAll(/<article\b[^>]*data-blog-date="(\d{4}-\d{2}-\d{2})"[^>]*>[\s\S]*?<\/article>/g)]
     .filter(m => visible(m[1], now)).sort((a,b) => b[1].localeCompare(a[1]));
-  const isBlogArchive = path === "/blog.html" || path === "/blog" || path === "/blog/";
-  const listing = isBlogArchive ? cards.map(m => m[0]) : cards.slice(0,3).map(m => m[0]);
+  const listing = ["/blog.html", "/blog", "/blog/"].includes(path) ? cards.map(m => m[0]) : cards.slice(0,3).map(m => m[0]);
   return html.replace(match[0], `<div class="journal-grid">${listing.join("")}</div>`);
 }
 function updateSitemap(xml, now) {
-  const existing = new Set([...xml.matchAll(/<loc>https:\/\/www\.dmsstudio\.in\/blog\/([^/<]+)\/index\.html<\/loc>/g)].map(m => m[1]));
+  const existing = new Set([...xml.matchAll(/<loc>https:\/\/www\.dmsstudio\.in\/blog\/([^/<]+)\/(?:index\.html)?<\/loc>/g)].map(m => m[1]));
   const entries = SCHEDULED.filter(a => visible(a.publishDate, now) && !existing.has(a.slug))
-    .map(a => `  <url><loc>https://www.dmsstudio.in/blog/${a.slug}/index.html</loc><lastmod>${a.publishDate}</lastmod></url>`).join("\n");
+    .map(a => `  <url><loc>https://www.dmsstudio.in/blog/${a.slug}/</loc><lastmod>${a.publishDate}</lastmod></url>`).join("\n");
   return entries ? xml.replace("</urlset>", `${entries}\n</urlset>`) : xml;
 }
 
@@ -40,8 +39,7 @@ export default {
     const response = await env.ASSETS.fetch(request);
     if (!response.ok) return response;
     const isSitemap = url.pathname === "/sitemap.xml";
-    const isListing = url.pathname === "/" || url.pathname === "/index.html" ||
-      url.pathname === "/blog.html" || url.pathname === "/blog" || url.pathname === "/blog/";
+    const isListing = url.pathname === "/" || url.pathname === "/index.html" || url.pathname === "/blog.html" || url.pathname === "/blog" || url.pathname === "/blog/";
     if (!isSitemap && !isListing) return response;
     const body = await response.text();
     const output = isSitemap ? updateSitemap(body, now) : updateListings(body, url.pathname, now);

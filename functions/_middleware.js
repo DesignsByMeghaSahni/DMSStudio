@@ -1,16 +1,6 @@
 // Keep scheduled publishing logic limited to the routes configured in
 // cloudflare-deploy/_routes.json. Static assets bypass this middleware.
-const SCHEDULED = [
-  { slug: "small-home-mandir-design-mohali", publishDate: "2026-11-02" },
-  { slug: "warm-winter-home-interiors-mohali", publishDate: "2026-11-09" },
-  { slug: "guest-bedroom-design-indian-homes", publishDate: "2026-11-16" },
-  { slug: "modular-kitchen-planning-mohali-checklist", publishDate: "2026-11-23" },
-  { slug: "christmas-decor-small-indian-living-room", publishDate: "2026-11-30" },
-  { slug: "office-interior-planning-mohali-2027", publishDate: "2026-12-07" },
-  { slug: "ai-interior-design-vs-real-home-planning", publishDate: "2026-12-14" },
-  { slug: "3bhk-interior-quotation-checklist-mohali", publishDate: "2026-12-21" },
-  { slug: "plan-home-interiors-2027-renovation-timeline", publishDate: "2026-12-28" },
-];
+const SCHEDULED = [{"slug":"small-home-mandir-design-mohali","publishDate":"2026-11-02"},{"slug":"warm-winter-home-interiors-mohali","publishDate":"2026-11-09"},{"slug":"guest-bedroom-design-indian-homes","publishDate":"2026-11-16"},{"slug":"modular-kitchen-planning-mohali-checklist","publishDate":"2026-11-23"},{"slug":"christmas-decor-small-indian-living-room","publishDate":"2026-11-30"},{"slug":"office-interior-planning-mohali-2027","publishDate":"2026-12-07"},{"slug":"ai-interior-design-vs-real-home-planning","publishDate":"2026-12-14"},{"slug":"3bhk-interior-quotation-checklist-mohali","publishDate":"2026-12-21"},{"slug":"plan-home-interiors-2027-renovation-timeline","publishDate":"2026-12-28"}];
 
 const IST = new Intl.DateTimeFormat("en-CA", {
   timeZone: "Asia/Kolkata",
@@ -46,11 +36,11 @@ function updateListings(html, path, now) {
 
 function updateSitemap(xml, now) {
   const existing = new Set(
-    [...xml.matchAll(/<loc>https:\/\/www\.dmsstudio\.in\/blog\/([^/<]+)\/index\.html<\/loc>/g)]
+    [...xml.matchAll(/<loc>https:\/\/www\.dmsstudio\.in\/blog\/([^/<]+)\/(?:index\.html)?<\/loc>/g)]
       .map((match) => match[1]),
   );
   const entries = SCHEDULED.filter((article) => isPublished(article.publishDate, now) && !existing.has(article.slug))
-    .map((article) => `  <url><loc>https://www.dmsstudio.in/blog/${article.slug}/index.html</loc><lastmod>${article.publishDate}</lastmod></url>`)
+    .map((article) => `  <url><loc>https://www.dmsstudio.in/blog/${article.slug}/</loc><lastmod>${article.publishDate}</lastmod></url>`)
     .join("\n");
   return entries ? xml.replace("</urlset>", `${entries}\n</urlset>`) : xml;
 }

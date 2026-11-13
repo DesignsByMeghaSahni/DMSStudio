@@ -18,3 +18,7 @@ research/
 # Logs and temporary files
 *.log
 .tmp/
+
+# Python authoring cache
+__pycache__/
+*.pyc

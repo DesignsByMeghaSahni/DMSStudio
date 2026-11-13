@@ -112,7 +112,7 @@ def add_dates_to_existing_cards(html, known_articles):
     pattern = re.compile(r'<article class="journal-card[^>]*>.*?</article>', re.S)
     def mark(match):
         block = match.group(0)
-        link = re.search(r'href="(?:\.\./)*blog/([^/]+)/index\.html"', block)
+        link = re.search(r'href="(?:/|(?:\.\./)*)blog/([^/]+)/(?:index\.html)?"', block)
         if not link:
             return block
         day = dates.get(link.group(1))
@@ -126,7 +126,7 @@ def add_dates_to_existing_cards(html, known_articles):
 
 source = (ROOT / "blog/diwali-home-makeover-ideas-2026-mohali-tricity/index.html").read_text()
 header = source.split('<body class="interior-page">', 1)[1].split('<main id="main">', 1)[0]
-header = '<body class="interior-page">' + header
+# Header already sits inside page_html's body; do not nest body tags.
 tail = source.split("</main>", 1)[1]
 footer = tail.split('<dialog class="lightbox"', 1)[0]
 dialog = '<dialog class="lightbox"' + tail.split('<dialog class="lightbox"', 1)[1].split("</dialog>", 1)[0] + "</dialog>"
@@ -159,14 +159,14 @@ for name in ("index.html", "blog.html"):
         old = html[start + len('<div class="journal-grid">'):end]
         # Add the scheduled cards to the static grid; the edge worker chooses the live three.
         for article in articles:
-            old = re.sub(r'<article\b[^>]*>\s*<a href="blog/' + re.escape(article["slug"]) + r'/index\.html">[\s\S]*?</article>', '', old)
+            old = re.sub(r'<article\b[^>]*>\s*<a href="/?blog/' + re.escape(article["slug"]) + r'/(?:index\.html)?">[\s\S]*?</article>', '', old)
         html = html[:start] + '<div class="journal-grid">' + old + additions + html[end:]
     else:
         start = html.index('<div class="journal-grid">', html.index('<section class="wrap section blog-index'))
         end = html.index("</div></section>", start)
         old = html[start + len('<div class="journal-grid">'):end]
         for article in articles:
-            old = re.sub(r'<article\b[^>]*>\s*<a href="blog/' + re.escape(article["slug"]) + r'/index\.html">[\s\S]*?</article>', '', old)
+            old = re.sub(r'<article\b[^>]*>\s*<a href="/?blog/' + re.escape(article["slug"]) + r'/(?:index\.html)?">[\s\S]*?</article>', '', old)
         html = html[:start] + '<div class="journal-grid">' + old + additions + html[end:]
     path.write_text(html)
 
@@ -192,13 +192,13 @@ function updateListings(html, path, now) {
   if (!match) return html;
   const cards = [...match[1].matchAll(/<article\\b[^>]*data-blog-date="(\\d{4}-\\d{2}-\\d{2})"[^>]*>[\\s\\S]*?<\\/article>/g)]
     .filter(m => visible(m[1], now)).sort((a,b) => b[1].localeCompare(a[1]));
-  const listing = path === "/blog.html" ? cards.map(m => m[0]) : cards.slice(0,3).map(m => m[0]);
+  const listing = ["/blog.html", "/blog", "/blog/"].includes(path) ? cards.map(m => m[0]) : cards.slice(0,3).map(m => m[0]);
   return html.replace(match[0], `<div class="journal-grid">${listing.join("")}</div>`);
 }
 function updateSitemap(xml, now) {
-  const existing = new Set([...xml.matchAll(/<loc>https:\\/\\/www\\.dmsstudio\\.in\\/blog\\/([^/<]+)\\/index\\.html<\\/loc>/g)].map(m => m[1]));
+  const existing = new Set([...xml.matchAll(/<loc>https:\\/\\/www\\.dmsstudio\\.in\\/blog\\/([^/<]+)\\/(?:index\\.html)?<\\/loc>/g)].map(m => m[1]));
   const entries = SCHEDULED.filter(a => visible(a.publishDate, now) && !existing.has(a.slug))
-    .map(a => `  <url><loc>https://www.dmsstudio.in/blog/${a.slug}/index.html</loc><lastmod>${a.publishDate}</lastmod></url>`).join("\\n");
+    .map(a => `  <url><loc>https://www.dmsstudio.in/blog/${a.slug}/</loc><lastmod>${a.publishDate}</lastmod></url>`).join("\\n");
   return entries ? xml.replace("</urlset>", `${entries}\\n</urlset>`) : xml;
 }
 
@@ -212,7 +212,7 @@ export default {
     const response = await env.ASSETS.fetch(request);
     if (!response.ok) return response;
     const isSitemap = url.pathname === "/sitemap.xml";
-    const isListing = url.pathname === "/" || url.pathname === "/index.html" || url.pathname === "/blog.html";
+    const isListing = url.pathname === "/" || url.pathname === "/index.html" || url.pathname === "/blog.html" || url.pathname === "/blog" || url.pathname === "/blog/";
     if (!isSitemap && !isListing) return response;
     const body = await response.text();
     const output = isSitemap ? updateSitemap(body, now) : updateListings(body, url.pathname, now);
@@ -237,3 +237,9 @@ if middleware_path.exists():
         raise RuntimeError("Could not update scheduled dates in Pages Functions middleware")
     middleware_path.write_text(middleware)
 print(f"Prepared {len(articles)} date-gated articles and synchronized publishing schedules")
+
+# Reapply the public inventory and clean URLs after scheduled output generation.
+from seo_public import clean_html, public_paths, write_sitemap
+for public_page in public_paths():
+    public_page.write_text(clean_html(public_page.read_text(), public_page.relative_to(ROOT).as_posix()))
+write_sitemap()

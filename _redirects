@@ -1,0 +1,9 @@
+# Verified legacy page equivalents. Never redirect all missing pages to home.
+/about-us /about 301
+/aboutus /about 301
+/portfolio /projects 301
+/book-online /contact 301
+/contact-us /contact 301
+/interior-design-faqs /faq 301
+/projects/nails-studio-phase3b2 /projects/sheena-3b2-nail-studio/ 301
+/post/modern-mandir-pooja-unit-design-ideas-tricity-homes /blog/small-home-mandir-design-mohali/ 301

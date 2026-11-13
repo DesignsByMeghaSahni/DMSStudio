@@ -4,7 +4,8 @@ from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
 import json,re
 root=Path(__file__).resolve().parent.parent
-pages=[p for p in root.rglob('*.html') if p.relative_to(root).parts[0] not in ['research','backups','sites','output','cloudflare-deploy','cloudflare-functions-deploy']]
+from seo_public import public_paths
+pages=public_paths()
 errors=[];titles=[];descriptions=[];canonicals=[];links=0
 class Inspect(HTMLParser):
  def __init__(self):super().__init__();self.h1=0;self.title='';self.intitle=False;self.meta={};self.refs=[];self.ids=[];self.images=0;self.json=False;self.jsontext='';self.schemas=[];self.canonical=''
@@ -39,7 +40,10 @@ for p in pages:
  for ref in x.refs:
   u=urlsplit(ref)
   if u.scheme or u.netloc:continue
-  path=p.parent/unquote(u.path) if u.path else p
+  path=(root/unquote(u.path).lstrip('/') if u.path.startswith('/') else p.parent/unquote(u.path)) if u.path else p
+  if not u.path.endswith('/') and not path.suffix and path.with_suffix('.html').exists():path=path.with_suffix('.html')
+  elif path.is_dir():path=path/'index.html'
+  elif not path.exists() and not path.suffix:path=path.with_suffix('.html')
   links+=1
   if not path.exists():errors.append(f'{p.relative_to(root)} -> missing {ref}')
   if u.fragment and path==p and u.fragment not in x.ids:errors.append(f'{p}: missing #{u.fragment}')

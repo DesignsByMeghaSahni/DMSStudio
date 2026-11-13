@@ -3,6 +3,7 @@ from pathlib import Path
 from shutil import copy2, copytree, rmtree
 import argparse
 import json
+from seo_public import public_paths
 
 ROOT = Path(__file__).resolve().parent.parent
 parser = argparse.ArgumentParser(description=__doc__)
@@ -25,8 +26,11 @@ def copy_file(path):
     copy2(ROOT / path, target)
 
 
-for path in ROOT.glob("*.html"):
+for path in public_paths():
     copy_file(path.relative_to(ROOT))
+for path in [ROOT / "404.html", *ROOT.glob("google*.html")]:
+    if path.is_file(): copy_file(path.relative_to(ROOT))
+copy_file(Path("_redirects"))
 for name in (("robots.txt", "sitemap.xml") if args.functions else ("_worker.js", "robots.txt", "sitemap.xml")):
     copy_file(Path(name))
 
