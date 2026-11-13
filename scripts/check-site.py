@@ -33,7 +33,9 @@ class Inspect(HTMLParser):
   if self.intitle:self.title+=d
   if self.json:self.jsontext+=d
 for p in pages:
- x=Inspect();x.feed(p.read_text());titles.append(x.title);descriptions.append(x.meta.get('description'));canonicals.append(x.canonical)
+ html=p.read_text()
+ x=Inspect();x.feed(html);titles.append(x.title);descriptions.append(x.meta.get('description'));canonicals.append(x.canonical)
+ if re.search(r'\{(?:acard|eyebrow|link)\(',html):errors.append(f'{p}: unrendered template text')
  if x.h1!=1:errors.append(f'{p}: {x.h1} H1s')
  if len(set(x.ids))!=len(x.ids):errors.append(f'{p}: duplicate IDs')
  if not x.meta.get('description') or not x.schemas:errors.append(f'{p}: missing SEO')
