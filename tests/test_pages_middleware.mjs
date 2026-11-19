@@ -2,7 +2,17 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 
 const source = await readFile(new URL("../functions/_middleware.js", import.meta.url), "utf8");
-const middleware = await import(`data:text/javascript;base64,${Buffer.from(source).toString("base64")}`);
+// Keep the original pre-publication scenario stable as real calendar time moves.
+const fixedClock = `const Date = class extends globalThis.Date {
+  constructor(...args) { super(...(args.length ? args : ["2026-11-01T12:00:00+05:30"])); }
+};\n`;
+const middleware = await import(`data:text/javascript;base64,${Buffer.from(fixedClock + source + '\nexport { isPublished };').toString("base64")}`);
+
+const schedule = JSON.parse(await readFile(new URL('../content/scheduled-articles.json', import.meta.url), 'utf8'));
+for (const article of schedule) {
+  assert.equal(middleware.isPublished(article.publishDate, new Date(article.publishDate + 'T08:59:00+05:30')), false);
+  assert.equal(middleware.isPublished(article.publishDate, new Date(article.publishDate + 'T09:00:00+05:30')), true);
+}
 
 const futurePath = "/blog/small-home-mandir-design-mohali/index.html";
 

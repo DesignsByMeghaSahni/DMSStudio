@@ -1,0 +1,252 @@
+- banner:
+  - button "Main menu":
+  - link "Google Search Console":
+    - /url: ./search-console?resource_id=https%3A%2F%2Fwww.dmsstudio.in%2F
+  - search:
+    - textbox [disabled]: Inspect any URL in 'https://www.dmsstudio.in/'
+    - combobox "Inspect any URL in https://www.dmsstudio.in/"
+    - button "Search":
+  - button "Help":
+    - generic: help_outline
+  - tooltip: Help
+  - button "User settings":
+    - generic: manage_accounts
+  - tooltip: User settings
+  - 'button "Unread messages: 6"':
+    - generic: notifications
+  - tooltip: Messages
+  - generic: "6"
+  - button "Google apps":
+  - 'button "Google Account: Design by Megha Sahni (designbymeghasahni@gmail.com)"':
+- dialog "navigational drawer":
+  - navigation "Primary":
+    - button "Search property":
+      - img "favicon"
+      - combobox "https://www.dmsstudio.in/"
+      - generic: 
+    - link "Overview":
+      - /url: ./search-console?resource_id=https%3A%2F%2Fwww.dmsstudio.in%2F
+      - generic: home
+      - generic: Overview
+    - link "Insights":
+      - /url: ./search-console/performance/insights?resource_id=https%3A%2F%2Fwww.dmsstudio.in%2F
+      - generic: lightbulb_2
+      - generic: Insights
+    - button "URL inspection":
+      - generic: search
+      - generic: URL inspection
+    - generic: Performance
+    - button "Performance report section" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "Search results":
+      - /url: ./search-console/performance/search-analytics?resource_id=https%3A%2F%2Fwww.dmsstudio.in%2F
+      - generic: google
+      - generic: Search results
+    - button "Performance on Search results report section" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "Generative AI on Search results":
+      - /url: ./search-console/performance/search-analytics/ai?resource_id=https%3A%2F%2Fwww.dmsstudio.in%2F
+      - generic: google
+      - generic: Generative AI
+    - link "Discover":
+      - /url: ./search-console/performance/discover?resource_id=https%3A%2F%2Fwww.dmsstudio.in%2F
+      - generic: Discover
+    - generic: Indexing
+    - button "Indexing report section" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "Pages":
+      - /url: ./search-console/index?resource_id=https%3A%2F%2Fwww.dmsstudio.in%2F
+      - generic: file_copy
+      - generic: Pages
+    - link "Videos":
+      - /url: ./search-console/video-index?resource_id=https%3A%2F%2Fwww.dmsstudio.in%2F
+      - generic: video_library
+      - generic: Videos
+    - link "Sitemaps":
+      - /url: ./search-console/sitemaps?resource_id=https%3A%2F%2Fwww.dmsstudio.in%2F
+      - generic: account_tree
+      - generic: Sitemaps
+    - link "Removals":
+      - /url: ./search-console/removals?resource_id=https%3A%2F%2Fwww.dmsstudio.in%2F
+      - generic: visibility_off
+      - generic: Removals
+    - generic: Experience
+    - button "Experience report section" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "Core web vitals":
+      - /url: ./search-console/core-web-vitals?resource_id=https%3A%2F%2Fwww.dmsstudio.in%2F
+      - generic: speed
+      - generic: Core web vitals
+    - link "HTTPS":
+      - /url: ./search-console/https?resource_id=https%3A%2F%2Fwww.dmsstudio.in%2F
+      - generic: lock
+      - generic: HTTPS
+    - generic: Enhancements
+    - button "Enhancements report section" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "Breadcrumbs":
+      - /url: ./search-console/r/breadcrumbs?resource_id=https%3A%2F%2Fwww.dmsstudio.in%2F
+      - generic: layers
+      - generic: Breadcrumbs
+    - link "Review snippets":
+      - /url: ./search-console/r/review-snippet?resource_id=https%3A%2F%2Fwww.dmsstudio.in%2F
+      - generic: layers
+      - generic: Review snippets
+    - generic: Security & Manual Actions
+    - button "Security & Manual Actions report section":
+      - generic: keyboard_arrow_down
+    - link "Links report":
+      - /url: ./search-console/links?resource_id=https%3A%2F%2Fwww.dmsstudio.in%2F
+      - generic: link_2
+      - generic: Links
+    - link "Achievements":
+      - /url: ./search-console/achievements?resource_id=https%3A%2F%2Fwww.dmsstudio.in%2F
+      - generic: trophy
+      - generic: Achievements
+    - link "Settings":
+      - /url: ./search-console/settings?resource_id=https%3A%2F%2Fwww.dmsstudio.in%2F
+      - generic: settings
+      - generic: Settings
+    - button "Submit feedback":
+      - generic: feedback
+      - generic: Submit feedback
+    - button "About Search Console":
+      - generic: info
+      - generic: About Search Console
+    - link "Privacy":
+      - /url: https://myaccount.google.com/privacypolicy?hl=en-GB
+    - link "Terms":
+      - /url: https://myaccount.google.com/termsofservice?hl=en-GB
+- navigation "Breadcrumbs":
+  - link "Performance on Search results":
+    - /url: ./search-console/performance/search-analytics?resource_id=https%3A%2F%2Fwww.dmsstudio.in%2F
+  - generic: 
+  - heading "Generative AI features" [level=1]
+  - generic: Beta
+- button "EXPORT":
+  - generic: 
+  - generic: EXPORT
+- radiogroup "Select time range":
+  - radio "24 hours":
+    - generic: 24 hours
+  - radio "7 days":
+    - generic: 7 days
+  - radio "28 days" [checked]:
+    - generic: 28 days
+  - radio "3 months":
+    - generic: 3 months
+- button "More time ranges":
+  - generic: More
+  - generic: arrow_drop_down
+- list:
+  - 'button "Search type: Web (text)"':
+    - generic: "Search type: Web (text)"
+    - generic: arrow_drop_down
+  - tooltip: "Search type: Web (text)"
+  - button "Add filter":
+    - generic: add
+    - generic: Add filter
+  - tooltip: Add filter
+  - button "Reset filters":
+    - generic: Reset filters
+  - tooltip: Reset filters
+- generic: "Last update: 3 hours ago"
+- main:
+  - button "Total impressions 151":
+    - generic "Total impressions":
+      - generic: 
+      - generic: Total impressions
+    - generic "151"
+  - button "null":
+    - generic: 
+  - 'button "Selected time granularity: Daily"':
+    - generic: Daily
+  - generic: Impressions
+  - application "chart":
+    - generic: Chart, containing counts of Total impressions from 21 October 2026 to 17 November 2026
+  - tablist:
+    - tab "Pages" [selected]:
+      - generic: Pages
+    - tab "Countries":
+      - generic: Countries
+    - tab "Devices":
+      - generic: Devices
+    - tab "Days":
+      - generic: Days
+  - tabpanel:
+    - button "Filter table rows":
+      - generic: 
+    - table:
+      - rowgroup:
+        - row "Top pages Sort Top pages Sort Impressions Impressions":
+          - columnheader "Top pages Sort Top pages":
+            - generic: Top pages
+            - button "Sort Top pages":
+          - columnheader "Sort Impressions Impressions":
+            - button "Sort Impressions":
+            - generic: Impressions
+      - rowgroup:
+        - row "https://www.dmsstudio.in/ 81":
+          - cell "https://www.dmsstudio.in/":
+            - generic: https://www.dmsstudio.in/
+          - cell "81":
+            - generic: "81"
+        - row "https://www.dmsstudio.in/blog/diwali-home-makeover-ideas-2026-mohali-tricity/ 21":
+          - cell "https://www.dmsstudio.in/blog/diwali-home-makeover-ideas-2026-mohali-tricity/":
+            - generic: https://www.dmsstudio.in/blog/diwali-home-makeover-ideas-2026-mohali-tricity/
+          - cell "21":
+            - generic: "21"
+        - row "https://www.dmsstudio.in/projects/essentia-salon/ 18":
+          - cell "https://www.dmsstudio.in/projects/essentia-salon/":
+            - generic: https://www.dmsstudio.in/projects/essentia-salon/
+          - cell "18":
+            - generic: "18"
+        - row "https://www.dmsstudio.in/faq 8":
+          - cell "https://www.dmsstudio.in/faq":
+            - generic: https://www.dmsstudio.in/faq
+          - cell "8":
+            - generic: "8"
+        - row "https://www.dmsstudio.in/about 3":
+          - cell "https://www.dmsstudio.in/about":
+            - generic: https://www.dmsstudio.in/about
+          - cell "3":
+            - generic: "3"
+        - row "https://www.dmsstudio.in/blog/before-your-first-design-conversation/ 3":
+          - cell "https://www.dmsstudio.in/blog/before-your-first-design-conversation/":
+            - generic: https://www.dmsstudio.in/blog/before-your-first-design-conversation/
+          - cell "3":
+            - generic: "3"
+        - row "https://www.dmsstudio.in/faq.html 2":
+          - cell "https://www.dmsstudio.in/faq.html":
+            - generic: https://www.dmsstudio.in/faq.html
+          - cell "2":
+            - generic: "2"
+        - row "https://www.dmsstudio.in/interior-designer-in-kharar/ 2":
+          - cell "https://www.dmsstudio.in/interior-designer-in-kharar/":
+            - generic: https://www.dmsstudio.in/interior-designer-in-kharar/
+          - cell "2":
+            - generic: "2"
+        - row "https://www.dmsstudio.in/post/complete-home-interior-for-2bhk-3bhk-in-mohali-real-cost-real-results-in-2026 2":
+          - cell "https://www.dmsstudio.in/post/complete-home-interior-for-2bhk-3bhk-in-mohali-real-cost-real-results-in-2026":
+            - generic: https://www.dmsstudio.in/post/complete-home-interior-for-2bhk-3bhk-in-mohali-real-cost-real-results-in-2026
+          - cell "2":
+            - generic: "2"
+        - row "https://www.dmsstudio.in/services/modular-and-lighting/ 2":
+          - cell "https://www.dmsstudio.in/services/modular-and-lighting/":
+            - generic: https://www.dmsstudio.in/services/modular-and-lighting/
+          - cell "2":
+            - generic: "2"
+    - generic: "Rows per page:"
+    - listbox "Number of rows per page":
+      - option "5"
+      - option "10" [selected]
+      - option "25"
+      - option "50"
+      - option "100"
+      - option "250"
+      - option "500"
+    - generic: 1-10 of 24
+    - button "Previous page" [disabled]:
+    - tooltip: Previous page
+    - button "Next page":
+    - tooltip: Next page

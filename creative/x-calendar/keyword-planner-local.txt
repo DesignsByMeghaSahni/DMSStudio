@@ -1,0 +1,534 @@
+- banner:
+  - button "Hide scoping navigation menu" [expanded]:
+    - img: menu
+  - heading "Ads" [level=1]:
+    - generic: Ads
+  - img: search
+  - generic: "\"What are my top performing campaigns?\""
+  - combobox "\"What are my top performing campaigns?\""
+  - button "Appearance":
+    - img: responsive_layout
+    - generic: Appearance
+  - button "Refresh":
+    - img: refresh
+    - generic: Refresh
+  - button "Help":
+    - img: help_outline
+    - generic: Help
+  - button "Notifications":
+    - img: notifications
+    - generic: Notifications
+  - button "Ask Advisor Beta":
+    - img: search_spark
+    - generic: Ask Advisor
+    - generic: Beta
+  - generic "319-142-9188"
+  - generic: designbymeghasahni@gmail.com
+  - button "Google Account":
+    - img "Google Account (designbymeghasahni@gmail.com)"
+- button "Create":
+- generic: Create
+- menu:
+  - menu:
+    - menuitem "Campaigns":
+      - img: campaign
+      - generic: Campaigns
+    - menuitem "Goals":
+      - img: rewarded_ads
+      - generic: Goals
+    - menuitem "Tools":
+      - img: construction
+      - generic: Tools
+    - menuitem "Billing":
+      - img: credit_card
+      - generic: Billing
+    - menuitem "Admin":
+      - img: settings
+      - generic: Admin
+- navigation:
+  - menu:
+    - menuitem "Asset Studio":
+      - generic: Asset Studio
+    - menuitem "Planning" [expanded]:
+      - generic: Planning
+      - img: expand_more
+    - menuitem "Keyword Planner":
+      - generic: Keyword Planner
+    - menuitem "Performance Planner":
+      - generic: Performance Planner
+    - menuitem "Reach Planner":
+      - generic: Reach Planner
+    - menuitem "App advertising hub":
+      - generic: App advertising hub
+    - menuitem "Shared library":
+      - generic: Shared library
+      - img: expand_more
+    - menuitem "YouTube Creator Partnerships":
+      - generic: YouTube Creator Partnerships
+      - img: expand_more
+    - menuitem "Content suitability":
+      - generic: Content suitability
+    - menuitem "Data manager":
+      - generic: Data manager
+    - menuitem "Troubleshooting":
+      - generic: Troubleshooting
+      - img: expand_more
+    - menuitem "Bulk actions":
+      - generic: Bulk actions
+      - img: expand_more
+    - menuitem "Budgets and bidding":
+      - generic: Budgets and bidding
+      - img: expand_more
+    - menuitem "Business data":
+      - generic: Business data
+  - generic "Get the Google Ads app":
+    - img: app_promo
+    - generic: Get the Google Ads app
+  - button "Expand the Google Ads app promo":
+    - img: expand_all
+  - button "Get the Google Ads app dismiss":
+    - img: close
+- link "Keyword Planner":
+  - /url: /aw/keywordplanner/home?ocid=1582918008&authuser=0&__u=3019301725&__c=6385828792
+- img: chevron_right
+- heading "Plan from Nov 19, 2026, 11 am, GMT+05:30" [level=2]
+- tablist:
+  - tab "Keyword ideas" [selected]:
+    - generic: Keyword ideas
+  - tab "Forecast":
+    - generic: Forecast
+  - tab "Saved keywords":
+    - generic: Saved keywords
+  - tab "Negative keywords":
+    - generic: Negative keywords
+- main:
+  - region "Keyword Ideas Search Bar":
+    - 'button "Change existing keywords or website: interior designer mohali, salon interior designer, interior designer chandigarh, interior designer kharar, turnkey interiors, luxury interior designer, home interior design"':
+      - img: search
+      - generic: interior designer mohali, salon interior designer, interior designer chandigarh, interior designer kharar, turnkey interiors, luxury interior designer, home interior design
+    - region "Targeting Settings":
+      - button "Chandigarh, Chandigarh, India,‪ + 2 more" [active]:
+        - img: location_on
+        - generic: Chandigarh, Chandigarh, India,‪ + 2 more
+      - button "English":
+        - img: translate
+        - generic: English
+      - button "Google":
+        - img: manage_search
+        - generic: Google
+      - button "Edit date range, Last 12 months":
+        - img: calendar_today
+        - generic: Nov 2025 - Oct 2026
+        - img: arrow_drop_down
+    - group "Broaden your search:":
+      - text: "Broaden your search:"
+      - grid:
+        - row "Add interior design Add home designer Add home decor Add home design professional Add home design service Add interior design service Add interior":
+          - gridcell "Add interior design":
+            - img: add
+            - generic: interior design
+          - gridcell "Add home designer":
+            - img: add
+            - generic: home designer
+          - gridcell "Add home decor":
+            - img: add
+            - generic: home decor
+          - gridcell "Add home design professional":
+            - img: add
+            - generic: home design professional
+          - gridcell "Add home design service":
+            - img: add
+            - generic: home design service
+          - gridcell "Add interior design service":
+            - img: add
+            - generic: interior design service
+          - gridcell "Add interior":
+            - img: add
+            - generic: interior
+    - button "Keyword ideas":
+      - img: file_download
+      - region "Keyword ideas"
+  - region "Search Results Table":
+    - region "Primary toolbelt for Keyword ideas":
+      - button "Show 1 active filters":
+        - img: filter_alt
+        - generic: "1"
+      - generic: "Filters Applied:"
+      - grid "Filters Applied:":
+        - row "Exclude adult ideas Delete":
+          - gridcell "Exclude adult ideas":
+            - button "Exclude adult ideas": Exclude adult ideas
+          - gridcell "Delete Exclude adult ideas":
+            - button "Delete Exclude adult ideas": close
+      - button "Add filter":
+        - generic: Add filter
+      - generic: 1,808 keyword ideas available
+      - button "Columns":
+        - img: view_column
+        - generic: Columns
+      - button "Keyword view":
+        - text: Keyword view
+        - img: arrow_drop_down
+    - grid "Keyword ideas":
+      - row "Select all rows Keyword (by relevance) Avg. monthly searches Three month change YoY change Competition Ad impression share Top of page bid (low range) Top of page bid (high range) Account Status":
+        - gridcell "Select all rows":
+          - checkbox "Select all rows":
+        - columnheader "Keyword (by relevance)"
+        - columnheader "Avg. monthly searches":
+          - text: Avg. monthly searches
+          - img: help_outline
+        - columnheader "Three month change":
+          - text: Three month change
+          - img: help_outline
+        - columnheader "YoY change":
+          - text: YoY change
+          - img: help_outline
+        - columnheader "Competition":
+          - text: Competition
+          - img: help_outline
+        - columnheader "Ad impression share":
+          - text: Ad impression share
+          - img: help_outline
+        - columnheader "Top of page bid (low range)":
+          - text: Top of page bid (low range)
+          - img: help_outline
+        - columnheader "Top of page bid (high range)":
+          - text: Top of page bid (high range)
+          - img: help_outline
+        - columnheader "Account Status":
+          - text: Account Status
+          - img: help_outline
+      - generic: Keywords that you provided
+      - row "Select row \"interior designer mohali\" interior designer mohali. This is a keyword you provided. 100 – 1k 0% 0% Medium — ₹39.25 ₹192.04 In Account":
+        - gridcell "Select row \"interior designer mohali\"":
+          - checkbox "Select row \"interior designer mohali\"":
+        - gridcell "interior designer mohali. This is a keyword you provided.":
+          - generic "interior designer mohali. This is a keyword you provided.":
+            - generic: interior designer mohali
+        - gridcell "100 – 1k":
+          - generic: 100 – 1k
+        - gridcell "0%":
+          - generic: 0%
+        - gridcell "0%":
+          - generic: 0%
+        - gridcell "Medium":
+          - generic: Medium
+        - gridcell "—":
+          - generic: —
+        - gridcell "₹39.25":
+          - generic: ₹39.25
+        - gridcell "₹192.04":
+          - generic: ₹192.04
+        - gridcell "In Account":
+          - generic: In Account
+      - row "Select row \"salon interior designer\" salon interior designer. This is a keyword you provided. 10 – 100 0% -100% — — — —":
+        - gridcell "Select row \"salon interior designer\"":
+          - checkbox "Select row \"salon interior designer\"":
+        - gridcell "salon interior designer. This is a keyword you provided.":
+          - generic "salon interior designer. This is a keyword you provided.":
+            - generic: salon interior designer
+        - gridcell "10 – 100":
+          - generic: 10 – 100
+        - gridcell "0%":
+          - generic: 0%
+        - gridcell "-100%":
+          - generic: "-100%"
+        - gridcell "—":
+          - generic: —
+        - gridcell "—":
+          - generic: —
+        - gridcell "—":
+          - generic: —
+        - gridcell "—":
+          - generic: —
+        - gridcell
+      - row "Select row \"interior designer chandigarh\" interior designer chandigarh. This is a keyword you provided. 100 – 1k 0% 0% Medium — ₹40.93 ₹147.11 In Account":
+        - gridcell "Select row \"interior designer chandigarh\"":
+          - checkbox "Select row \"interior designer chandigarh\"":
+        - gridcell "interior designer chandigarh. This is a keyword you provided.":
+          - generic "interior designer chandigarh. This is a keyword you provided.":
+            - generic: interior designer chandigarh
+        - gridcell "100 – 1k":
+          - generic: 100 – 1k
+        - gridcell "0%":
+          - generic: 0%
+        - gridcell "0%":
+          - generic: 0%
+        - gridcell "Medium":
+          - generic: Medium
+        - gridcell "—":
+          - generic: —
+        - gridcell "₹40.93":
+          - generic: ₹40.93
+        - gridcell "₹147.11":
+          - generic: ₹147.11
+        - gridcell "In Account":
+          - generic: In Account
+      - row "Select row \"turnkey interiors\" turnkey interiors. This is a keyword you provided. 10 – 100 0% 0% Low — — —":
+        - gridcell "Select row \"turnkey interiors\"":
+          - checkbox "Select row \"turnkey interiors\"":
+        - gridcell "turnkey interiors. This is a keyword you provided.":
+          - generic "turnkey interiors. This is a keyword you provided.":
+            - generic: turnkey interiors
+        - gridcell "10 – 100":
+          - generic: 10 – 100
+        - gridcell "0%":
+          - generic: 0%
+        - gridcell "0%":
+          - generic: 0%
+        - gridcell "Low":
+          - generic: Low
+        - gridcell "—":
+          - generic: —
+        - gridcell "—":
+          - generic: —
+        - gridcell "—":
+          - generic: —
+        - gridcell
+      - row "Select row \"luxury interior designer\" luxury interior designer. This is a keyword you provided. 10 – 100 0% 0% Low — — —":
+        - gridcell "Select row \"luxury interior designer\"":
+          - checkbox "Select row \"luxury interior designer\"":
+        - gridcell "luxury interior designer. This is a keyword you provided.":
+          - generic "luxury interior designer. This is a keyword you provided.":
+            - generic: luxury interior designer
+        - gridcell "10 – 100":
+          - generic: 10 – 100
+        - gridcell "0%":
+          - generic: 0%
+        - gridcell "0%":
+          - generic: 0%
+        - gridcell "Low":
+          - generic: Low
+        - gridcell "—":
+          - generic: —
+        - gridcell "—":
+          - generic: —
+        - gridcell "—":
+          - generic: —
+        - gridcell
+      - row "Select row \"home interior design\" home interior design. This is a keyword you provided. 100 – 1k 0% 0% Low — ₹18.93 ₹72.61 In Account":
+        - gridcell "Select row \"home interior design\"":
+          - checkbox "Select row \"home interior design\"":
+        - gridcell "home interior design. This is a keyword you provided.":
+          - generic "home interior design. This is a keyword you provided.":
+            - generic: home interior design
+        - gridcell "100 – 1k":
+          - generic: 100 – 1k
+        - gridcell "0%":
+          - generic: 0%
+        - gridcell "0%":
+          - generic: 0%
+        - gridcell "Low":
+          - generic: Low
+        - gridcell "—":
+          - generic: —
+        - gridcell "₹18.93":
+          - generic: ₹18.93
+        - gridcell "₹72.61":
+          - generic: ₹72.61
+        - gridcell "In Account":
+          - generic: In Account
+      - generic: Keyword ideas
+      - row "Select row \"interior designers near me\" interior designers near me 100 – 1k 0% 0% Medium — ₹28.82 ₹160.68":
+        - gridcell "Select row \"interior designers near me\"":
+          - checkbox "Select row \"interior designers near me\"":
+        - gridcell "interior designers near me":
+          - generic: interior designers near me
+        - gridcell "100 – 1k":
+          - generic: 100 – 1k
+        - gridcell "0%":
+          - generic: 0%
+        - gridcell "0%":
+          - generic: 0%
+        - gridcell "Medium":
+          - generic: Medium
+        - gridcell "—":
+          - generic: —
+        - gridcell "₹28.82":
+          - generic: ₹28.82
+        - gridcell "₹160.68":
+          - generic: ₹160.68
+        - gridcell
+      - row "Select row \"interior decorator near me\" interior decorator near me 100 – 1k 0% 0% Medium — ₹28.82 ₹160.68":
+        - gridcell "Select row \"interior decorator near me\"":
+          - checkbox "Select row \"interior decorator near me\"":
+        - gridcell "interior decorator near me":
+          - generic: interior decorator near me
+        - gridcell "100 – 1k":
+          - generic: 100 – 1k
+        - gridcell "0%":
+          - generic: 0%
+        - gridcell "0%":
+          - generic: 0%
+        - gridcell "Medium":
+          - generic: Medium
+        - gridcell "—":
+          - generic: —
+        - gridcell "₹28.82":
+          - generic: ₹28.82
+        - gridcell "₹160.68":
+          - generic: ₹160.68
+        - gridcell
+      - row "Select row \"interior decorator\" interior decorator 10 – 100 0% 0% Low — — —":
+        - gridcell "Select row \"interior decorator\"":
+          - checkbox "Select row \"interior decorator\"":
+        - gridcell "interior decorator":
+          - generic: interior decorator
+        - gridcell "10 – 100":
+          - generic: 10 – 100
+        - gridcell "0%":
+          - generic: 0%
+        - gridcell "0%":
+          - generic: 0%
+        - gridcell "Low":
+          - generic: Low
+        - gridcell "—":
+          - generic: —
+        - gridcell "—":
+          - generic: —
+        - gridcell "—":
+          - generic: —
+        - gridcell
+      - row "Select row \"wall decor for living room\" wall decor for living room 100 – 1k +900% 0% High — ₹1.81 ₹8.83":
+        - gridcell "Select row \"wall decor for living room\"":
+          - checkbox "Select row \"wall decor for living room\"":
+        - gridcell "wall decor for living room":
+          - generic: wall decor for living room
+        - gridcell "100 – 1k":
+          - generic: 100 – 1k
+        - gridcell "+900%":
+          - generic: +900%
+        - gridcell "0%":
+          - generic: 0%
+        - gridcell "High":
+          - generic: High
+        - gridcell "—":
+          - generic: —
+        - gridcell "₹1.81":
+          - generic: ₹1.81
+        - gridcell "₹8.83":
+          - generic: ₹8.83
+        - gridcell
+      - row "Select row \"virtual interior design\" virtual interior design 10 – 100 +∞ 0% Medium — — —":
+        - gridcell "Select row \"virtual interior design\"":
+          - checkbox "Select row \"virtual interior design\"":
+        - gridcell "virtual interior design":
+          - generic: virtual interior design
+        - gridcell "10 – 100":
+          - generic: 10 – 100
+        - gridcell "+∞":
+          - generic: +∞
+        - gridcell "0%":
+          - generic: 0%
+        - gridcell "Medium":
+          - generic: Medium
+        - gridcell "—":
+          - generic: —
+        - gridcell "—":
+          - generic: —
+        - gridcell "—":
+          - generic: —
+        - gridcell
+      - row "Select row \"interior design services\" interior design services 100 – 1k -90% 0% Low — — —":
+        - gridcell "Select row \"interior design services\"":
+          - checkbox "Select row \"interior design services\"":
+        - gridcell "interior design services":
+          - generic: interior design services
+        - gridcell "100 – 1k":
+          - generic: 100 – 1k
+        - gridcell "-90%":
+          - generic: "-90%"
+        - gridcell "0%":
+          - generic: 0%
+        - gridcell "Low":
+          - generic: Low
+        - gridcell "—":
+          - generic: —
+        - gridcell "—":
+          - generic: —
+        - gridcell "—":
+          - generic: —
+        - gridcell
+      - row "Select row \"home interior\" home interior 100 – 1k 0% +900% Low — ₹18.04 ₹129.31":
+        - gridcell "Select row \"home interior\"":
+          - checkbox "Select row \"home interior\"":
+        - gridcell "home interior":
+          - generic: home interior
+        - gridcell "100 – 1k":
+          - generic: 100 – 1k
+        - gridcell "0%":
+          - generic: 0%
+        - gridcell "+900%":
+          - generic: +900%
+        - gridcell "Low":
+          - generic: Low
+        - gridcell "—":
+          - generic: —
+        - gridcell "₹18.04":
+          - generic: ₹18.04
+        - gridcell "₹129.31":
+          - generic: ₹129.31
+        - gridcell
+    - generic: Show rows
+    - button "Show rows 100 selected.":
+      - generic: "100"
+      - img: arrow_drop_down
+    - generic: 1 - 100 of 1,808
+    - button "Go to the first page" [disabled]:
+      - img: first_page
+    - button "Go to the previous page" [disabled]:
+      - img: chevron_left
+    - button "Go to the next page":
+      - img: chevron_right
+    - button "Go to the last page":
+      - img: last_page
+  - generic: Keyword Planner can be used to generate keyword ideas, but it doesn't guarantee improved performance. You're responsible for your keyword choices and for complying with our advertising policies as well as any applicable laws.
+  - region "Refine keywords":
+    - heading "Refine keywords" [level=2]
+    - button "Close":
+      - img: close
+    - button "Expand all":
+      - generic: Expand all
+    - button "Brand or Non-Brand":
+      - paragraph: Brand or Non-Brand
+      - paragraph: Non-Brands, antonovich design, elicyon, ferris rafauli, designer homez
+      - img: expand_less
+    - button "Property":
+      - paragraph: Property
+      - paragraph: house, apartment, cabin, condo, duplex
+      - img: expand_less
+    - button "Style":
+      - paragraph: Style
+      - paragraph: modern, contemporary, art deco, rustic, traditional
+      - img: expand_less
+    - button "Room":
+      - paragraph: Room
+      - paragraph: living room, bedroom, kitchen, home office, dining room
+      - img: expand_less
+    - button "Activity":
+      - paragraph: Activity
+      - paragraph: drawing, painting
+      - img: expand_less
+    - button "Business":
+      - paragraph: Business
+      - paragraph: beauty salon, hair salon, nail salon, spa
+      - img: expand_less
+    - button "Others":
+      - paragraph: Others
+      - paragraph: parlour, boho, chandigarh, japanese, black
+      - img: expand_less
+    - button "Give feedback":
+      - img: feedback
+      - text: Give feedback
+- dialog:
+  - heading [level=1]: Turn off ad blockers
+  - paragraph: Google Ads can't work when you're using an ad blocker. To use Google Ads, please turn off any ad blockers for now.
+- dialog "dialogue"
+- status
+- dialog "dialogue"
+- dialog "dialogue"
+- text: "* *"
+- dialog "dialogue"
+- dialog "dialogue"
+- dialog "dialogue"
+- text: info *

@@ -29,6 +29,30 @@ def route(path):
 
 def clean_html(html, path):
     """Align links, canonical and JSON-LD IDs with Pages' existing clean redirects."""
+    # Keep measurement on every generated public page, including scheduled articles.
+    if 'id="dms-tag-manager"' not in html:
+        html = html.replace('</head>', '<script id="dms-tag-manager" src="/js/analytics.js?v=20261119" defer></script></head>')
+    metadata_file = ROOT / 'content/metadata-overrides.json'
+    metadata = json.loads(metadata_file.read_text()).get(str(path), {}) if metadata_file.exists() else {}
+    if metadata:
+        if metadata.get('title'):
+            html = re.sub(r'<title>.*?</title>', lambda _: '<title>' + escape(metadata['title']) + '</title>', html, count=1, flags=re.S)
+        def meta(match):
+            tag = match.group(0)
+            key = re.search(r'(?:name|property)="([^"]+)"', tag)
+            field = 'title' if key and key[1] in ('og:title', 'twitter:title') else 'description' if key and key[1] in ('description', 'og:description', 'twitter:description') else None
+            if field and metadata.get(field):
+                return re.sub(r'content="[^"]*"', lambda _: 'content="' + escape(metadata[field], quote=True) + '"', tag)
+            return tag
+        html = re.sub(r'<meta\b[^>]*>', meta, html)
+        def schema(match):
+            data = json.loads(match[1])
+            for item in data.get('@graph', []):
+                if item.get('@type') == 'WebPage':
+                    if metadata.get('title'): item['name'] = metadata['title']
+                    if metadata.get('description'): item['description'] = metadata['description']
+            return '<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False).replace('</', '< /') + '</script>'
+        html = re.sub(r'<script type="application/ld\+json">(.*?)</script>', schema, html, flags=re.S)
     mapping = {p.relative_to(ROOT).as_posix(): route(p.relative_to(ROOT)) for p in public_paths()}
     mapping.setdefault(str(path), route(path))
     # JSON-LD, canonical, Open Graph and same-domain absolute links.

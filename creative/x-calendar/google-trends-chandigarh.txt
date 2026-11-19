@@ -1,0 +1,320 @@
+- region "This site uses cookies from Google to deliver and enhance the quality of its services and to analyse traffic.":
+  - text: This site uses cookies from Google to deliver and enhance the quality of its services and to analyse traffic.
+  - link "Learn more":
+    - /url: https://policies.google.com/technologies/cookies?hl=en-GB
+  - button "OK, got it"
+- banner:
+  - button:
+    - generic "Open menu":
+  - link:
+    - /url: /trends?geo=IN-CH&hl=en-GB
+  - link "Home":
+    - /url: /trends/?geo=IN-CH&hl=en-GB
+    - text: Home
+  - link "Explore":
+    - /url: /trends/explore?geo=IN-CH&hl=en-GB
+    - text: Explore
+  - link "Trending now":
+    - /url: /trends/trendingsearches/daily?geo=IN-CH&hl=en-GB
+    - text: Trending now
+  - button "Share":
+    - generic: share
+  - button "feedback":
+    - generic: feedback
+  - button "Google apps":
+  - 'button "Google Account: Design by Megha Sahni (designbymeghasahni@gmail.com)"':
+  - generic: info
+  - generic: Classic Explore is expiring soon.
+  - generic: Switch to the new Explore page to find search terms and discover trends.
+  - link "Go to new Explore":
+    - /url: /explore
+  - button "Dismiss":
+    - generic: close_24px
+  - generic: •
+  - listbox:
+    - searchbox "Add a search term": interior designer
+  - status
+  - button:
+  - generic: Search term
+  - button "Add a search term for comparison":
+    - generic: Compare
+  - button "Chandigarh":
+    - generic: Chandigarh
+    - generic: ▼
+  - 'listbox "Select time period: Past 12 months"':
+    - generic: Past 12 months
+    - generic: ▼
+  - button "All categories":
+    - generic: All categories
+    - generic: ▼
+  - 'listbox "Select stories location: Web Search"':
+    - generic: Web Search
+    - generic: ▼
+  - generic "interior designer":
+    - generic: interior designer
+  - generic: Chandigarh, Past 12 months
+- text: Interest over time
+- button "help_outline":
+  - generic: help_outline
+- button "file_download":
+  - generic: file_download
+- button "code":
+  - generic: code
+- button "share":
+  - generic: share
+- generic "A chart.":
+  - img "A chart.":
+    - generic: ‪16 Nov 2025‬
+    - generic: ‪8 Mar 2026‬
+    - generic: ‪28 Jun 2026‬
+    - generic: ‪18 Oct 2026‬
+    - generic: "25"
+    - generic: "50"
+    - generic: "75"
+    - generic: "100"
+  - generic "A tabular representation of the data in the chart.":
+    - table:
+      - rowgroup:
+        - row "x y1":
+          - columnheader "x"
+          - columnheader "y1"
+      - rowgroup:
+        - row "‪16 Nov 2025‬ 0":
+          - cell "‪16 Nov 2025‬"
+          - cell "0"
+        - row "‪23 Nov 2025‬ 0":
+          - cell "‪23 Nov 2025‬"
+          - cell "0"
+        - row "‪30 Nov 2025‬ 0":
+          - cell "‪30 Nov 2025‬"
+          - cell "0"
+        - row "‪7 Dec 2025‬ 0":
+          - cell "‪7 Dec 2025‬"
+          - cell "0"
+        - row "‪14 Dec 2025‬ 0":
+          - cell "‪14 Dec 2025‬"
+          - cell "0"
+        - row "‪21 Dec 2025‬ 0":
+          - cell "‪21 Dec 2025‬"
+          - cell "0"
+        - row "‪28 Dec 2025‬ 0":
+          - cell "‪28 Dec 2025‬"
+          - cell "0"
+        - row "‪4 Jan 2026‬ 0":
+          - cell "‪4 Jan 2026‬"
+          - cell "0"
+        - row "‪11 Jan 2026‬ 0":
+          - cell "‪11 Jan 2026‬"
+          - cell "0"
+        - row "‪18 Jan 2026‬ 0":
+          - cell "‪18 Jan 2026‬"
+          - cell "0"
+        - row "‪25 Jan 2026‬ 0":
+          - cell "‪25 Jan 2026‬"
+          - cell "0"
+        - row "‪1 Feb 2026‬ 0":
+          - cell "‪1 Feb 2026‬"
+          - cell "0"
+        - row "‪8 Feb 2026‬ 0":
+          - cell "‪8 Feb 2026‬"
+          - cell "0"
+        - row "‪15 Feb 2026‬ 0":
+          - cell "‪15 Feb 2026‬"
+          - cell "0"
+        - row "‪22 Feb 2026‬ 0":
+          - cell "‪22 Feb 2026‬"
+          - cell "0"
+        - row "‪1 Mar 2026‬ 0":
+          - cell "‪1 Mar 2026‬"
+          - cell "0"
+        - row "‪8 Mar 2026‬ 0":
+          - cell "‪8 Mar 2026‬"
+          - cell "0"
+        - row "‪15 Mar 2026‬ 0":
+          - cell "‪15 Mar 2026‬"
+          - cell "0"
+        - row "‪22 Mar 2026‬ 0":
+          - cell "‪22 Mar 2026‬"
+          - cell "0"
+        - row "‪29 Mar 2026‬ 0":
+          - cell "‪29 Mar 2026‬"
+          - cell "0"
+        - row "‪5 Apr 2026‬ 0":
+          - cell "‪5 Apr 2026‬"
+          - cell "0"
+        - row "‪12 Apr 2026‬ 0":
+          - cell "‪12 Apr 2026‬"
+          - cell "0"
+        - row "‪19 Apr 2026‬ 0":
+          - cell "‪19 Apr 2026‬"
+          - cell "0"
+        - row "‪26 Apr 2026‬ 0":
+          - cell "‪26 Apr 2026‬"
+          - cell "0"
+        - row "‪3 May 2026‬ 0":
+          - cell "‪3 May 2026‬"
+          - cell "0"
+        - row "‪10 May 2026‬ 0":
+          - cell "‪10 May 2026‬"
+          - cell "0"
+        - row "‪17 May 2026‬ 0":
+          - cell "‪17 May 2026‬"
+          - cell "0"
+        - row "‪24 May 2026‬ 0":
+          - cell "‪24 May 2026‬"
+          - cell "0"
+        - row "‪31 May 2026‬ 0":
+          - cell "‪31 May 2026‬"
+          - cell "0"
+        - row "‪7 Jun 2026‬ 0":
+          - cell "‪7 Jun 2026‬"
+          - cell "0"
+        - row "‪14 Jun 2026‬ 0":
+          - cell "‪14 Jun 2026‬"
+          - cell "0"
+        - row "‪21 Jun 2026‬ 0":
+          - cell "‪21 Jun 2026‬"
+          - cell "0"
+        - row "‪28 Jun 2026‬ 0":
+          - cell "‪28 Jun 2026‬"
+          - cell "0"
+        - row "‪5 Jul 2026‬ 0":
+          - cell "‪5 Jul 2026‬"
+          - cell "0"
+        - row "‪12 Jul 2026‬ 0":
+          - cell "‪12 Jul 2026‬"
+          - cell "0"
+        - row "‪19 Jul 2026‬ 0":
+          - cell "‪19 Jul 2026‬"
+          - cell "0"
+        - row "‪26 Jul 2026‬ 0":
+          - cell "‪26 Jul 2026‬"
+          - cell "0"
+        - row "‪2 Aug 2026‬ 0":
+          - cell "‪2 Aug 2026‬"
+          - cell "0"
+        - row "‪9 Aug 2026‬ 0":
+          - cell "‪9 Aug 2026‬"
+          - cell "0"
+        - row "‪16 Aug 2026‬ 0":
+          - cell "‪16 Aug 2026‬"
+          - cell "0"
+        - row "‪23 Aug 2026‬ 0":
+          - cell "‪23 Aug 2026‬"
+          - cell "0"
+        - row "‪30 Aug 2026‬ 0":
+          - cell "‪30 Aug 2026‬"
+          - cell "0"
+        - row "‪6 Sept 2026‬ 0":
+          - cell "‪6 Sept 2026‬"
+          - cell "0"
+        - row "‪13 Sept 2026‬ 0":
+          - cell "‪13 Sept 2026‬"
+          - cell "0"
+        - row "‪20 Sept 2026‬ 0":
+          - cell "‪20 Sept 2026‬"
+          - cell "0"
+        - row "‪27 Sept 2026‬ 0":
+          - cell "‪27 Sept 2026‬"
+          - cell "0"
+        - row "‪4 Oct 2026‬ 0":
+          - cell "‪4 Oct 2026‬"
+          - cell "0"
+        - row "‪11 Oct 2026‬ 0":
+          - cell "‪11 Oct 2026‬"
+          - cell "0"
+        - row "‪18 Oct 2026‬ 0":
+          - cell "‪18 Oct 2026‬"
+          - cell "0"
+        - row "‪25 Oct 2026‬ 0":
+          - cell "‪25 Oct 2026‬"
+          - cell "0"
+        - row "‪1 Nov 2026‬ 0":
+          - cell "‪1 Nov 2026‬"
+          - cell "0"
+        - row "‪8 Nov 2026‬ 96":
+          - cell "‪8 Nov 2026‬"
+          - cell "96"
+        - row "‪15 Nov 2026‬ 100":
+          - cell "‪15 Nov 2026‬"
+          - cell "100"
+- generic: Interest by city
+- button "help_outline":
+  - generic: help_outline
+- 'listbox "Select resolution: City"':
+  - generic: City
+  - generic: ▼
+- button "file_download":
+  - generic: file_download
+- button "code":
+  - generic: code
+- button "share":
+  - generic: share
+- img "A chart."
+- checkbox "Include low search volume regions":
+  - generic: Include low search volume regions
+- text: ▼
+- button "1 Sahibzada Ajit Singh Nagar 100":
+  - generic: "1"
+  - generic: Sahibzada Ajit Singh Nagar
+  - generic: "100"
+- button "2 Chandigarh 57":
+  - generic: "2"
+  - generic: Chandigarh
+  - generic: "57"
+- text: Related topics
+- button "help_outline":
+  - generic: help_outline
+- 'listbox "Select bullets view: Rising"':
+  - generic: Rising
+  - generic: ▼
+- button "file_download":
+  - generic: file_download
+- button "code":
+  - generic: code
+- button "share":
+  - generic: share
+- generic "Explore 2024 - Topic":
+  - link "1 2024 - Topic Breakout":
+    - /url: /trends/explore?q=/g/11b77dhw02&date=today+12-m&geo=IN-CH
+    - generic: "1"
+    - generic: 2024 - Topic
+    - generic: Breakout
+  - button "more_vert":
+    - generic: more_vert
+- generic "Explore Data - Topic":
+  - link "2 Data - Topic Breakout":
+    - /url: /trends/explore?q=/m/026sq&date=today+12-m&geo=IN-CH
+    - generic: "2"
+    - generic: Data - Topic
+    - generic: Breakout
+  - button "more_vert":
+    - generic: more_vert
+- generic "Explore Architect - Occupation":
+  - link "3 Architect - Occupation Breakout":
+    - /url: /trends/explore?q=/m/0mn6&date=today+12-m&geo=IN-CH
+    - generic: "3"
+    - generic: Architect - Occupation
+    - generic: Breakout
+  - button "more_vert":
+    - generic: more_vert
+- text: Related queries
+- button "help_outline":
+  - generic: help_outline
+- 'listbox "Select bullets view: Top"':
+  - generic: Top
+  - generic: ▼
+- button "file_download":
+  - generic: file_download
+- button "code":
+  - generic: code
+- button "share":
+  - generic: share
+- generic "Explore interior designer near me":
+  - link "1 interior designer near me 100":
+    - /url: /trends/explore?q=interior+designer+near+me&date=today+12-m&geo=IN-CH
+    - generic: "1"
+    - generic: interior designer near me
+    - generic: "100"
+  - button "more_vert":
+    - generic: more_vert

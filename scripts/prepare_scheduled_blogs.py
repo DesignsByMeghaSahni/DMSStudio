@@ -16,6 +16,30 @@ PROJECT_PREFIXES = {
 }
 
 
+def rich_text(text):
+    """Render authored internal anchors, escaping all other text/markup."""
+    pattern = re.compile(r'<a href="((?:\.\./|/)[a-zA-Z0-9_./-]+)">([^<>]+)</a>')
+    parts, end = [], 0
+    for match in pattern.finditer(text):
+        parts.append(escape(text[end:match.start()]))
+        parts.append(f'<a href="{escape(match[1], quote=True)}">{escape(match[2])}</a>')
+        end = match.end()
+    parts.append(escape(text[end:]))
+    return ''.join(parts)
+
+
+def related_label(href):
+    if '/projects/' in href:
+        return 'Explore a related project'
+    if '/services/' in href:
+        return 'Explore interior design services'
+    if 'contact.html' in href or href.rstrip('/') == '/contact':
+        return 'Discuss your project with DMS Studio'
+    if href.endswith('projects.html') or href.rstrip('/') == '/projects':
+        return 'Browse completed DMS Studio projects'
+    return 'Read a related planning guide'
+
+
 def asset_path(name, size):
     for prefix, project in PROJECT_PREFIXES.items():
         if name.startswith(prefix):
@@ -82,15 +106,15 @@ def page_html(article, shell_header, shell_footer, shell_dialog, business_schema
 <meta name="twitter:title" content="{escape(title, quote=True)} | DMS Studio"><meta name="twitter:description" content="{escape(desc, quote=True)}"><meta name="twitter:image" content="{image_url}">
 <link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg?v=monogram-3"><link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon-32.png?v=monogram-3"><link rel="shortcut icon" href="../../assets/favicon.ico?v=monogram-3"><link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png?v=monogram-3">
 <link rel="stylesheet" href="../../css/fonts.css"><link rel="stylesheet" href="../../css/style.css?v=project-media-folders-1"><link rel="stylesheet" href="../../css/brand.css?v=responsive-20261023">
-<script type="application/ld+json">{schema}</script><script src="../../js/main.js?v=responsive-20261023" defer></script><script src="../../js/animations.js" defer></script></head>
+<script type="application/ld+json">{schema}</script><script src="../../js/main.js?v=tracking-20261119" defer></script><script src="../../js/animations.js" defer></script></head>
 <body class="interior-page"><a class="skip-link" href="#main">Skip to content</a>{shell_header}
 <main id="main"><div class="wrap breadcrumb"><a href="../../blog.html">Journal</a><span>/</span>{escape(article['category'])}</div>
 <section class="page-intro wrap"><p class="eyebrow">{escape(article['category'])} · Mohali &amp; Tricity</p><h1>{escape(title)}</h1><p class="lead">{escape(article['excerpt'])}</p></section>
 <div class="wrap article-meta"><span>By DMS Studio</span><time datetime="{day}">Published {day}</time><span>Practical design guidance</span></div>
 <div class="wrap article-hero">{image(article['image'], article['alt'], '../../', True)}</div>
 <div class="wrap article-quick-answer"><span>Quick answer</span><p>{article['quickAnswer']}</p></div>
-<article class="article-body">{''.join(f'<section><h2>{escape(h)}</h2><p>{escape(p)}</p>{inline_links(article, i)}</section>' for i, (h, p) in enumerate(article['sections']))}
-<aside class="article-aside"><h2>Explore the studio’s work and services.</h2>{''.join(f'<a class="text-link" href="{link}">{label}<span aria-hidden="true">↗</span></a>' for link, label in zip(article['links'], ['Explore a related project', 'Explore interior design services', 'Continue the conversation']))}</aside></article>
+<article class="article-body">{''.join(f'<section><h2>{escape(h)}</h2><p>{rich_text(p)}</p>{inline_links(article, i)}</section>' for i, (h, p) in enumerate(article['sections']))}
+<aside class="article-aside"><h2>Explore the studio’s work and services.</h2>{''.join(f'<a class="text-link" href="{escape(href, quote=True)}">{related_label(href)}<span aria-hidden="true">↗</span></a>' for href in article['links'])}</aside></article>
 <section class="wrap section faq"><div><p class="eyebrow">Useful answers</p><h2>Common questions</h2></div><div>{''.join(f'<details><summary>{q}<span aria-hidden="true">+</span></summary><p>{a}</p></details>' for q, a in article['faqs'])}</div></section>
 <section class="wrap section related-article"><p class="eyebrow">Follow the studio</p><h2>More ideas for <em>your home.</em></h2><p>See project details and design updates from DMS Studio.</p><div class="social-links"><a href="https://www.instagram.com/dms__studio" target="_blank" rel="noopener noreferrer">Instagram<span aria-hidden="true"> ↗</span></a><a href="https://www.facebook.com/profile.php?id=100083342347221" target="_blank" rel="noopener noreferrer">Facebook<span aria-hidden="true"> ↗</span></a><a href="https://share.google/L5Y3g26Lgr34GhKNI" target="_blank" rel="noopener noreferrer">Google Business Profile<span aria-hidden="true"> ↗</span></a></div></section></main>
 {shell_footer}{shell_dialog}</body></html>'''

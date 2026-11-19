@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//DMS Studio//Reddit editorial calendar//EN
+BEGIN:VEVENT
+UID:dms-reddit-20261125@dmsstudio.in
+DTSTAMP:20261117T000000Z
+DTSTART:20261125T140000Z
+DURATION:PT15M
+SUMMARY:Publish Reddit profile post 1 – Mohali · Sector 66
+DESCRIPTION:Use prepared copy and image named 01-falcon-66.
+END:VEVENT
+BEGIN:VEVENT
+UID:dms-reddit-20261202@dmsstudio.in
+DTSTAMP:20261117T000000Z
+DTSTART:20261202T140000Z
+DURATION:PT15M
+SUMMARY:Publish Reddit profile post 2 – Mohali · Sector 125
+DESCRIPTION:Use prepared copy and image named 02-babbar-residency.
+END:VEVENT
+BEGIN:VEVENT
+UID:dms-reddit-20261209@dmsstudio.in
+DTSTAMP:20261117T000000Z
+DTSTART:20261209T140000Z
+DURATION:PT15M
+SUMMARY:Publish Reddit profile post 3 – Zirakpur
+DESCRIPTION:Use prepared copy and image named 03-yogesh-residence.
+END:VEVENT
+BEGIN:VEVENT
+UID:dms-reddit-20261216@dmsstudio.in
+DTSTAMP:20261117T000000Z
+DTSTART:20261216T140000Z
+DURATION:PT15M
+SUMMARY:Publish Reddit profile post 4 – New Chandigarh
+DESCRIPTION:Use prepared copy and image named 04-essentia-salon.
+END:VEVENT
+BEGIN:VEVENT
+UID:dms-reddit-20261223@dmsstudio.in
+DTSTAMP:20261117T000000Z
+DTSTART:20261223T140000Z
+DURATION:PT15M
+SUMMARY:Publish Reddit profile post 5 – Mohali · Sector 125
+DESCRIPTION:Use prepared copy and image named 05-sachdeva-125.
+END:VEVENT
+BEGIN:VEVENT
+UID:dms-reddit-20261230@dmsstudio.in
+DTSTAMP:20261117T000000Z
+DTSTART:20261230T140000Z
+DURATION:PT15M
+SUMMARY:Publish Reddit profile post 6 – Mohali · Phase 3B2
+DESCRIPTION:Use prepared copy and image named 06-sheena-3b2-nail-studio.
+END:VEVENT
+END:VCALENDAR
