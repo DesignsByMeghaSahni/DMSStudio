@@ -28,7 +28,7 @@
       ],
       [
         "babbar-04",
-        "Grey feature wall and floating media console"
+        "Grey media wall and timber console · AI-staged television and LED lighting"
       ]
     ],
     "seo": "Explore Babbar Residency, a 3BHK home in Sector 125, Mohali, with a custom kitchen, bespoke woodwork and cove lighting.",
@@ -46,7 +46,8 @@
         "q": "Which details define the living-room palette?",
         "a": "The photographs show a deep green feature wall, mustard seating, warm woodwork and natural light."
       }
-    ]
+    ],
+    "photoCredit": "DMS Studio · AI-assisted colour enhancement and reframing. The TV-wall image includes a digitally added television and LED lighting."
   },
   {
     "slug": "opera-home",
@@ -95,7 +96,8 @@
         "q": "Was the project coordinated remotely?",
         "a": "Yes. The project record notes remote coordination for an NRI client."
       }
-    ]
+    ],
+    "photoCredit": "DMS Studio · AI-assisted colour enhancement and reframing"
   },
   {
     "slug": "essentia-salon",
@@ -193,7 +195,7 @@
       ],
       [
         "yogesh-zirakpur-bedroom-detail",
-        "Bedroom feature wall and sculpted ceiling in a lived-in view"
+        "Bedroom feature wall and sculpted ceiling · AI-assisted people and loose-item removal"
       ],
       [
         "yogesh-zirakpur-wardrobe-angle-01",
@@ -253,7 +255,13 @@
         "q": "Does the project page include videos?",
         "a": "Yes. It includes six original walkthrough clips alongside the project photographs."
       }
-    ]
+    ],
+    "omitGallery": [
+      "yogesh-zirakpur-alcove-progress",
+      "yogesh-zirakpur-tv-wall-source",
+      "yogesh-zirakpur-wardrobe-source"
+    ],
+    "photoCredit": "DMS Studio · AI-assisted colour enhancement, perspective correction and cleanup; people and loose items digitally removed in selected images."
   },
   {
     "slug": "evaan-joshi",
@@ -349,7 +357,8 @@
         "q": "How does the room support study as well as play?",
         "a": "The documented layout pairs football-themed details with a dedicated desk, shelving and storage, keeping everyday study and organisation in the room."
       }
-    ]
+    ],
+    "photoCredit": "DMS Studio · AI-assisted colour enhancement and reframing"
   },
   {
     "slug": "falcon-66",
@@ -375,7 +384,7 @@
       ],
       [
         "falcon-66-bedroom-01",
-        "Bedroom interior with coordinated finishes and soft lighting"
+        "Decorative glazed doors with gold motifs and ivory framing"
       ],
       [
         "falcon-66-dining-room",
@@ -399,19 +408,19 @@
       ],
       [
         "falcon-66-puja-room-01",
-        "Puja-room alcove and its surrounding details"
+        "Sound-bowl room with arched display shelving, brass bowls and a central gong"
       ],
       [
         "falcon-66-puja-room-02",
-        "Alternate view of the dedicated mandir space"
+        "Sound-bowl room with arched display shelving, brass bowls and a central gong"
       ],
       [
         "falcon-66-puja-room-03",
-        "Close view of the puja alcove detailing"
+        "Sound-bowl room with arched display shelving, brass bowls and a central gong"
       ],
       [
         "falcon-66-puja-room-04",
-        "Puja space seen from another angle"
+        "Sound-bowl room with arched display shelving, brass bowls and a central gong"
       ],
       [
         "falcon-66-display-shelf-01",
@@ -486,7 +495,8 @@
         "q": "What is the recorded project category?",
         "a": "It is a residential 3BHK interior project by DMS Studio."
       }
-    ]
+    ],
+    "photoCredit": "DMS Studio · AI-assisted colour enhancement and reframing"
   },
   {
     "slug": "sachdeva-125",
@@ -974,7 +984,8 @@
       "PHOTO-2025-04-07-13-51-13",
       "PHOTO-2025-04-07-13-51-15"
     ],
-    "cardCopy": "A Sector 117 apartment with connected living, dining and kitchen zones and warm timber accents."
+    "cardCopy": "A Sector 117 apartment with connected living, dining and kitchen zones and warm timber accents.",
+    "photoCredit": "DMS Studio · AI-assisted colour enhancement, reframing and people cleanup"
   },
   {
     "slug": "sheena-3b2-nail-studio",
@@ -1091,7 +1102,7 @@
         "a": "Sheena Nail Studio is a commercial interior project by DMS Studio."
       }
     ],
-    "photoCredit": "Project photographs supplied to DMS Studio; web colour enhancement by DMS Studio"
+    "photoCredit": "Project photographs supplied to DMS Studio · AI-assisted colour enhancement, reframing and people cleanup"
   },
   {
     "slug": "prince-residence",
@@ -1458,7 +1469,7 @@
         "a": "The gallery includes both finished-looking views and site-progress photographs; progress images are captioned to make their context clear."
       }
     ],
-    "photoCredit": "Project photographs supplied to DMS Studio; restrained web colour enhancement by DMS Studio",
+    "photoCredit": "DMS Studio · AI-assisted colour enhancement and cleanup; temporary cables, protective paper and construction marks digitally removed from staircase photographs",
     "videos": [
       {
         "file": "IMG_7268.MOV",
