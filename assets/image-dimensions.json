@@ -579,12 +579,12 @@
       "height": 853
     },
     "1280": {
-      "width": 765,
-      "height": 1020
+      "width": 1086,
+      "height": 1448
     },
     "1920": {
-      "width": 765,
-      "height": 1020
+      "width": 1086,
+      "height": 1448
     }
   },
   "essentia-07": {
@@ -593,12 +593,12 @@
       "height": 853
     },
     "1280": {
-      "width": 765,
-      "height": 1020
+      "width": 1086,
+      "height": 1448
     },
     "1920": {
-      "width": 765,
-      "height": 1020
+      "width": 1086,
+      "height": 1448
     }
   },
   "essentia-02": {
@@ -621,12 +621,12 @@
       "height": 480
     },
     "1280": {
-      "width": 1040,
-      "height": 780
+      "width": 1280,
+      "height": 960
     },
     "1920": {
-      "width": 1040,
-      "height": 780
+      "width": 1448,
+      "height": 1086
     }
   },
   "essentia-03": {
@@ -635,12 +635,12 @@
       "height": 853
     },
     "1280": {
-      "width": 765,
-      "height": 1020
+      "width": 1086,
+      "height": 1448
     },
     "1920": {
-      "width": 765,
-      "height": 1020
+      "width": 1086,
+      "height": 1448
     }
   },
   "essentia-04": {
@@ -649,12 +649,12 @@
       "height": 853
     },
     "1280": {
-      "width": 765,
-      "height": 1020
+      "width": 1086,
+      "height": 1448
     },
     "1920": {
-      "width": 765,
-      "height": 1020
+      "width": 1086,
+      "height": 1448
     }
   },
   "essentia-outdoor": {
@@ -677,26 +677,26 @@
       "height": 853
     },
     "1280": {
-      "width": 765,
-      "height": 1020
+      "width": 1086,
+      "height": 1448
     },
     "1920": {
-      "width": 765,
-      "height": 1020
+      "width": 1086,
+      "height": 1448
     }
   },
   "essentia-outdoor-banner": {
     "640": {
       "width": 640,
-      "height": 320
+      "height": 480
     },
     "1280": {
       "width": 1280,
-      "height": 640
+      "height": 960
     },
     "1920": {
-      "width": 1920,
-      "height": 960
+      "width": 1448,
+      "height": 1086
     }
   },
   "IMG_3581": {
@@ -1227,8 +1227,8 @@
       "height": 720
     },
     "1920": {
-      "width": 1600,
-      "height": 900
+      "width": 1672,
+      "height": 941
     }
   },
   "sachdeva-125-tv-wall-install-01": {
@@ -1241,8 +1241,8 @@
       "height": 960
     },
     "1920": {
-      "width": 1920,
-      "height": 1440
+      "width": 1448,
+      "height": 1086
     }
   },
   "sachdeva-125-tv-wall-install-02": {
@@ -1255,8 +1255,8 @@
       "height": 960
     },
     "1920": {
-      "width": 1920,
-      "height": 1440
+      "width": 1448,
+      "height": 1086
     }
   },
   "sachdeva-125-mandir-01": {
@@ -1265,12 +1265,12 @@
       "height": 853
     },
     "1280": {
-      "width": 1280,
-      "height": 1707
+      "width": 1086,
+      "height": 1448
     },
     "1920": {
-      "width": 1920,
-      "height": 2560
+      "width": 1086,
+      "height": 1448
     }
   },
   "sachdeva-125-living-divider": {
@@ -1283,8 +1283,8 @@
       "height": 960
     },
     "1920": {
-      "width": 1920,
-      "height": 1440
+      "width": 1448,
+      "height": 1086
     }
   },
   "sachdeva-125-tv-wall-01": {
@@ -1297,8 +1297,8 @@
       "height": 960
     },
     "1920": {
-      "width": 1920,
-      "height": 1440
+      "width": 1448,
+      "height": 1086
     }
   },
   "sachdeva-125-tv-wall-02": {
@@ -1311,8 +1311,8 @@
       "height": 960
     },
     "1920": {
-      "width": 1920,
-      "height": 1440
+      "width": 1448,
+      "height": 1086
     }
   },
   "sachdeva-125-tv-wall-03": {
@@ -1325,8 +1325,8 @@
       "height": 960
     },
     "1920": {
-      "width": 1920,
-      "height": 1440
+      "width": 1448,
+      "height": 1086
     }
   },
   "sachdeva-125-wardrobe-install": {
@@ -1335,12 +1335,12 @@
       "height": 853
     },
     "1280": {
-      "width": 1280,
-      "height": 1707
+      "width": 1086,
+      "height": 1448
     },
     "1920": {
-      "width": 1920,
-      "height": 2560
+      "width": 1086,
+      "height": 1448
     }
   },
   "sachdeva-125-kitchen-install-01": {
@@ -1349,12 +1349,12 @@
       "height": 853
     },
     "1280": {
-      "width": 1280,
-      "height": 1707
+      "width": 1086,
+      "height": 1448
     },
     "1920": {
-      "width": 1920,
-      "height": 2560
+      "width": 1086,
+      "height": 1448
     }
   },
   "sachdeva-125-kitchen-install-02": {
@@ -1367,8 +1367,8 @@
       "height": 960
     },
     "1920": {
-      "width": 1920,
-      "height": 1440
+      "width": 1448,
+      "height": 1086
     }
   },
   "sachdeva-125-blue-bedroom-01": {
@@ -1377,12 +1377,12 @@
       "height": 853
     },
     "1280": {
-      "width": 1280,
-      "height": 1707
+      "width": 1086,
+      "height": 1448
     },
     "1920": {
-      "width": 1920,
-      "height": 2560
+      "width": 1086,
+      "height": 1448
     }
   },
   "sachdeva-125-blue-bedroom-02": {
@@ -1391,12 +1391,12 @@
       "height": 853
     },
     "1280": {
-      "width": 1280,
-      "height": 1707
+      "width": 1086,
+      "height": 1448
     },
     "1920": {
-      "width": 1920,
-      "height": 2560
+      "width": 1086,
+      "height": 1448
     }
   },
   "sachdeva-125-blue-bedroom-03": {
@@ -1405,12 +1405,12 @@
       "height": 853
     },
     "1280": {
-      "width": 1280,
-      "height": 1707
+      "width": 1086,
+      "height": 1448
     },
     "1920": {
-      "width": 1920,
-      "height": 2560
+      "width": 1086,
+      "height": 1448
     }
   },
   "sachdeva-125-blue-bedroom-wide-01": {
@@ -1423,8 +1423,8 @@
       "height": 960
     },
     "1920": {
-      "width": 1920,
-      "height": 1440
+      "width": 1448,
+      "height": 1086
     }
   },
   "sachdeva-125-blue-bedroom-wide-02": {
@@ -1437,8 +1437,8 @@
       "height": 960
     },
     "1920": {
-      "width": 1920,
-      "height": 1440
+      "width": 1448,
+      "height": 1086
     }
   },
   "sachdeva-125-rose-bedroom-detail": {
@@ -1451,8 +1451,8 @@
       "height": 960
     },
     "1920": {
-      "width": 1920,
-      "height": 1440
+      "width": 1448,
+      "height": 1086
     }
   },
   "sachdeva-125-rose-bedroom-01": {
@@ -1461,12 +1461,12 @@
       "height": 853
     },
     "1280": {
-      "width": 1280,
-      "height": 1707
+      "width": 1086,
+      "height": 1448
     },
     "1920": {
-      "width": 1920,
-      "height": 2560
+      "width": 1086,
+      "height": 1448
     }
   },
   "sachdeva-125-rose-bedroom-02": {
@@ -1475,12 +1475,12 @@
       "height": 853
     },
     "1280": {
-      "width": 1280,
-      "height": 1707
+      "width": 1086,
+      "height": 1448
     },
     "1920": {
-      "width": 1920,
-      "height": 2560
+      "width": 1086,
+      "height": 1448
     }
   },
   "sachdeva-125-rose-bedroom-03": {
@@ -1489,12 +1489,12 @@
       "height": 853
     },
     "1280": {
-      "width": 1280,
-      "height": 1707
+      "width": 1086,
+      "height": 1448
     },
     "1920": {
-      "width": 1920,
-      "height": 2560
+      "width": 1086,
+      "height": 1448
     }
   },
   "sachdeva-125-rose-bedroom-04": {
@@ -1503,12 +1503,12 @@
       "height": 853
     },
     "1280": {
-      "width": 1280,
-      "height": 1707
+      "width": 1086,
+      "height": 1448
     },
     "1920": {
-      "width": 1920,
-      "height": 2560
+      "width": 1086,
+      "height": 1448
     }
   },
   "sachdeva-125-living-room-final-01": {
@@ -1521,8 +1521,8 @@
       "height": 960
     },
     "1920": {
-      "width": 1920,
-      "height": 1440
+      "width": 1448,
+      "height": 1086
     }
   },
   "sachdeva-125-living-room-final-02": {
@@ -1535,8 +1535,8 @@
       "height": 960
     },
     "1920": {
-      "width": 1920,
-      "height": 1440
+      "width": 1448,
+      "height": 1086
     }
   },
   "sachdeva-125-living-dining-wide-01": {
@@ -1549,8 +1549,8 @@
       "height": 720
     },
     "1920": {
-      "width": 1600,
-      "height": 900
+      "width": 1672,
+      "height": 941
     }
   },
   "sachdeva-125-living-dining-wide-02": {
@@ -1563,8 +1563,8 @@
       "height": 720
     },
     "1920": {
-      "width": 1600,
-      "height": 900
+      "width": 1672,
+      "height": 941
     }
   },
   "sachdeva-125-formal-living-wide": {
@@ -1577,8 +1577,8 @@
       "height": 720
     },
     "1920": {
-      "width": 1600,
-      "height": 900
+      "width": 1672,
+      "height": 941
     }
   },
   "tdi-wellington-img-0226": {
@@ -3077,6 +3077,62 @@
     "1920": {
       "width": 1672,
       "height": 941
+    }
+  },
+  "essentia-reception-styled": {
+    "640": {
+      "width": 640,
+      "height": 1137
+    },
+    "1280": {
+      "width": 941,
+      "height": 1672
+    },
+    "1920": {
+      "width": 941,
+      "height": 1672
+    }
+  },
+  "essentia-retail-styled": {
+    "640": {
+      "width": 640,
+      "height": 1137
+    },
+    "1280": {
+      "width": 941,
+      "height": 1672
+    },
+    "1920": {
+      "width": 941,
+      "height": 1672
+    }
+  },
+  "essentia-pedicure": {
+    "640": {
+      "width": 640,
+      "height": 1137
+    },
+    "1280": {
+      "width": 941,
+      "height": 1672
+    },
+    "1920": {
+      "width": 941,
+      "height": 1672
+    }
+  },
+  "essentia-beauty-stations": {
+    "640": {
+      "width": 640,
+      "height": 1137
+    },
+    "1280": {
+      "width": 941,
+      "height": 1672
+    },
+    "1920": {
+      "width": 941,
+      "height": 1672
     }
   }
 }

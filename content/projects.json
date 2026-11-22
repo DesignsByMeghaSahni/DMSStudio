@@ -139,12 +139,25 @@
         "Interior view of Essentia Salon’s styling area"
       ],
       [
-        "essentia-outdoor",
-        "Essentia Salon exterior and illuminated storefront in New Chandigarh"
+        "essentia-reception-styled",
+        "Reception desk with timber slats and stone front · AI-staged décor concept"
+      ],
+      [
+        "essentia-retail-styled",
+        "Illuminated retail display beside the reception · AI-staged décor concept"
+      ],
+      [
+        "essentia-pedicure",
+        "Pedicure seating and foot-spa stations · Enhanced frame from the supplied project video"
+      ],
+      [
+        "essentia-beauty-stations",
+        "Beauty stations, mirrored counter and chandelier · Enhanced frame from the supplied project video"
       ]
     ],
     "omitGallery": [
-      "essentia-02"
+      "essentia-02",
+      "essentia-outdoor"
     ],
     "seo": "Explore Essentia Salon, a New Chandigarh commercial interior with custom furniture, styling stations and warm lighting.",
     "cardCopy": "A New Chandigarh salon planned around guest arrival, styling stations, custom furniture and warm lighting.",
@@ -161,7 +174,30 @@
         "q": "What was the documented scope?",
         "a": "The listed scope includes commercial interior design, layout planning, custom furniture and lighting."
       }
-    ]
+    ],
+    "videos": [
+      {
+        "file": "Video-49268-salonvideo2.mp4",
+        "original": true,
+        "playbackFile": "essentia-transformation.mp4",
+        "poster": "videos/posters/essentia-transformation.jpg",
+        "width": 720,
+        "height": 1280,
+        "duration": 21.2,
+        "caption": "Essentia Salon · Before-and-after transformation"
+      },
+      {
+        "file": "Video-65402-salon video.mp4",
+        "original": true,
+        "playbackFile": "essentia-interior-tour.mp4",
+        "poster": "videos/posters/essentia-interior-tour.jpg",
+        "width": 720,
+        "height": 1280,
+        "duration": 21.73,
+        "caption": "Essentia Salon · Interior and treatment areas"
+      }
+    ],
+    "photoCredit": "DMS Studio · AI-assisted colour enhancement and people cleanup. Reception and retail reception views are AI-staged décor concepts; selected additional photographs are enhanced frames from supplied project videos."
   },
   {
     "slug": "yogesh-residence",
@@ -218,27 +254,57 @@
     "videos": [
       {
         "file": "IMG_3729.mp4",
-        "caption": "Yogesh Residence walkthrough · Clip 01"
+        "caption": "Yogesh Residence walkthrough · Clip 01",
+        "playbackFile": "IMG_3729.mp4",
+        "poster": "videos/posters/IMG_3729.jpg",
+        "width": 1080,
+        "height": 1920,
+        "duration": 3.34
       },
       {
         "file": "IMG_3730.mp4",
-        "caption": "Yogesh Residence walkthrough · Clip 02"
+        "caption": "Yogesh Residence walkthrough · Clip 02",
+        "playbackFile": "IMG_3730.mp4",
+        "poster": "videos/posters/IMG_3730.jpg",
+        "width": 1080,
+        "height": 1920,
+        "duration": 11.42
       },
       {
         "file": "IMG_3731.mp4",
-        "caption": "Yogesh Residence walkthrough · Clip 03"
+        "caption": "Yogesh Residence walkthrough · Clip 03",
+        "playbackFile": "IMG_3731.mp4",
+        "poster": "videos/posters/IMG_3731.jpg",
+        "width": 1080,
+        "height": 1920,
+        "duration": 4.18
       },
       {
         "file": "IMG_3735.mp4",
-        "caption": "Yogesh Residence walkthrough · Clip 04"
+        "caption": "Yogesh Residence walkthrough · Clip 04",
+        "playbackFile": "IMG_3735.mp4",
+        "poster": "videos/posters/IMG_3735.jpg",
+        "width": 1080,
+        "height": 1920,
+        "duration": 2.85
       },
       {
         "file": "IMG_3741.mp4",
-        "caption": "Yogesh Residence walkthrough · Clip 05"
+        "caption": "Yogesh Residence walkthrough · Clip 05",
+        "playbackFile": "IMG_3741.mp4",
+        "poster": "videos/posters/IMG_3741.jpg",
+        "width": 1080,
+        "height": 1920,
+        "duration": 11.77
       },
       {
         "file": "IMG_3742.mp4",
-        "caption": "Yogesh Residence walkthrough · Clip 06"
+        "caption": "Yogesh Residence walkthrough · Clip 06",
+        "playbackFile": "IMG_3742.mp4",
+        "poster": "videos/posters/IMG_3742.jpg",
+        "width": 1080,
+        "height": 1920,
+        "duration": 3.13
       }
     ],
     "cardCopy": "A Zirakpur home with a sculpted TV wall, fluted wardrobe fronts and integrated everyday storage.",
@@ -334,11 +400,21 @@
     "videos": [
       {
         "file": "IMG_3583.mp4",
-        "caption": "Evaan Joshi football-themed bedroom · Original walkthrough 1"
+        "caption": "Evaan Joshi football-themed bedroom · Original walkthrough 1",
+        "playbackFile": "IMG_3583.mp4",
+        "poster": "videos/posters/IMG_3583.jpg",
+        "width": 1080,
+        "height": 1920,
+        "duration": 6.4
       },
       {
         "file": "IMG_3584.mp4",
-        "caption": "Evaan Joshi football-themed bedroom · Original walkthrough 2"
+        "caption": "Evaan Joshi football-themed bedroom · Original walkthrough 2",
+        "playbackFile": "IMG_3584.mp4",
+        "poster": "videos/posters/IMG_3584.jpg",
+        "width": 1080,
+        "height": 1920,
+        "duration": 2.6
       }
     ],
     "locationKnown": false,
@@ -466,19 +542,39 @@
     "videos": [
       {
         "file": "IMG_3526.mp4",
-        "caption": "Falcon 66 Residence walkthrough · Original clip 01"
+        "caption": "Falcon 66 Residence walkthrough · Original clip 01",
+        "playbackFile": "IMG_3526.mp4",
+        "poster": "videos/posters/IMG_3526.jpg",
+        "width": 1080,
+        "height": 1920,
+        "duration": 14.14
       },
       {
         "file": "IMG_3529.mp4",
-        "caption": "Falcon 66 Residence walkthrough · Original clip 02"
+        "caption": "Falcon 66 Residence walkthrough · Original clip 02",
+        "playbackFile": "IMG_3529-web.mp4",
+        "poster": "videos/posters/IMG_3529-web.jpg",
+        "width": 720,
+        "height": 1280,
+        "duration": 3.07
       },
       {
         "file": "IMG_3530.mp4",
-        "caption": "Falcon 66 Residence walkthrough · Original clip 03"
+        "caption": "Falcon 66 Residence walkthrough · Original clip 03",
+        "playbackFile": "IMG_3530-web.mp4",
+        "poster": "videos/posters/IMG_3530-web.jpg",
+        "width": 720,
+        "height": 1280,
+        "duration": 8.07
       },
       {
         "file": "IMG_3536.mp4",
-        "caption": "Falcon 66 Residence walkthrough · Original clip 04"
+        "caption": "Falcon 66 Residence walkthrough · Original clip 04",
+        "playbackFile": "IMG_3536.mp4",
+        "poster": "videos/posters/IMG_3536.jpg",
+        "width": 1080,
+        "height": 1920,
+        "duration": 4.33
       }
     ],
     "cardCopy": "A Sector 66 3BHK bringing living, dining and bedrooms together with a dedicated puja alcove.",
@@ -514,19 +610,19 @@
     "gallery": [
       [
         "sachdeva-125-living-dining-wide-01",
-        "Wide living and dining room view in the Sachdeva Residence, Sector 125, Mohali"
+        "Wide living and dining room view in the Sachdeva Residence, Sector 125, Mohali · Design visualization"
       ],
       [
         "sachdeva-125-living-dining-wide-02",
-        "Living and dining zones across the 400-gaj residence"
+        "Living and dining zones across the 400-gaj residence · Design visualization"
       ],
       [
         "sachdeva-125-formal-living-wide",
-        "Formal living room with layered lighting and a sculpted ceiling"
+        "Formal living room with layered lighting and a sculpted ceiling · Design visualization"
       ],
       [
         "sachdeva-125-living-room-wide",
-        "Wide view of the residence living room"
+        "Wide view of the residence living room · Design visualization"
       ],
       [
         "sachdeva-125-living-room-final-01",
@@ -649,59 +745,129 @@
     "videos": [
       {
         "file": "IMG_0987.mp4",
-        "caption": "Sachdeva Residence · Project walkthrough 01"
+        "caption": "Sachdeva Residence · Project walkthrough 01",
+        "playbackFile": "IMG_0987.mp4",
+        "poster": "videos/posters/IMG_0987.jpg",
+        "width": 1080,
+        "height": 1920,
+        "duration": 13.5
       },
       {
         "file": "IMG_0989.mp4",
-        "caption": "Sachdeva Residence · Project walkthrough 02"
+        "caption": "Sachdeva Residence · Project walkthrough 02",
+        "playbackFile": "IMG_0989.mp4",
+        "poster": "videos/posters/IMG_0989.jpg",
+        "width": 1080,
+        "height": 1920,
+        "duration": 8.67
       },
       {
         "file": "IMG_0990.mp4",
-        "caption": "Sachdeva Residence · Project walkthrough 03"
+        "caption": "Sachdeva Residence · Project walkthrough 03",
+        "playbackFile": "IMG_0990.mp4",
+        "poster": "videos/posters/IMG_0990.jpg",
+        "width": 1080,
+        "height": 1920,
+        "duration": 8.87
       },
       {
         "file": "IMG_0991.mp4",
-        "caption": "Sachdeva Residence · Project walkthrough 04"
+        "caption": "Sachdeva Residence · Project walkthrough 04",
+        "playbackFile": "IMG_0991.mp4",
+        "poster": "videos/posters/IMG_0991.jpg",
+        "width": 1080,
+        "height": 1920,
+        "duration": 5.62
       },
       {
         "file": "IMG_0992.mp4",
-        "caption": "Sachdeva Residence · Project walkthrough 05"
+        "caption": "Sachdeva Residence · Project walkthrough 05",
+        "playbackFile": "IMG_0992.mp4",
+        "poster": "videos/posters/IMG_0992.jpg",
+        "width": 1080,
+        "height": 1920,
+        "duration": 12.98
       },
       {
         "file": "IMG_1463.mp4",
-        "caption": "Sachdeva Residence · Project walkthrough 06"
+        "caption": "Sachdeva Residence · Project walkthrough 06",
+        "playbackFile": "IMG_1463.mp4",
+        "poster": "videos/posters/IMG_1463.jpg",
+        "width": 1080,
+        "height": 1920,
+        "duration": 5.17
       },
       {
         "file": "IMG_1464.mp4",
-        "caption": "Sachdeva Residence · Project walkthrough 07"
+        "caption": "Sachdeva Residence · Project walkthrough 07",
+        "playbackFile": "IMG_1464.mp4",
+        "poster": "videos/posters/IMG_1464.jpg",
+        "width": 1080,
+        "height": 1920,
+        "duration": 8.49
       },
       {
         "file": "IMG_1470.mp4",
-        "caption": "Sachdeva Residence · Project walkthrough 08"
+        "caption": "Sachdeva Residence · Project walkthrough 08",
+        "playbackFile": "IMG_1470.mp4",
+        "poster": "videos/posters/IMG_1470.jpg",
+        "width": 1080,
+        "height": 1920,
+        "duration": 5.7
       },
       {
         "file": "IMG_2690.mp4",
-        "caption": "Sachdeva Residence · Project walkthrough 09"
+        "caption": "Sachdeva Residence · Project walkthrough 09",
+        "playbackFile": "IMG_2690.mp4",
+        "poster": "videos/posters/IMG_2690.jpg",
+        "width": 1080,
+        "height": 1920,
+        "duration": 6.8
       },
       {
         "file": "IMG_2697.mp4",
-        "caption": "Sachdeva Residence · Project walkthrough 10"
+        "caption": "Sachdeva Residence · Project walkthrough 10",
+        "playbackFile": "IMG_2697.mp4",
+        "poster": "videos/posters/IMG_2697.jpg",
+        "width": 1080,
+        "height": 1920,
+        "duration": 12.57
       },
       {
         "file": "IMG_2698.mp4",
-        "caption": "Sachdeva Residence · Project walkthrough 11"
+        "caption": "Sachdeva Residence · Project walkthrough 11",
+        "playbackFile": "IMG_2698.mp4",
+        "poster": "videos/posters/IMG_2698.jpg",
+        "width": 1080,
+        "height": 1920,
+        "duration": 4.22
       },
       {
         "file": "IMG_2699.mp4",
-        "caption": "Sachdeva Residence · Project walkthrough 12"
+        "caption": "Sachdeva Residence · Project walkthrough 12",
+        "playbackFile": "IMG_2699.mp4",
+        "poster": "videos/posters/IMG_2699.jpg",
+        "width": 1080,
+        "height": 1920,
+        "duration": 2.7
       },
       {
         "file": "IMG_2705.mp4",
-        "caption": "Sachdeva Residence · Project walkthrough 13"
+        "caption": "Sachdeva Residence · Project walkthrough 13",
+        "playbackFile": "IMG_2705.mp4",
+        "poster": "videos/posters/IMG_2705.jpg",
+        "width": 1080,
+        "height": 1920,
+        "duration": 7.82
       },
       {
         "file": "IMG_2706.mp4",
-        "caption": "Sachdeva Residence · Project walkthrough 14"
+        "caption": "Sachdeva Residence · Project walkthrough 14",
+        "playbackFile": "IMG_2706.mp4",
+        "poster": "videos/posters/IMG_2706.jpg",
+        "width": 1080,
+        "height": 1920,
+        "duration": 11.14
       }
     ],
     "cardCopy": "A 400-gaj Mohali kothi with distinct bedroom palettes, a feature media wall and a dedicated mandir.",
@@ -718,7 +884,8 @@
         "q": "What material information is available?",
         "a": "The photographs show decorative wall panelling, built-in cabinetry, upholstered bedroom features, integrated lighting and stone-look flooring. Exact brands and specifications were not supplied."
       }
-    ]
+    ],
+    "photoCredit": "DMS Studio · AI-assisted colour enhancement, reframing and construction-dust cleanup. Living/dining visualizations and site-stage photographs are identified in their captions; protective film on existing televisions was digitally removed"
   },
   {
     "slug": "tdi-wellington-3bhk",
@@ -863,7 +1030,7 @@
       },
       {
         "q": "Does this page include original project videos?",
-        "a": "Yes. All nine supplied walkthroughs are included. The original camera files are preserved, with ungraded H.264 playback copies used for broad browser compatibility."
+        "a": "Yes. Eight distinct walkthroughs are included. Original camera files are preserved, with browser-compatible H.264 playback copies and preview frames extracted from each video."
       },
       {
         "q": "Can DMS Studio design a 3BHK home in Mohali?",
@@ -878,16 +1045,8 @@
         "playbackFile": "4f1770f4e67d4062a800b3e21a653767.mp4",
         "poster": "videos/posters/4f1770f4e67d4062a800b3e21a653767.jpg",
         "width": 720,
-        "height": 1280
-      },
-      {
-        "file": "870002e404bc453099d84b5367809eaf.MOV",
-        "caption": "TDI Wellington 3BHK · Original walkthrough clip 02",
-        "original": true,
-        "playbackFile": "870002e404bc453099d84b5367809eaf.mp4",
-        "poster": "videos/posters/870002e404bc453099d84b5367809eaf.jpg",
-        "width": 720,
-        "height": 1280
+        "height": 1280,
+        "duration": 6.0
       },
       {
         "file": "IMG_0223.MOV",
@@ -895,8 +1054,9 @@
         "original": true,
         "playbackFile": "IMG_0223.mp4",
         "poster": "videos/posters/IMG_0223.jpg",
-        "width": 1920,
-        "height": 1080
+        "width": 1080,
+        "height": 1920,
+        "duration": 6.11
       },
       {
         "file": "IMG_0225.MOV",
@@ -904,8 +1064,9 @@
         "original": true,
         "playbackFile": "IMG_0225.mp4",
         "poster": "videos/posters/IMG_0225.jpg",
-        "width": 1920,
-        "height": 1080
+        "width": 1080,
+        "height": 1920,
+        "duration": 5.73
       },
       {
         "file": "IMG_0232.MOV",
@@ -914,7 +1075,8 @@
         "playbackFile": "IMG_0232.mp4",
         "poster": "videos/posters/IMG_0232.jpg",
         "width": 1920,
-        "height": 1080
+        "height": 1080,
+        "duration": 0.81
       },
       {
         "file": "IMG_0236.MOV",
@@ -922,8 +1084,9 @@
         "original": true,
         "playbackFile": "IMG_0236.mp4",
         "poster": "videos/posters/IMG_0236.jpg",
-        "width": 1920,
-        "height": 1080
+        "width": 1080,
+        "height": 1920,
+        "duration": 3.09
       },
       {
         "file": "IMG_0237.MOV",
@@ -931,8 +1094,9 @@
         "original": true,
         "playbackFile": "IMG_0237.mp4",
         "poster": "videos/posters/IMG_0237.jpg",
-        "width": 1920,
-        "height": 1080
+        "width": 1080,
+        "height": 1920,
+        "duration": 2.25
       },
       {
         "file": "IMG_0238.MOV",
@@ -940,8 +1104,9 @@
         "original": true,
         "playbackFile": "IMG_0238.mp4",
         "poster": "videos/posters/IMG_0238.jpg",
-        "width": 1920,
-        "height": 1080
+        "width": 1080,
+        "height": 1920,
+        "duration": 18.77
       },
       {
         "file": "IMG_0240.MOV",
@@ -949,8 +1114,9 @@
         "original": true,
         "playbackFile": "IMG_0240.mp4",
         "poster": "videos/posters/IMG_0240.jpg",
-        "width": 1920,
-        "height": 1080
+        "width": 1080,
+        "height": 1920,
+        "duration": 7.38
       }
     ],
     "omitGallery": [
@@ -985,7 +1151,12 @@
       "PHOTO-2025-04-07-13-51-15"
     ],
     "cardCopy": "A Sector 117 apartment with connected living, dining and kitchen zones and warm timber accents.",
-    "photoCredit": "DMS Studio · AI-assisted colour enhancement, reframing and people cleanup"
+    "photoCredit": "DMS Studio · AI-assisted colour enhancement, reframing and people cleanup",
+    "omitVideos": [
+      "870002e404bc453099d84b5367809eaf-web.mp4",
+      "870002e404bc453099d84b5367809eaf.MOV",
+      "870002e404bc453099d84b5367809eaf.mp4"
+    ]
   },
   {
     "slug": "sheena-3b2-nail-studio",
@@ -1045,43 +1216,71 @@
         "file": "IMG_0001.MOV",
         "original": true,
         "caption": "Original salon walkthrough · treatment area",
-        "poster": "photos/optimized/sheena-nail-studio-overview-640.webp"
+        "poster": "videos/posters/IMG_0001-web.jpg",
+        "playbackFile": "IMG_0001-web.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 3.0
       },
       {
         "file": "IMG_0007.MOV",
         "original": true,
         "caption": "Original salon walkthrough · guest lounge",
-        "poster": "photos/optimized/sheena-nail-lounge-mural-640.webp"
+        "poster": "videos/posters/IMG_0007-web.jpg",
+        "playbackFile": "IMG_0007-web.mp4",
+        "width": 1280,
+        "height": 720,
+        "duration": 11.04
       },
       {
         "file": "IMG_0008.MOV",
         "original": true,
         "caption": "Original salon walkthrough · polish displays",
-        "poster": "photos/optimized/sheena-nail-treatment-area-640.webp"
+        "poster": "videos/posters/IMG_0008-web.jpg",
+        "playbackFile": "IMG_0008-web.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 16.62
       },
       {
         "file": "IMG_0012.MOV",
         "original": true,
         "caption": "Original salon walkthrough · salon interior",
-        "poster": "photos/optimized/sheena-nail-treatment-station-640.webp"
+        "poster": "videos/posters/IMG_0012-web.jpg",
+        "playbackFile": "IMG_0012-web.mp4",
+        "width": 1280,
+        "height": 720,
+        "duration": 8.39
       },
       {
         "file": "IMG_0014.MOV",
         "original": true,
         "caption": "Original salon walkthrough · detail view",
-        "poster": "photos/optimized/sheena-nail-polish-display-one-640.webp"
+        "poster": "videos/posters/IMG_0014-web.jpg",
+        "playbackFile": "IMG_0014-web.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 11.16
       },
       {
         "file": "IMG_9998.MOV",
         "original": true,
         "caption": "Original salon walkthrough · project video",
-        "poster": "photos/optimized/sheena-nail-polish-display-two-640.webp"
+        "poster": "videos/posters/IMG_9998-web.jpg",
+        "playbackFile": "IMG_9998-web.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 6.19
       },
       {
         "file": "b0877a7c-e03b-4785-b712-60a389845d9d.MP4",
         "original": true,
         "caption": "Original salon walkthrough · project video",
-        "poster": "photos/optimized/sheena-nail-polish-display-three-640.webp"
+        "poster": "videos/posters/b0877a7c-e03b-4785-b712-60a389845d9d-web.jpg",
+        "playbackFile": "b0877a7c-e03b-4785-b712-60a389845d9d-web.mp4",
+        "width": 480,
+        "height": 864,
+        "duration": 41.54
       }
     ],
     "faqs": [
@@ -1475,121 +1674,201 @@
         "file": "IMG_7268.MOV",
         "caption": "Original project video · site clip 01",
         "original": true,
-        "poster": "photos/optimized/ruchit-phase1-exterior-wide-view-one-1280.webp"
+        "poster": "videos/posters/IMG_7268-web.jpg",
+        "playbackFile": "IMG_7268-web.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 8.07
       },
       {
         "file": "IMG_7269.mov",
         "caption": "Original project video · site clip 02",
         "original": true,
-        "poster": "photos/optimized/ruchit-phase1-exterior-wide-view-one-1280.webp"
+        "poster": "videos/posters/IMG_7269-web.jpg",
+        "playbackFile": "IMG_7269-web.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 13.1
       },
       {
         "file": "IMG_7270.MOV",
         "caption": "Original project video · site clip 03",
         "original": true,
-        "poster": "photos/optimized/ruchit-phase1-exterior-wide-view-one-1280.webp"
+        "poster": "videos/posters/IMG_7270-web.jpg",
+        "playbackFile": "IMG_7270-web.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 5.41
       },
       {
         "file": "IMG_7271.MOV",
         "caption": "Original project video · site clip 04",
         "original": true,
-        "poster": "photos/optimized/ruchit-phase1-exterior-wide-view-one-1280.webp"
+        "poster": "videos/posters/IMG_7271-web.jpg",
+        "playbackFile": "IMG_7271-web.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 6.37
       },
       {
         "file": "IMG_7272.MOV",
         "caption": "Original project video · site clip 05",
         "original": true,
-        "poster": "photos/optimized/ruchit-phase1-exterior-wide-view-one-1280.webp"
+        "poster": "videos/posters/IMG_7272-web.jpg",
+        "playbackFile": "IMG_7272-web.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 4.07
       },
       {
         "file": "IMG_7273.MOV",
         "caption": "Original project video · site clip 06",
         "original": true,
-        "poster": "photos/optimized/ruchit-phase1-exterior-wide-view-one-1280.webp"
+        "poster": "videos/posters/IMG_7273-web.jpg",
+        "playbackFile": "IMG_7273-web.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 14.98
       },
       {
         "file": "IMG_7274.mov",
         "caption": "Original project video · site clip 07",
         "original": true,
-        "poster": "photos/optimized/ruchit-phase1-exterior-wide-view-one-1280.webp"
+        "poster": "videos/posters/IMG_7274-web.jpg",
+        "playbackFile": "IMG_7274-web.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 6.45
       },
       {
         "file": "IMG_7277.MOV",
         "caption": "Original project video · site clip 08",
         "original": true,
-        "poster": "photos/optimized/ruchit-phase1-exterior-wide-view-one-1280.webp"
+        "poster": "videos/posters/IMG_7277-web.jpg",
+        "playbackFile": "IMG_7277-web.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 6.87
       },
       {
         "file": "IMG_7281.MOV",
         "caption": "Original project video · site clip 09",
         "original": true,
-        "poster": "photos/optimized/ruchit-phase1-exterior-wide-view-one-1280.webp"
+        "poster": "videos/posters/IMG_7281-web.jpg",
+        "playbackFile": "IMG_7281-web.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 3.94
       },
       {
         "file": "IMG_7283.MOV",
         "caption": "Original project video · site clip 10",
         "original": true,
-        "poster": "photos/optimized/ruchit-phase1-exterior-wide-view-one-1280.webp"
+        "poster": "videos/posters/IMG_7283-web.jpg",
+        "playbackFile": "IMG_7283-web.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 5.21
       },
       {
         "file": "IMG_7285.MOV",
         "caption": "Original project video · site clip 11",
         "original": true,
-        "poster": "photos/optimized/ruchit-phase1-exterior-wide-view-one-1280.webp"
+        "poster": "videos/posters/IMG_7285-web.jpg",
+        "playbackFile": "IMG_7285-web.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 8.71
       },
       {
         "file": "IMG_7293.MOV",
         "caption": "Original project video · site clip 12",
         "original": true,
-        "poster": "photos/optimized/ruchit-phase1-exterior-wide-view-one-1280.webp"
+        "poster": "videos/posters/IMG_7293-web.jpg",
+        "playbackFile": "IMG_7293-web.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 3.1
       },
       {
         "file": "IMG_7294.MOV",
         "caption": "Original project video · site clip 13",
         "original": true,
-        "poster": "photos/optimized/ruchit-phase1-exterior-wide-view-one-1280.webp"
+        "poster": "videos/posters/IMG_7294-web.jpg",
+        "playbackFile": "IMG_7294-web.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 4.3
       },
       {
         "file": "IMG_7295.MOV",
         "caption": "Original project video · site clip 14",
         "original": true,
-        "poster": "photos/optimized/ruchit-phase1-exterior-wide-view-one-1280.webp"
+        "poster": "videos/posters/IMG_7295-web.jpg",
+        "playbackFile": "IMG_7295-web.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 5.31
       },
       {
         "file": "IMG_7299.MOV",
         "caption": "Original project video · site clip 15",
         "original": true,
-        "poster": "photos/optimized/ruchit-phase1-exterior-wide-view-one-1280.webp"
+        "poster": "videos/posters/IMG_7299-web.jpg",
+        "playbackFile": "IMG_7299-web.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 3.57
       },
       {
         "file": "IMG_7300.MOV",
         "caption": "Original project video · site clip 16",
         "original": true,
-        "poster": "photos/optimized/ruchit-phase1-exterior-wide-view-one-1280.webp"
+        "poster": "videos/posters/IMG_7300-web.jpg",
+        "playbackFile": "IMG_7300-web.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 3.8
       },
       {
         "file": "IMG_7301.MOV",
         "caption": "Original project video · site clip 17",
         "original": true,
-        "poster": "photos/optimized/ruchit-phase1-exterior-wide-view-one-1280.webp"
+        "poster": "videos/posters/IMG_7301-web.jpg",
+        "playbackFile": "IMG_7301-web.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 6.21
       },
       {
         "file": "IMG_7328.MOV",
         "caption": "Original project video · site clip 18",
         "original": true,
-        "poster": "photos/optimized/ruchit-phase1-exterior-wide-view-one-1280.webp"
+        "poster": "videos/posters/IMG_7328-web.jpg",
+        "playbackFile": "IMG_7328-web.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 9.51
       },
       {
         "file": "IMG_7329.MOV",
         "caption": "Original project video · site clip 19",
         "original": true,
-        "poster": "photos/optimized/ruchit-phase1-exterior-wide-view-one-1280.webp"
+        "poster": "videos/posters/IMG_7329-web.jpg",
+        "playbackFile": "IMG_7329-web.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 9.14
       },
       {
         "file": "IMG_7330.MOV",
         "caption": "Original project video · site clip 20",
         "original": true,
-        "poster": "photos/optimized/ruchit-phase1-exterior-wide-view-one-1280.webp"
+        "poster": "videos/posters/IMG_7330-web.jpg",
+        "playbackFile": "IMG_7330-web.mp4",
+        "width": 720,
+        "height": 1280,
+        "duration": 8.71
       }
     ]
   }

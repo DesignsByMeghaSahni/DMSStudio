@@ -54,7 +54,7 @@ def discover_project_media(project):
  video_dir=ROOT/'projects'/project['slug']/'videos'/'optimized'
  existing=project.get('videos',[]);known_videos={Path(item['file']).name for item in existing}|{Path(item['playbackFile']).name for item in existing if item.get('playbackFile')}
  for clip in sorted(video_dir.glob('*.mp4')) if video_dir.exists() else []:
-  if clip.name not in known_videos:
+  if clip.name not in known_videos and clip.stem not in {Path(name).stem for name in known_videos} and clip.name not in project.get('omitVideos', []):
    existing.append({'file':clip.name,'caption':f'{project["title"]} walkthrough · {clip.stem}'})
  project['videos']=existing
 
@@ -160,7 +160,7 @@ def video_element(project,v,r):
  playback=v.get('playbackFile')
  if playback:
   primary=f'<source src="{r}projects/{project["slug"]}/videos/optimized/{e(playback)}" type="video/mp4">'
-  fallback=f'<source src="{r}projects/{project["slug"]}/videos/originals/{e(v["file"])}">'
+  fallback=''  # Source originals are archived locally, not deployed playback assets.
  else:
   folder='originals' if v.get('original') else 'optimized'
   mime=' type="video/quicktime"' if original.suffix.lower()=='.mov' else ' type="video/mp4"'
@@ -168,7 +168,8 @@ def video_element(project,v,r):
   fallback=''
  poster=f' poster="{r}projects/{project["slug"]}/{e(v["poster"])}"' if v.get('poster') else ''
  size=f' width="{int(v["width"])}" height="{int(v["height"])}" style="aspect-ratio:{int(v["width"])} / {int(v["height"])}"' if v.get('width') and v.get('height') else ''
- return f'<figure class="video-item"><video class="project-film" controls playsinline preload="none"{poster}{size} aria-label="{e(v["caption"])}">{primary}{fallback}<p>Your browser does not support this project video format.</p></video><figcaption>{e(v["caption"])}</figcaption></figure>'
+ duration=float(v.get('duration',0));duration_label=f'{int(duration)//60}:{int(duration)%60:02d}' if duration else ''
+ return f'<figure class="video-item"><video class="project-film" controls playsinline preload="metadata"{poster}{size} aria-label="{e(v["caption"])}">{primary}{fallback}<p>Your browser does not support this project video format.</p></video><figcaption>{e(v["caption"])}{(" · " + duration_label) if duration_label else ""}</figcaption></figure>'
 
 for i,p in enumerate(P):
  r='../../';nextp=P[(i+1)%len(P)]
@@ -193,7 +194,7 @@ for i,p in enumerate(P):
  if p.get('faqs'):
   faq_html='<section class="wrap section faq project-faq"><div>'+eyebrow('Project details')+'<h2>Good to <em>know.</em></h2></div><div>'+''.join(f'<details><summary>{e(faq["q"])}<span aria-hidden="true">+</span></summary><p>{e(faq["a"])}</p></details>' for faq in p['faqs'])+'</div></section>'
   faq_schema=[{'@type':'FAQPage','mainEntity':[{'@type':'Question','name':faq['q'],'acceptedAnswer':{'@type':'Answer','text':faq['a']}} for faq in p['faqs']]}]
- body=f'<div class="wrap breadcrumb"><a href="../../projects.html">Projects</a><span>/</span>{p["title"]}</div>'+project_intro+project_cover+video_jump+detail+videos+photo_gallery+faq_html+f'<div class="wrap project-credit small">Photography: {p.get("photoCredit", "DMS Studio")}{source_credit}</div><section class="wrap next-project section">{eyebrow("Continue exploring")}<a href="../{nextp["slug"]}/index.html"><h2>{nextp["title"]} <span>↗</span></h2></a></section>'
+ body=f'<div class="wrap breadcrumb"><a href="../../projects.html">Projects</a><span>/</span>{p["title"]}</div>'+project_intro+project_cover+video_jump+detail+photo_gallery+videos+faq_html+f'<div class="wrap project-credit small">Photography: {p.get("photoCredit", "DMS Studio")}{source_credit}</div><section class="wrap next-project section">{eyebrow("Continue exploring")}<a href="../{nextp["slug"]}/index.html"><h2>{nextp["title"]} <span>↗</span></h2></a></section>'
  creative_work={'@type':'CreativeWork','name':p['title'],'creator':{'@id':BASE+'#studio'},'description':p['description'],**({'locationCreated':{'@type':'Place','name':p['location']}} if p.get('locationKnown',True) else {}),'image':[BASE+image_path(name,'1280') for name,_ in p.get('gallery',[])] or [BASE+image_path(p['cover'],'1280')]}
  page('projects/'+p['slug']+'/index.html',p['title']+' | '+((p['location']+' | ') if p.get('locationKnown',True) else '')+'DMS Studio',p['seo'],body,active='Projects',image=p['cover'],schema=[creative_work,*faq_schema])
 page('blog.html','Interior Design Journal | Ideas for Thoughtful Homes | DMS Studio','Original DMS Studio guides to Mohali home planning, lighting, 3BHK interiors, children’s rooms, salon design and the design process.',intro('The journal','Ideas for<br><em>thoughtful living.</em>','Explore clear, practical interior design guides shaped around Mohali homes, commercial spaces and documented DMS projects.')+'<section class="wrap section blog-index"><div class="journal-grid">'+''.join(acard(a) for a in A)+'</div></section>',active='Blog',image='blog-personal-home')
