@@ -66,7 +66,7 @@ def eyebrow(t):return f'<p class="eyebrow">{t}</p>'
 def intro(kicker,title,copy=''):
  return f'<section class="page-intro wrap">{eyebrow(kicker)}<h1>{title}</h1>{f"<p class=lead>{copy}</p>" if copy else ""}</section>'
 def card(p,r='',n=1,summary=None):
- return f'<article class="project-card reveal" data-category="{p["type"].lower()}"><a href="{r}projects/{p["slug"]}/index.html" class="project-image">{img(p["cover"],p["coverAlt"],r)}<span class="image-arrow" aria-hidden="true">↗</span></a><div class="card-meta"><span>{p["type"]} / {p.get("portfolioLocation",p["location"])}</span><span>0{n}</span></div><h3><a href="{r}projects/{p["slug"]}/index.html">{p["title"]}</a></h3><p>{summary or p.get("cardCopy",p["short"])}</p></article>'
+ return f'<article class="project-card reveal" data-category="{p["type"].lower()}"><a href="{r}projects/{p["slug"]}/index.html" class="project-image">{img(p.get("cardCover",p["cover"]),p.get("cardCoverAlt",p["coverAlt"]),r)}<span class="image-arrow" aria-hidden="true">↗</span></a><div class="card-meta"><span>{p["type"]} / {p.get("portfolioLocation",p["location"])}</span><span>0{n}</span></div><h3><a href="{r}projects/{p["slug"]}/index.html">{p["title"]}</a></h3><p>{summary or p.get("cardCopy",p["short"])}</p></article>'
 def acard(a,r='',home=False):
  return f'<article class="journal-card reveal"><a href="{r}blog/{a["slug"]}/index.html">{img(a["image"],a["alt"],r)}<p class="eyebrow">{a["category"]} <span>↗</span></p><h3>{a.get("homeCardTitle", a["title"]) if home else a["title"]}</h3></a><p class="small">DMS Studio journal · <time datetime="{a["date"]}">{a["date"]}</time></p></article>'
 def founder(r='',full=False):
