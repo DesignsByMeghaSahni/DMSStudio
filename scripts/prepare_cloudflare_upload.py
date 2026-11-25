@@ -31,6 +31,7 @@ for path in public_paths():
 for path in [ROOT / "404.html", *ROOT.glob("google*.html")]:
     if path.is_file(): copy_file(path.relative_to(ROOT))
 copy_file(Path("_redirects"))
+copy_file(Path("llms.txt"))
 for name in (("robots.txt", "sitemap.xml") if args.functions else ("_worker.js", "robots.txt", "sitemap.xml")):
     copy_file(Path(name))
 
